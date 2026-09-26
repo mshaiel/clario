@@ -1,0 +1,1112 @@
+{
+  "test_type": "prolongation",
+  "description": "Short Urdu sentences to detect prolongation.",
+  "sentences": [
+    {
+      "id": "ur_pro_01",
+      "text": "سانس لو اب۔",
+      "romanized": "Saans lo ab.",
+      "difficulty": 1,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "سانس",
+          "expected_ipa": ["s", "ɑː", "n", "s"]
+        },
+        {
+          "word": "لو",
+          "expected_ipa": ["l", "oː"]
+        },
+        {
+          "word": "اب۔",
+          "expected_ipa": ["ə", "b"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_02",
+      "text": "وہ بہت تیز ہے۔",
+      "romanized": "Woh bohat tez hai.",
+      "difficulty": 2,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "h", "ət"]
+        },
+        {
+          "word": "تیز",
+          "expected_ipa": ["t", "eː", "z"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_03",
+      "text": "صاف پانی لاؤ۔",
+      "romanized": "Saaf paani laao.",
+      "difficulty": 2,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "صاف",
+          "expected_ipa": ["s", "ɑː", "f"]
+        },
+        {
+          "word": "پانی",
+          "expected_ipa": ["p", "ɑː", "n", "iː"]
+        },
+        {
+          "word": "لاؤ۔",
+          "expected_ipa": ["l", "ɑː", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_04",
+      "text": "میں نے سنا۔",
+      "romanized": "Main ne suna.",
+      "difficulty": 1,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "میں",
+          "expected_ipa": ["m", "ɛ̃ː"]
+        },
+        {
+          "word": "نے",
+          "expected_ipa": ["n", "eː"]
+        },
+        {
+          "word": "سنا۔",
+          "expected_ipa": ["s", "ʊ", "n", "ɑː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_05",
+      "text": "وہ میرا نام ہے۔",
+      "romanized": "Woh mera naam hai.",
+      "difficulty": 1,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "میرا",
+          "expected_ipa": ["m", "eː", "r", "ɑː"]
+        },
+        {
+          "word": "نام",
+          "expected_ipa": ["n", "ɑː", "m"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_06",
+      "text": "زمین بہت زرخیز ہے۔",
+      "romanized": "Zameen bohat zarkhez hai.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "زمین",
+          "expected_ipa": ["z", "ə", "m", "iː", "n"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "h", "ət"]
+        },
+        {
+          "word": "زرخیز",
+          "expected_ipa": ["z", "ə", "r", "x", "eː", "z"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_07",
+      "text": "سب لوگ سنیں۔",
+      "romanized": "Sab log sunen.",
+      "difficulty": 1,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "سب",
+          "expected_ipa": ["s", "ə", "b"]
+        },
+        {
+          "word": "لوگ",
+          "expected_ipa": ["l", "oː", "g"]
+        },
+        {
+          "word": "سنیں۔",
+          "expected_ipa": ["s", "ʊ", "n", "ẽː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_08",
+      "text": "مجھے پانی دو۔",
+      "romanized": "Mujhe paani do.",
+      "difficulty": 1,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "مجھے",
+          "expected_ipa": ["m", "ʊ", "dʒ", "h", "eː"]
+        },
+        {
+          "word": "پانی",
+          "expected_ipa": ["p", "ɑː", "n", "iː"]
+        },
+        {
+          "word": "دو۔",
+          "expected_ipa": ["d", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_09",
+      "text": "اس کا فیصلہ ہے۔",
+      "romanized": "Is ka faisla hai.",
+      "difficulty": 2,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "اس",
+          "expected_ipa": ["ɪ", "s"]
+        },
+        {
+          "word": "کا",
+          "expected_ipa": ["k", "ɑː"]
+        },
+        {
+          "word": "فیصلہ",
+          "expected_ipa": ["f", "ɛː", "s", "l", "ɑː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_10",
+      "text": "وہ بہت مصروف ہے۔",
+      "romanized": "Woh bohat masroof hai.",
+      "difficulty": 2,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "h", "ət"]
+        },
+        {
+          "word": "مصروف",
+          "expected_ipa": ["m", "ə", "s", "r", "uː", "f"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_11",
+      "text": "میرا فون بجا۔",
+      "romanized": "Mera phone baja.",
+      "difficulty": 1,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "میرا",
+          "expected_ipa": ["m", "eː", "r", "ɑː"]
+        },
+        {
+          "word": "فون",
+          "expected_ipa": ["f", "oː", "n"]
+        },
+        {
+          "word": "بجا۔",
+          "expected_ipa": ["b", "ə", "dʒ", "ɑː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_12",
+      "text": "وہ بہت نرم ہے۔",
+      "romanized": "Woh bohat naram hai.",
+      "difficulty": 1,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "h", "ət"]
+        },
+        {
+          "word": "نرم",
+          "expected_ipa": ["n", "ə", "r", "m"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_13",
+      "text": "اس کا وزن۔",
+      "romanized": "Is ka wazan.",
+      "difficulty": 2,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "اس",
+          "expected_ipa": ["ɪ", "s"]
+        },
+        {
+          "word": "کا",
+          "expected_ipa": ["k", "ɑː"]
+        },
+        {
+          "word": "وزن۔",
+          "expected_ipa": ["ʋ", "ə", "z", "ə", "n"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_14",
+      "text": "یہ میرا فرض ہے۔",
+      "romanized": "Yeh mera farz hai.",
+      "difficulty": 2,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["j", "ə", "h"]
+        },
+        {
+          "word": "میرا",
+          "expected_ipa": ["m", "eː", "r", "ɑː"]
+        },
+        {
+          "word": "فرض",
+          "expected_ipa": ["f", "ə", "r", "z"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_15",
+      "text": "وہ بہت خوش ہے۔",
+      "romanized": "Woh bohat khush hai.",
+      "difficulty": 2,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "h", "ət"]
+        },
+        {
+          "word": "خوش",
+          "expected_ipa": ["x", "ʊ", "ʃ"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_16",
+      "text": "میں نے دیکھا۔",
+      "romanized": "Main ne dekha.",
+      "difficulty": 1,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "میں",
+          "expected_ipa": ["m", "ɛ̃ː"]
+        },
+        {
+          "word": "نے",
+          "expected_ipa": ["n", "eː"]
+        },
+        {
+          "word": "دیکھا۔",
+          "expected_ipa": ["d", "eː", "kʰ", "ɑː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_17",
+      "text": "اس کا نام۔",
+      "romanized": "Is ka naam.",
+      "difficulty": 1,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "اس",
+          "expected_ipa": ["ɪ", "s"]
+        },
+        {
+          "word": "کا",
+          "expected_ipa": ["k", "ɑː"]
+        },
+        {
+          "word": "نام۔",
+          "expected_ipa": ["n", "ɑː", "m"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_18",
+      "text": "وہ بہت خوبصورت ہے۔",
+      "romanized": "Woh bohat khoobsurat hai.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "h", "ət"]
+        },
+        {
+          "word": "خوبصورت",
+          "expected_ipa": ["x", "uː", "b", "s", "uː", "r", "ət"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_19",
+      "text": "مجھے سننا ہے۔",
+      "romanized": "Mujhe sunna hai.",
+      "difficulty": 2,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "مجھے",
+          "expected_ipa": ["m", "ʊ", "dʒ", "h", "eː"]
+        },
+        {
+          "word": "سننا",
+          "expected_ipa": ["s", "ʊ", "n", "ː", "ɑː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_20",
+      "text": "یہ میرا مسئلہ ہے۔",
+      "romanized": "Yeh mera masla hai.",
+      "difficulty": 2,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["j", "ə", "h"]
+        },
+        {
+          "word": "میرا",
+          "expected_ipa": ["m", "eː", "r", "ɑː"]
+        },
+        {
+          "word": "مسئلہ",
+          "expected_ipa": ["m", "ə", "s", "l", "ɑː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_21",
+      "text": "وہ بہت مصروف تھا۔",
+      "romanized": "Woh bohat masroof tha.",
+      "difficulty": 2,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "h", "ət"]
+        },
+        {
+          "word": "مصروف",
+          "expected_ipa": ["m", "ə", "s", "r", "uː", "f"]
+        },
+        {
+          "word": "تھا۔",
+          "expected_ipa": ["t", "ʰ", "ɑː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_22",
+      "text": "اس کا سفر۔",
+      "romanized": "Is ka safar.",
+      "difficulty": 2,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "اس",
+          "expected_ipa": ["ɪ", "s"]
+        },
+        {
+          "word": "کا",
+          "expected_ipa": ["k", "ɑː"]
+        },
+        {
+          "word": "سفر۔",
+          "expected_ipa": ["s", "ə", "f", "ə", "r"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_23",
+      "text": "وہ بہت ذہین ہے۔",
+      "romanized": "Woh bohat zaheen hai.",
+      "difficulty": 2,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "h", "ət"]
+        },
+        {
+          "word": "ذہین",
+          "expected_ipa": ["z", "ə", "h", "iː", "n"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_24",
+      "text": "مجھے معلوم ہے۔",
+      "romanized": "Mujhe maloom hai.",
+      "difficulty": 1,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "مجھے",
+          "expected_ipa": ["m", "ʊ", "dʒ", "h", "eː"]
+        },
+        {
+          "word": "معلوم",
+          "expected_ipa": ["m", "ɑː", "l", "uː", "m"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_25",
+      "text": "وہ بہت سست ہے۔",
+      "romanized": "Woh bohat sust hai.",
+      "difficulty": 2,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "h", "ət"]
+        },
+        {
+          "word": "سست",
+          "expected_ipa": ["s", "ʊ", "s", "t"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_26",
+      "text": "اس کا فیصلہ سن۔",
+      "romanized": "Is ka faisla sun.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "اس",
+          "expected_ipa": ["ɪ", "s"]
+        },
+        {
+          "word": "کا",
+          "expected_ipa": ["k", "ɑː"]
+        },
+        {
+          "word": "فیصلہ",
+          "expected_ipa": ["f", "ɛː", "s", "l", "ɑː"]
+        },
+        {
+          "word": "سن۔",
+          "expected_ipa": ["s", "ʊ", "n"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_27",
+      "text": "مجھے فون کرنا۔",
+      "romanized": "Mujhe phone karna.",
+      "difficulty": 2,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "مجھے",
+          "expected_ipa": ["m", "ʊ", "dʒ", "h", "eː"]
+        },
+        {
+          "word": "فون",
+          "expected_ipa": ["f", "oː", "n"]
+        },
+        {
+          "word": "کرنا۔",
+          "expected_ipa": ["k", "ə", "r", "n", "ɑː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_28",
+      "text": "وہ بہت صاف ہے۔",
+      "romanized": "Woh bohat saaf hai.",
+      "difficulty": 1,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "h", "ət"]
+        },
+        {
+          "word": "صاف",
+          "expected_ipa": ["s", "ɑː", "f"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_29",
+      "text": "اس کا نام سن۔",
+      "romanized": "Is ka naam sun.",
+      "difficulty": 2,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "اس",
+          "expected_ipa": ["ɪ", "s"]
+        },
+        {
+          "word": "کا",
+          "expected_ipa": ["k", "ɑː"]
+        },
+        {
+          "word": "نام",
+          "expected_ipa": ["n", "ɑː", "m"]
+        },
+        {
+          "word": "سن۔",
+          "expected_ipa": ["s", "ʊ", "n"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_30",
+      "text": "وہ بہت نرم تھا۔",
+      "romanized": "Woh bohat naram tha.",
+      "difficulty": 1,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "h", "ət"]
+        },
+        {
+          "word": "نرم",
+          "expected_ipa": ["n", "ə", "r", "m"]
+        },
+        {
+          "word": "تھا۔",
+          "expected_ipa": ["t", "ʰ", "ɑː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_31",
+      "text": "مجھے سانس لینے دو۔",
+      "romanized": "Mujhe saans lene do.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "مجھے",
+          "expected_ipa": ["m", "ʊ", "dʒ", "h", "eː"]
+        },
+        {
+          "word": "سانس",
+          "expected_ipa": ["s", "ɑː", "n", "s"]
+        },
+        {
+          "word": "لینے",
+          "expected_ipa": ["l", "eː", "n", "eː"]
+        },
+        {
+          "word": "دو۔",
+          "expected_ipa": ["d", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_32",
+      "text": "وہ بہت مصروف ہے۔",
+      "romanized": "Woh bohat masroof hai.",
+      "difficulty": 2,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "h", "ət"]
+        },
+        {
+          "word": "مصروف",
+          "expected_ipa": ["m", "ə", "s", "r", "uː", "f"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_33",
+      "text": "اس کا وزن زیادہ۔",
+      "romanized": "Is ka wazan zyada.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "اس",
+          "expected_ipa": ["ɪ", "s"]
+        },
+        {
+          "word": "کا",
+          "expected_ipa": ["k", "ɑː"]
+        },
+        {
+          "word": "وزن",
+          "expected_ipa": ["ʋ", "ə", "z", "ə", "n"]
+        },
+        {
+          "word": "زیادہ۔",
+          "expected_ipa": ["z", "j", "ɑː", "d", "ɑː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_34",
+      "text": "مجھے فون ملا۔",
+      "romanized": "Mujhe phone mila.",
+      "difficulty": 2,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "مجھے",
+          "expected_ipa": ["m", "ʊ", "dʒ", "h", "eː"]
+        },
+        {
+          "word": "فون",
+          "expected_ipa": ["f", "oː", "n"]
+        },
+        {
+          "word": "ملا۔",
+          "expected_ipa": ["m", "ɪ", "l", "ɑː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_35",
+      "text": "وہ بہت سست تھا۔",
+      "romanized": "Woh bohat sust tha.",
+      "difficulty": 2,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "h", "ət"]
+        },
+        {
+          "word": "سست",
+          "expected_ipa": ["s", "ʊ", "s", "t"]
+        },
+        {
+          "word": "تھا۔",
+          "expected_ipa": ["t", "ʰ", "ɑː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_36",
+      "text": "اس کا نام سن۔",
+      "romanized": "Is ka naam sun.",
+      "difficulty": 2,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "اس",
+          "expected_ipa": ["ɪ", "s"]
+        },
+        {
+          "word": "کا",
+          "expected_ipa": ["k", "ɑː"]
+        },
+        {
+          "word": "نام",
+          "expected_ipa": ["n", "ɑː", "m"]
+        },
+        {
+          "word": "سن۔",
+          "expected_ipa": ["s", "ʊ", "n"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_37",
+      "text": "وہ بہت نرم ہے۔",
+      "romanized": "Woh bohat naram hai.",
+      "difficulty": 1,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "h", "ət"]
+        },
+        {
+          "word": "نرم",
+          "expected_ipa": ["n", "ə", "r", "m"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_38",
+      "text": "مجھے معلوم نہیں۔",
+      "romanized": "Mujhe maloom nahin.",
+      "difficulty": 2,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "مجھے",
+          "expected_ipa": ["m", "ʊ", "dʒ", "h", "eː"]
+        },
+        {
+          "word": "معلوم",
+          "expected_ipa": ["m", "ɑː", "l", "uː", "m"]
+        },
+        {
+          "word": "نہیں۔",
+          "expected_ipa": ["n", "ə", "h", "iː̃"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_39",
+      "text": "وہ بہت تیز تھا۔",
+      "romanized": "Woh bohat tez tha.",
+      "difficulty": 2,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "h", "ət"]
+        },
+        {
+          "word": "تیز",
+          "expected_ipa": ["t", "eː", "z"]
+        },
+        {
+          "word": "تھا۔",
+          "expected_ipa": ["t", "ʰ", "ɑː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_40",
+      "text": "اس کا فیصلہ ہے۔",
+      "romanized": "Is ka faisla hai.",
+      "difficulty": 2,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "اس",
+          "expected_ipa": ["ɪ", "s"]
+        },
+        {
+          "word": "کا",
+          "expected_ipa": ["k", "ɑː"]
+        },
+        {
+          "word": "فیصلہ",
+          "expected_ipa": ["f", "ɛː", "s", "l", "ɑː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_41",
+      "text": "مجھے فون کرنا ہے۔",
+      "romanized": "Mujhe phone karna hai.",
+      "difficulty": 2,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "مجھے",
+          "expected_ipa": ["m", "ʊ", "dʒ", "h", "eː"]
+        },
+        {
+          "word": "فون",
+          "expected_ipa": ["f", "oː", "n"]
+        },
+        {
+          "word": "کرنا",
+          "expected_ipa": ["k", "ə", "r", "n", "ɑː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_42",
+      "text": "وہ بہت صاف تھا۔",
+      "romanized": "Woh bohat saaf tha.",
+      "difficulty": 1,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "h", "ət"]
+        },
+        {
+          "word": "صاف",
+          "expected_ipa": ["s", "ɑː", "f"]
+        },
+        {
+          "word": "تھا۔",
+          "expected_ipa": ["t", "ʰ", "ɑː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_43",
+      "text": "اس کا سفر لمبا۔",
+      "romanized": "Is ka safar lamba.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "اس",
+          "expected_ipa": ["ɪ", "s"]
+        },
+        {
+          "word": "کا",
+          "expected_ipa": ["k", "ɑː"]
+        },
+        {
+          "word": "سفر",
+          "expected_ipa": ["s", "ə", "f", "ə", "r"]
+        },
+        {
+          "word": "لمبا۔",
+          "expected_ipa": ["l", "ə", "m", "b", "ɑː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_44",
+      "text": "مجھے سننا ہے۔",
+      "romanized": "Mujhe sunna hai.",
+      "difficulty": 2,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "مجھے",
+          "expected_ipa": ["m", "ʊ", "dʒ", "h", "eː"]
+        },
+        {
+          "word": "سننا",
+          "expected_ipa": ["s", "ʊ", "n", "ː", "ɑː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_pro_45",
+      "text": "یہ میرا مسئلہ تھا۔",
+      "romanized": "Yeh mera masla tha.",
+      "difficulty": 2,
+      "test_type": "prolongation",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["j", "ə", "h"]
+        },
+        {
+          "word": "میرا",
+          "expected_ipa": ["m", "eː", "r", "ɑː"]
+        },
+        {
+          "word": "مسئلہ",
+          "expected_ipa": ["m", "ə", "s", "l", "ɑː"]
+        },
+        {
+          "word": "تھا۔",
+          "expected_ipa": ["t", "ʰ", "ɑː"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+version: '3.8'
+
+services:
+  # ---------------------------------------------------------------------------
+  # 1. Clario API Gateway (Clario Unified Assistant Orchestrator)
+  # ---------------------------------------------------------------------------
+  api-gateway:
+    build:
+      context: ./backend/api-gateway
+      dockerfile: Dockerfile
+    container_name: clario-api-gateway
+    ports:
+      - "8000:7860"
+    environment:
+      - PORT=7860
+      - HOST=0.0.0.0
+      - ANALYSIS_BACKEND_URL=http://analysis-service:7860
+      - TRAINING_BACKEND_URL=http://training-service:7860
+      - CTMK_URL=http://techniques-service:7860
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+      - GOOGLE_CREDENTIALS_JSON=${GOOGLE_CREDENTIALS_JSON:-}
+      - GOOGLE_APPLICATION_CREDENTIALS=${GOOGLE_APPLICATION_CREDENTIALS:-}
+    depends_on:
+      - analysis-service
+      - training-service
+      - techniques-service
+    restart: unless-stopped
+    networks:
+      - clario-network
+
+  # ---------------------------------------------------------------------------
+  # 2. Clario Analysis Service (ASR, SODA Phonology, and Fluency Engine)
+  # ---------------------------------------------------------------------------
+  analysis-service:
+    build:
+      context: ./backend/analysis-service
+      dockerfile: Dockerfile
+    container_name: clario-analysis-service
+    ports:
+      - "8001:7860"
+    environment:
+      - PORT=7860
+      - HOST=0.0.0.0
+      - WHISPER_MODEL_SIZE=tiny
+      - WHISPER_DEVICE=cpu
+      - AUDIO_SAMPLE_RATE=16000
+    restart: unless-stopped
+    networks:
+      - clario-network
+
+  # ---------------------------------------------------------------------------
+  # 3. Clario Training Service (Curriculum & Adaptive Content Engine)
+  # ---------------------------------------------------------------------------
+  training-service:
+    build:
+      context: ./backend/training-service
+      dockerfile: Dockerfile
+    container_name: clario-training-service
+    ports:
+      - "8002:7860"
+    environment:
+      - PORT=7860
+      - HOST=0.0.0.0
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+    restart: unless-stopped
+    networks:
+      - clario-network
+
+  # ---------------------------------------------------------------------------
+  # 4. Clario Techniques Service (Speech Modification, Repair Detection & Scoring)
+  # ---------------------------------------------------------------------------
+  techniques-service:
+    build:
+      context: ./backend/techniques-service
+      dockerfile: Dockerfile
+    container_name: clario-techniques-service
+    ports:
+      - "8003:7860"
+    environment:
+      - PORT=7860
+      - HOST=0.0.0.0
+      - CAM_URL=http://analysis-service:7860
+    depends_on:
+      - analysis-service
+    restart: unless-stopped
+    networks:
+      - clario-network
+
+networks:
+  clario-network:
+    driver: bridge

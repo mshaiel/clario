@@ -1,0 +1,21 @@
+# Credentials
+key.json
+hf-token.txt
+.env
+*.env
+
+# Large asset cache (audio served from HuggingFace)
+audio_assets/
+
+# One-time scripts — not needed at runtime
+scripts/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Dev junk
+tmpclaude-*
+nul
+.DS_Store
+*.ipynb

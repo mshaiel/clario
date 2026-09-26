@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Python env + test caches
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage/
+
+# Credentials — NEVER commit these
+key.json
+hf-token.txt
+at.txt
+*-key.txt
+*-api-key.txt
+.env
+*.env
+
+# Large local asset cache (all audio is served from HuggingFace)
+audio_assets/
+
+# Claude Code session temp files
+tmpclaude-*
+
+# Junk
+nul
+*.log
+*_log.txt
+run_*.bat
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/

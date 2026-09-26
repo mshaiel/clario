@@ -1,0 +1,26 @@
+# Web framework
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+pydantic==2.6.1
+httpx==0.26.0
+python-dotenv==1.0.1
+python-multipart>=0.0.9
+
+# ML / TTS
+TTS==0.22.0
+torch==2.1.0
+torchaudio==2.1.0
+librosa==0.10.0
+soundfile==0.12.1
+scipy==1.11.4
+numpy==1.22.0
+transformers==4.37.2
+edge-tts>=6.1.9
+
+# Google / Firebase
+google-cloud-firestore>=2.14.0
+google-auth>=2.22.0
+google-generativeai>=0.8.0
+
+# HuggingFace
+huggingface-hub>=0.20.0

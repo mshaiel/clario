@@ -1,0 +1,1035 @@
+{
+  "test_type": "blocks",
+  "description": "Short English sentences to detect blocks.",
+  "sentences": [
+    {
+      "id": "en_blo_01",
+      "text": "Go get it.",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Go",
+          "expected_ipa": ["g", "oʊ"]
+        },
+        {
+          "word": "get",
+          "expected_ipa": ["g", "ɛ", "t"]
+        },
+        {
+          "word": "it",
+          "expected_ipa": ["ɪ", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_02",
+      "text": "She saw him.",
+      "difficulty": 1,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "She",
+          "expected_ipa": ["ʃ", "iː"]
+        },
+        {
+          "word": "saw",
+          "expected_ipa": ["s", "ɔː"]
+        },
+        {
+          "word": "him",
+          "expected_ipa": ["h", "ɪ", "m"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_03",
+      "text": "I like that.",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "I",
+          "expected_ipa": ["aɪ"]
+        },
+        {
+          "word": "like",
+          "expected_ipa": ["l", "aɪ", "k"]
+        },
+        {
+          "word": "that",
+          "expected_ipa": ["ð", "æ", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_04",
+      "text": "He wants more.",
+      "difficulty": 1,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "He",
+          "expected_ipa": ["h", "iː"]
+        },
+        {
+          "word": "wants",
+          "expected_ipa": ["w", "ɑː", "n", "t", "s"]
+        },
+        {
+          "word": "more",
+          "expected_ipa": ["m", "ɔː", "r"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_05",
+      "text": "They play games.",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "They",
+          "expected_ipa": ["ð", "eɪ"]
+        },
+        {
+          "word": "play",
+          "expected_ipa": ["p", "l", "eɪ"]
+        },
+        {
+          "word": "games",
+          "expected_ipa": ["g", "eɪ", "m", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_06",
+      "text": "We need help.",
+      "difficulty": 1,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "We",
+          "expected_ipa": ["w", "iː"]
+        },
+        {
+          "word": "need",
+          "expected_ipa": ["n", "iː", "d"]
+        },
+        {
+          "word": "help",
+          "expected_ipa": ["h", "ɛ", "l", "p"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_07",
+      "text": "You are good.",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "You",
+          "expected_ipa": ["j", "uː"]
+        },
+        {
+          "word": "are",
+          "expected_ipa": ["ɑː", "r"]
+        },
+        {
+          "word": "good",
+          "expected_ipa": ["g", "ʊ", "d"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_08",
+      "text": "Can you come?",
+      "difficulty": 1,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Can",
+          "expected_ipa": ["k", "æ", "n"]
+        },
+        {
+          "word": "you",
+          "expected_ipa": ["j", "uː"]
+        },
+        {
+          "word": "come",
+          "expected_ipa": ["k", "ʌ", "m"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_09",
+      "text": "Please give me.",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Please",
+          "expected_ipa": ["p", "l", "iː", "z"]
+        },
+        {
+          "word": "give",
+          "expected_ipa": ["g", "ɪ", "v"]
+        },
+        {
+          "word": "me",
+          "expected_ipa": ["m", "iː"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_10",
+      "text": "Look at this.",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Look",
+          "expected_ipa": ["l", "ʊ", "k"]
+        },
+        {
+          "word": "at",
+          "expected_ipa": ["æ", "t"]
+        },
+        {
+          "word": "this",
+          "expected_ipa": ["ð", "ɪ", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_11",
+      "text": "It is cold.",
+      "difficulty": 1,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "It",
+          "expected_ipa": ["ɪ", "t"]
+        },
+        {
+          "word": "is",
+          "expected_ipa": ["ɪ", "z"]
+        },
+        {
+          "word": "cold",
+          "expected_ipa": ["k", "oʊ", "l", "d"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_12",
+      "text": "Bring the book.",
+      "difficulty": 3,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Bring",
+          "expected_ipa": ["b", "r", "ɪ", "ŋ"]
+        },
+        {
+          "word": "the",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "book",
+          "expected_ipa": ["b", "ʊ", "k"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_13",
+      "text": "I want water.",
+      "difficulty": 1,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "I",
+          "expected_ipa": ["aɪ"]
+        },
+        {
+          "word": "want",
+          "expected_ipa": ["w", "ɑː", "n", "t"]
+        },
+        {
+          "word": "water",
+          "expected_ipa": ["w", "ɑː", "t", "ər"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_14",
+      "text": "She felt bad.",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "She",
+          "expected_ipa": ["ʃ", "iː"]
+        },
+        {
+          "word": "felt",
+          "expected_ipa": ["f", "ɛ", "l", "t"]
+        },
+        {
+          "word": "bad",
+          "expected_ipa": ["b", "æ", "d"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_15",
+      "text": "He drove home.",
+      "difficulty": 3,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "He",
+          "expected_ipa": ["h", "iː"]
+        },
+        {
+          "word": "drove",
+          "expected_ipa": ["d", "r", "oʊ", "v"]
+        },
+        {
+          "word": "home",
+          "expected_ipa": ["h", "oʊ", "m"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_16",
+      "text": "They went out.",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "They",
+          "expected_ipa": ["ð", "eɪ"]
+        },
+        {
+          "word": "went",
+          "expected_ipa": ["w", "ɛ", "n", "t"]
+        },
+        {
+          "word": "out",
+          "expected_ipa": ["aʊ", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_17",
+      "text": "We saw birds.",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "We",
+          "expected_ipa": ["w", "iː"]
+        },
+        {
+          "word": "saw",
+          "expected_ipa": ["s", "ɔː"]
+        },
+        {
+          "word": "birds",
+          "expected_ipa": ["b", "ɝ", "d", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_18",
+      "text": "You look great.",
+      "difficulty": 3,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "You",
+          "expected_ipa": ["j", "uː"]
+        },
+        {
+          "word": "look",
+          "expected_ipa": ["l", "ʊ", "k"]
+        },
+        {
+          "word": "great",
+          "expected_ipa": ["g", "r", "eɪ", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_19",
+      "text": "Can I help?",
+      "difficulty": 1,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Can",
+          "expected_ipa": ["k", "æ", "n"]
+        },
+        {
+          "word": "I",
+          "expected_ipa": ["aɪ"]
+        },
+        {
+          "word": "help",
+          "expected_ipa": ["h", "ɛ", "l", "p"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_20",
+      "text": "Please be quiet.",
+      "difficulty": 3,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Please",
+          "expected_ipa": ["p", "l", "iː", "z"]
+        },
+        {
+          "word": "be",
+          "expected_ipa": ["b", "iː"]
+        },
+        {
+          "word": "quiet",
+          "expected_ipa": ["k", "w", "aɪ", "ə", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_21",
+      "text": "Give me that.",
+      "difficulty": 3,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Give",
+          "expected_ipa": ["g", "ɪ", "v"]
+        },
+        {
+          "word": "me",
+          "expected_ipa": ["m", "iː"]
+        },
+        {
+          "word": "that",
+          "expected_ipa": ["ð", "æ", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_22",
+      "text": "This is fun.",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "This",
+          "expected_ipa": ["ð", "ɪ", "s"]
+        },
+        {
+          "word": "is",
+          "expected_ipa": ["ɪ", "z"]
+        },
+        {
+          "word": "fun",
+          "expected_ipa": ["f", "ʌ", "n"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_23",
+      "text": "He has a dog.",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "He",
+          "expected_ipa": ["h", "iː"]
+        },
+        {
+          "word": "has",
+          "expected_ipa": ["h", "æ", "z"]
+        },
+        {
+          "word": "a",
+          "expected_ipa": ["ə"]
+        },
+        {
+          "word": "dog",
+          "expected_ipa": ["d", "ɑː", "g"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_24",
+      "text": "She likes cats.",
+      "difficulty": 1,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "She",
+          "expected_ipa": ["ʃ", "iː"]
+        },
+        {
+          "word": "likes",
+          "expected_ipa": ["l", "aɪ", "k", "s"]
+        },
+        {
+          "word": "cats",
+          "expected_ipa": ["k", "æ", "t", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_25",
+      "text": "They built a house.",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "They",
+          "expected_ipa": ["ð", "eɪ"]
+        },
+        {
+          "word": "built",
+          "expected_ipa": ["b", "ɪ", "l", "t"]
+        },
+        {
+          "word": "a",
+          "expected_ipa": ["ə"]
+        },
+        {
+          "word": "house",
+          "expected_ipa": ["h", "aʊ", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_26",
+      "text": "We saw a bear.",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "We",
+          "expected_ipa": ["w", "iː"]
+        },
+        {
+          "word": "saw",
+          "expected_ipa": ["s", "ɔː"]
+        },
+        {
+          "word": "a",
+          "expected_ipa": ["ə"]
+        },
+        {
+          "word": "bear",
+          "expected_ipa": ["b", "ɛr"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_27",
+      "text": "You look happy.",
+      "difficulty": 1,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "You",
+          "expected_ipa": ["j", "uː"]
+        },
+        {
+          "word": "look",
+          "expected_ipa": ["l", "ʊ", "k"]
+        },
+        {
+          "word": "happy",
+          "expected_ipa": ["h", "æ", "p", "iː"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_28",
+      "text": "I want a drink.",
+      "difficulty": 3,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "I",
+          "expected_ipa": ["aɪ"]
+        },
+        {
+          "word": "want",
+          "expected_ipa": ["w", "ɑː", "n", "t"]
+        },
+        {
+          "word": "a",
+          "expected_ipa": ["ə"]
+        },
+        {
+          "word": "drink",
+          "expected_ipa": ["d", "r", "ɪ", "ŋ", "k"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_29",
+      "text": "He gave her flowers.",
+      "difficulty": 3,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "He",
+          "expected_ipa": ["h", "iː"]
+        },
+        {
+          "word": "gave",
+          "expected_ipa": ["g", "eɪ", "v"]
+        },
+        {
+          "word": "her",
+          "expected_ipa": ["h", "ɝ"]
+        },
+        {
+          "word": "flowers",
+          "expected_ipa": ["f", "l", "aʊ", "ər", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_30",
+      "text": "She bought new shoes.",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "She",
+          "expected_ipa": ["ʃ", "iː"]
+        },
+        {
+          "word": "bought",
+          "expected_ipa": ["b", "ɔː", "t"]
+        },
+        {
+          "word": "new",
+          "expected_ipa": ["n", "uː"]
+        },
+        {
+          "word": "shoes",
+          "expected_ipa": ["ʃ", "uː", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_31",
+      "text": "They drive fast cars.",
+      "difficulty": 3,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "They",
+          "expected_ipa": ["ð", "eɪ"]
+        },
+        {
+          "word": "drive",
+          "expected_ipa": ["d", "r", "aɪ", "v"]
+        },
+        {
+          "word": "fast",
+          "expected_ipa": ["f", "æ", "s", "t"]
+        },
+        {
+          "word": "cars",
+          "expected_ipa": ["k", "ɑː", "r", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_32",
+      "text": "We play board games.",
+      "difficulty": 3,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "We",
+          "expected_ipa": ["w", "iː"]
+        },
+        {
+          "word": "play",
+          "expected_ipa": ["p", "l", "eɪ"]
+        },
+        {
+          "word": "board",
+          "expected_ipa": ["b", "ɔː", "r", "d"]
+        },
+        {
+          "word": "games",
+          "expected_ipa": ["g", "eɪ", "m", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_33",
+      "text": "You are very brave.",
+      "difficulty": 3,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "You",
+          "expected_ipa": ["j", "uː"]
+        },
+        {
+          "word": "are",
+          "expected_ipa": ["ɑː", "r"]
+        },
+        {
+          "word": "very",
+          "expected_ipa": ["v", "ɛ", "r", "iː"]
+        },
+        {
+          "word": "brave",
+          "expected_ipa": ["b", "r", "eɪ", "v"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_34",
+      "text": "I like blue birds.",
+      "difficulty": 3,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "I",
+          "expected_ipa": ["aɪ"]
+        },
+        {
+          "word": "like",
+          "expected_ipa": ["l", "aɪ", "k"]
+        },
+        {
+          "word": "blue",
+          "expected_ipa": ["b", "l", "uː"]
+        },
+        {
+          "word": "birds",
+          "expected_ipa": ["b", "ɝ", "d", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_35",
+      "text": "He wants big grapes.",
+      "difficulty": 3,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "He",
+          "expected_ipa": ["h", "iː"]
+        },
+        {
+          "word": "wants",
+          "expected_ipa": ["w", "ɑː", "n", "t", "s"]
+        },
+        {
+          "word": "big",
+          "expected_ipa": ["b", "ɪ", "g"]
+        },
+        {
+          "word": "grapes",
+          "expected_ipa": ["g", "r", "eɪ", "p", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_36",
+      "text": "She loves green plants.",
+      "difficulty": 3,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "She",
+          "expected_ipa": ["ʃ", "iː"]
+        },
+        {
+          "word": "loves",
+          "expected_ipa": ["l", "ʌ", "v", "z"]
+        },
+        {
+          "word": "green",
+          "expected_ipa": ["g", "r", "iː", "n"]
+        },
+        {
+          "word": "plants",
+          "expected_ipa": ["p", "l", "æ", "n", "t", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_37",
+      "text": "They bought new clothes.",
+      "difficulty": 3,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "They",
+          "expected_ipa": ["ð", "eɪ"]
+        },
+        {
+          "word": "bought",
+          "expected_ipa": ["b", "ɔː", "t"]
+        },
+        {
+          "word": "new",
+          "expected_ipa": ["n", "uː"]
+        },
+        {
+          "word": "clothes",
+          "expected_ipa": ["k", "l", "oʊ", "ð", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_38",
+      "text": "We need fresh bread.",
+      "difficulty": 3,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "We",
+          "expected_ipa": ["w", "iː"]
+        },
+        {
+          "word": "need",
+          "expected_ipa": ["n", "iː", "d"]
+        },
+        {
+          "word": "fresh",
+          "expected_ipa": ["f", "r", "ɛ", "ʃ"]
+        },
+        {
+          "word": "bread",
+          "expected_ipa": ["b", "r", "ɛ", "d"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_39",
+      "text": "You gave them gifts.",
+      "difficulty": 3,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "You",
+          "expected_ipa": ["j", "uː"]
+        },
+        {
+          "word": "gave",
+          "expected_ipa": ["g", "eɪ", "v"]
+        },
+        {
+          "word": "them",
+          "expected_ipa": ["ð", "ɛ", "m"]
+        },
+        {
+          "word": "gifts",
+          "expected_ipa": ["g", "ɪ", "f", "t", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_40",
+      "text": "I saw three bears.",
+      "difficulty": 3,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "I",
+          "expected_ipa": ["aɪ"]
+        },
+        {
+          "word": "saw",
+          "expected_ipa": ["s", "ɔː"]
+        },
+        {
+          "word": "three",
+          "expected_ipa": ["θ", "r", "iː"]
+        },
+        {
+          "word": "bears",
+          "expected_ipa": ["b", "ɛr", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_41",
+      "text": "He wants a break.",
+      "difficulty": 3,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "He",
+          "expected_ipa": ["h", "iː"]
+        },
+        {
+          "word": "wants",
+          "expected_ipa": ["w", "ɑː", "n", "t", "s"]
+        },
+        {
+          "word": "a",
+          "expected_ipa": ["ə"]
+        },
+        {
+          "word": "break",
+          "expected_ipa": ["b", "r", "eɪ", "k"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_42",
+      "text": "She drives a bus.",
+      "difficulty": 3,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "She",
+          "expected_ipa": ["ʃ", "iː"]
+        },
+        {
+          "word": "drives",
+          "expected_ipa": ["d", "r", "aɪ", "v", "z"]
+        },
+        {
+          "word": "a",
+          "expected_ipa": ["ə"]
+        },
+        {
+          "word": "bus",
+          "expected_ipa": ["b", "ʌ", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_43",
+      "text": "They brought big boxes.",
+      "difficulty": 3,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "They",
+          "expected_ipa": ["ð", "eɪ"]
+        },
+        {
+          "word": "brought",
+          "expected_ipa": ["b", "r", "ɔː", "t"]
+        },
+        {
+          "word": "big",
+          "expected_ipa": ["b", "ɪ", "g"]
+        },
+        {
+          "word": "boxes",
+          "expected_ipa": ["b", "ɑː", "k", "s", "ɪz"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_44",
+      "text": "We love good food.",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "We",
+          "expected_ipa": ["w", "iː"]
+        },
+        {
+          "word": "love",
+          "expected_ipa": ["l", "ʌ", "v"]
+        },
+        {
+          "word": "good",
+          "expected_ipa": ["g", "ʊ", "d"]
+        },
+        {
+          "word": "food",
+          "expected_ipa": ["f", "uː", "d"]
+        }
+      ]
+    },
+    {
+      "id": "en_blo_45",
+      "text": "You give great advice.",
+      "difficulty": 3,
+      "test_type": "blocks",
+      "language": "english",
+      "targets": [
+        {
+          "word": "You",
+          "expected_ipa": ["j", "uː"]
+        },
+        {
+          "word": "give",
+          "expected_ipa": ["g", "ɪ", "v"]
+        },
+        {
+          "word": "great",
+          "expected_ipa": ["g", "r", "eɪ", "t"]
+        },
+        {
+          "word": "advice",
+          "expected_ipa": ["æ", "d", "v", "aɪ", "s"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1036 @@
+{
+  "test_type": "gliding",
+  "description": "Short Urdu sentences to detect gliding.",
+  "sentences": [
+    {
+      "id": "ur_gli_01",
+      "text": "رنگ لال ہے",
+      "romanized": "Rang laal hai.",
+      "difficulty": 1,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "رنگ",
+          "expected_ipa": ["r", "ə", "ŋ", "g"]
+        },
+        {
+          "word": "لال",
+          "expected_ipa": ["l", "aː", "l"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_02",
+      "text": "کرسی پر بیٹھو",
+      "romanized": "Kursi par baitho.",
+      "difficulty": 1,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "کرسی",
+          "expected_ipa": ["k", "ʊ", "r", "s", "iː"]
+        },
+        {
+          "word": "پر",
+          "expected_ipa": ["p", "ə", "r"]
+        },
+        {
+          "word": "بیٹھو",
+          "expected_ipa": ["b", "ɛː", "ʈ", "ʰ", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_03",
+      "text": "لال پھول لاؤ",
+      "romanized": "Laal phool lao.",
+      "difficulty": 1,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "لال",
+          "expected_ipa": ["l", "aː", "l"]
+        },
+        {
+          "word": "پھول",
+          "expected_ipa": ["p", "ʰ", "uː", "l"]
+        },
+        {
+          "word": "لاؤ",
+          "expected_ipa": ["l", "aː", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_04",
+      "text": "کالا دل ہے",
+      "romanized": "Kala dil hai.",
+      "difficulty": 1,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "کالا",
+          "expected_ipa": ["k", "aː", "l", "aː"]
+        },
+        {
+          "word": "دل",
+          "expected_ipa": ["d", "ɪ", "l"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_05",
+      "text": "لڑکا پڑھ رہا ہے",
+      "romanized": "Ladka padh raha hai.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "لڑکا",
+          "expected_ipa": ["l", "ə", "ɽ", "k", "aː"]
+        },
+        {
+          "word": "پڑھ",
+          "expected_ipa": ["p", "ə", "ɽ", "ʱ"]
+        },
+        {
+          "word": "رہا",
+          "expected_ipa": ["r", "ə", "h", "aː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_06",
+      "text": "ٹرین پر آؤ",
+      "romanized": "Train par aao.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "ٹرین",
+          "expected_ipa": ["ʈ", "r", "eɪ", "n"]
+        },
+        {
+          "word": "پر",
+          "expected_ipa": ["p", "ə", "r"]
+        },
+        {
+          "word": "آؤ",
+          "expected_ipa": ["aː", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_07",
+      "text": "کلاس میں آؤ",
+      "romanized": "Class mein aao.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "کلاس",
+          "expected_ipa": ["k", "l", "aː", "s"]
+        },
+        {
+          "word": "میں",
+          "expected_ipa": ["m", "ɛ̃ː"]
+        },
+        {
+          "word": "آؤ",
+          "expected_ipa": ["aː", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_08",
+      "text": "ریل گاڑی چلی",
+      "romanized": "Rail gaari chali.",
+      "difficulty": 3,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "ریل",
+          "expected_ipa": ["r", "eː", "l"]
+        },
+        {
+          "word": "گاڑی",
+          "expected_ipa": ["g", "aː", "ɽ", "iː"]
+        },
+        {
+          "word": "چلی",
+          "expected_ipa": ["tʃ", "ə", "l", "iː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_09",
+      "text": "دروازہ کھلا ہے",
+      "romanized": "Darwaza khula hai.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "دروازہ",
+          "expected_ipa": ["d", "ə", "r", "w", "aː", "z", "aː"]
+        },
+        {
+          "word": "کھلا",
+          "expected_ipa": ["k", "ʰ", "ʊ", "l", "aː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_10",
+      "text": "پھول بہت لال",
+      "romanized": "Phool bohat laal.",
+      "difficulty": 1,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "پھول",
+          "expected_ipa": ["p", "ʰ", "uː", "l"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "h", "ʊ", "t̪"]
+        },
+        {
+          "word": "لال",
+          "expected_ipa": ["l", "aː", "l"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_11",
+      "text": "برف گر رہی ہے",
+      "romanized": "Barf gir rahi hai.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "برف",
+          "expected_ipa": ["b", "ə", "r", "f"]
+        },
+        {
+          "word": "گر",
+          "expected_ipa": ["g", "ɪ", "r"]
+        },
+        {
+          "word": "رہی",
+          "expected_ipa": ["r", "ə", "h", "iː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_12",
+      "text": "لمبا پل بناؤ",
+      "romanized": "Lamba pul banao.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "لمبا",
+          "expected_ipa": ["l", "ə", "m", "b", "aː"]
+        },
+        {
+          "word": "پل",
+          "expected_ipa": ["p", "ʊ", "l"]
+        },
+        {
+          "word": "بناؤ",
+          "expected_ipa": ["b", "ə", "n", "aː", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_13",
+      "text": "روشن ستارے چمکے",
+      "romanized": "Roshan sitare chamke.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "روشن",
+          "expected_ipa": ["r", "oː", "ʃ", "ə", "n"]
+        },
+        {
+          "word": "ستارے",
+          "expected_ipa": ["s", "ɪ", "t̪", "aː", "r", "eː"]
+        },
+        {
+          "word": "چمکے",
+          "expected_ipa": ["tʃ", "ə", "m", "k", "eː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_14",
+      "text": "گلاس بھر لو",
+      "romanized": "Glass bhar lo.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "گلاس",
+          "expected_ipa": ["g", "l", "aː", "s"]
+        },
+        {
+          "word": "بھر",
+          "expected_ipa": ["b", "ʱ", "ə", "r"]
+        },
+        {
+          "word": "لو",
+          "expected_ipa": ["l", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_15",
+      "text": "درخت پر چڑھو",
+      "romanized": "Darakht par chadho.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "درخت",
+          "expected_ipa": ["d", "ə", "r", "ə", "k", "ʰ", "t̪"]
+        },
+        {
+          "word": "پر",
+          "expected_ipa": ["p", "ə", "r"]
+        },
+        {
+          "word": "چڑھو",
+          "expected_ipa": ["tʃ", "ə", "ɽ", "ʱ", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_16",
+      "text": "فلم دیکھ رہا ہوں",
+      "romanized": "Film dekh raha hoon.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "فلم",
+          "expected_ipa": ["f", "ɪ", "l", "m"]
+        },
+        {
+          "word": "دیکھ",
+          "expected_ipa": ["d", "eː", "k", "ʰ"]
+        },
+        {
+          "word": "رہا",
+          "expected_ipa": ["r", "ə", "h", "aː"]
+        },
+        {
+          "word": "ہوں",
+          "expected_ipa": ["h", "oː", "̃"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_17",
+      "text": "برتن صاف کرو",
+      "romanized": "Bartan saaf karo.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "برتن",
+          "expected_ipa": ["b", "ə", "r", "t̪", "ə", "n"]
+        },
+        {
+          "word": "صاف",
+          "expected_ipa": ["s", "aː", "f"]
+        },
+        {
+          "word": "کرو",
+          "expected_ipa": ["k", "ə", "r", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_18",
+      "text": "گلاب کا پھول",
+      "romanized": "Gulab ka phool.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "گلاب",
+          "expected_ipa": ["g", "ʊ", "l", "aː", "b"]
+        },
+        {
+          "word": "کا",
+          "expected_ipa": ["k", "aː"]
+        },
+        {
+          "word": "پھول",
+          "expected_ipa": ["p", "ʰ", "uː", "l"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_19",
+      "text": "سردی بڑھ رہی ہے",
+      "romanized": "Sardi badh rahi hai.",
+      "difficulty": 3,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "سردی",
+          "expected_ipa": ["s", "ə", "r", "d", "iː"]
+        },
+        {
+          "word": "بڑھ",
+          "expected_ipa": ["b", "ə", "ɽ", "ʱ"]
+        },
+        {
+          "word": "رہی",
+          "expected_ipa": ["r", "ə", "h", "iː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_20",
+      "text": "پلیٹ پر رکھو",
+      "romanized": "Plate par rakho.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "پلیٹ",
+          "expected_ipa": ["p", "l", "eɪ", "ʈ"]
+        },
+        {
+          "word": "پر",
+          "expected_ipa": ["p", "ə", "r"]
+        },
+        {
+          "word": "رکھو",
+          "expected_ipa": ["r", "ə", "k", "ʰ", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_21",
+      "text": "مالی پھول لایا",
+      "romanized": "Mali phool laya.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "مالی",
+          "expected_ipa": ["m", "aː", "l", "iː"]
+        },
+        {
+          "word": "پھول",
+          "expected_ipa": ["p", "ʰ", "uː", "l"]
+        },
+        {
+          "word": "لایا",
+          "expected_ipa": ["l", "aː", "y", "aː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_22",
+      "text": "ضرور آنا کل",
+      "romanized": "Zaroor aana kal.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "ضرور",
+          "expected_ipa": ["z", "ə", "r", "uː", "r"]
+        },
+        {
+          "word": "آنا",
+          "expected_ipa": ["aː", "n", "aː"]
+        },
+        {
+          "word": "کل",
+          "expected_ipa": ["k", "ə", "l"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_23",
+      "text": "پرانا گھر ہے",
+      "romanized": "Purana ghar hai.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "پرانا",
+          "expected_ipa": ["p", "ʊ", "r", "aː", "n", "aː"]
+        },
+        {
+          "word": "گھر",
+          "expected_ipa": ["g", "ʱ", "ə", "r"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_24",
+      "text": "بلکل ٹھیک ہے",
+      "romanized": "Bilkul theek hai.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "بلکل",
+          "expected_ipa": ["b", "ɪ", "l", "k", "ʊ", "l"]
+        },
+        {
+          "word": "ٹھیک",
+          "expected_ipa": ["ʈ", "ʰ", "iː", "k"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_25",
+      "text": "شروع کرو کام",
+      "romanized": "Shuru karo kaam.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "شروع",
+          "expected_ipa": ["ʃ", "ʊ", "r", "uː"]
+        },
+        {
+          "word": "کرو",
+          "expected_ipa": ["k", "ə", "r", "oː"]
+        },
+        {
+          "word": "کام",
+          "expected_ipa": ["k", "aː", "m"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_26",
+      "text": "پہلا سبق پڑھو",
+      "romanized": "Pahla sabaq padho.",
+      "difficulty": 3,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "پہلا",
+          "expected_ipa": ["p", "ɛ", "h", "l", "aː"]
+        },
+        {
+          "word": "سبق",
+          "expected_ipa": ["s", "ə", "b", "ə", "q"]
+        },
+        {
+          "word": "پڑھو",
+          "expected_ipa": ["p", "ə", "ɽ", "ʱ", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_27",
+      "text": "ترازو پر رکھو",
+      "romanized": "Tarazu par rakho.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "ترازو",
+          "expected_ipa": ["t̪", "ə", "r", "aː", "z", "uː"]
+        },
+        {
+          "word": "پر",
+          "expected_ipa": ["p", "ə", "r"]
+        },
+        {
+          "word": "رکھو",
+          "expected_ipa": ["r", "ə", "k", "ʰ", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_28",
+      "text": "ملک بہت بڑا",
+      "romanized": "Mulk bohat bada.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "ملک",
+          "expected_ipa": ["m", "ʊ", "l", "k"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "h", "ʊ", "t̪"]
+        },
+        {
+          "word": "بڑا",
+          "expected_ipa": ["b", "ə", "ɽ", "aː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_29",
+      "text": "پرچم لہر رہا ہے",
+      "romanized": "Parcham lehr raha hai.",
+      "difficulty": 3,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "پرچم",
+          "expected_ipa": ["p", "ə", "r", "tʃ", "ə", "m"]
+        },
+        {
+          "word": "لہر",
+          "expected_ipa": ["l", "ə", "h", "ə", "r"]
+        },
+        {
+          "word": "رہا",
+          "expected_ipa": ["r", "ə", "h", "aː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_30",
+      "text": "رکشہ چلا رہا ہوں",
+      "romanized": "Riksha chala raha hoon.",
+      "difficulty": 3,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "رکشہ",
+          "expected_ipa": ["r", "ɪ", "k", "ʃ", "aː"]
+        },
+        {
+          "word": "چلا",
+          "expected_ipa": ["tʃ", "ə", "l", "aː"]
+        },
+        {
+          "word": "رہا",
+          "expected_ipa": ["r", "ə", "h", "aː"]
+        },
+        {
+          "word": "ہوں",
+          "expected_ipa": ["h", "oː", "̃"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_31",
+      "text": "برابر تقسیم کرو",
+      "romanized": "Barabar taqseem karo.",
+      "difficulty": 3,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "برابر",
+          "expected_ipa": ["b", "ə", "r", "aː", "b", "ə", "r"]
+        },
+        {
+          "word": "تقسیم",
+          "expected_ipa": ["t̪", "ə", "q", "s", "iː", "m"]
+        },
+        {
+          "word": "کرو",
+          "expected_ipa": ["k", "ə", "r", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_32",
+      "text": "سرحد پر لڑو",
+      "romanized": "Sarhad par lado.",
+      "difficulty": 3,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "سرحد",
+          "expected_ipa": ["s", "ə", "r", "h", "əd̪"]
+        },
+        {
+          "word": "پر",
+          "expected_ipa": ["p", "ə", "r"]
+        },
+        {
+          "word": "لڑو",
+          "expected_ipa": ["l", "ə", "ɽ", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_33",
+      "text": "تربوز بہت لال",
+      "romanized": "Tarbooz bohat laal.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "تربوز",
+          "expected_ipa": ["t̪", "ə", "r", "b", "uː", "z"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "h", "ʊ", "t̪"]
+        },
+        {
+          "word": "لال",
+          "expected_ipa": ["l", "aː", "l"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_34",
+      "text": "فرمان جاری ہوا",
+      "romanized": "Farman jari hua.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "فرمان",
+          "expected_ipa": ["f", "ə", "r", "m", "aː", "n"]
+        },
+        {
+          "word": "جاری",
+          "expected_ipa": ["dʒ", "aː", "r", "iː"]
+        },
+        {
+          "word": "ہوا",
+          "expected_ipa": ["h", "ʊ", "aː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_35",
+      "text": "پرواز کر رہی ہے",
+      "romanized": "Parwaz kar rahi hai.",
+      "difficulty": 3,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "پرواز",
+          "expected_ipa": ["p", "ə", "r", "w", "aː", "z"]
+        },
+        {
+          "word": "کر",
+          "expected_ipa": ["k", "ə", "r"]
+        },
+        {
+          "word": "رہی",
+          "expected_ipa": ["r", "ə", "h", "iː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_36",
+      "text": "روشن چراغ جلاؤ",
+      "romanized": "Roshan chiragh jalao.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "روشن",
+          "expected_ipa": ["r", "oː", "ʃ", "ə", "n"]
+        },
+        {
+          "word": "چراغ",
+          "expected_ipa": ["tʃ", "ɪ", "r", "aː", "g"]
+        },
+        {
+          "word": "جلاؤ",
+          "expected_ipa": ["dʒ", "ə", "l", "aː", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_37",
+      "text": "دریا بہہ رہا ہے",
+      "romanized": "Darya beh raha hai.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "دریا",
+          "expected_ipa": ["d", "ə", "r", "y", "aː"]
+        },
+        {
+          "word": "بہہ",
+          "expected_ipa": ["b", "ɛ", "h"]
+        },
+        {
+          "word": "رہا",
+          "expected_ipa": ["r", "ə", "h", "aː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_38",
+      "text": "کرایہ ادا کرو",
+      "romanized": "Kiraya ada karo.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "کرایہ",
+          "expected_ipa": ["k", "ɪ", "r", "aː", "y", "aː"]
+        },
+        {
+          "word": "ادا",
+          "expected_ipa": ["ə", "d", "aː"]
+        },
+        {
+          "word": "کرو",
+          "expected_ipa": ["k", "ə", "r", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_39",
+      "text": "پریشان مت ہو",
+      "romanized": "Pareshan mat ho.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "پریشان",
+          "expected_ipa": ["p", "ə", "r", "eː", "ʃ", "aː", "n"]
+        },
+        {
+          "word": "مت",
+          "expected_ipa": ["m", "ə", "t̪"]
+        },
+        {
+          "word": "ہو",
+          "expected_ipa": ["h", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_40",
+      "text": "ضرورت پڑی تو",
+      "romanized": "Zarurat padi toh.",
+      "difficulty": 3,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "ضرورت",
+          "expected_ipa": ["z", "ə", "r", "uː", "r", "ət̪"]
+        },
+        {
+          "word": "پڑی",
+          "expected_ipa": ["p", "ə", "ɽ", "iː"]
+        },
+        {
+          "word": "تو",
+          "expected_ipa": ["t̪", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_41",
+      "text": "رسم ادا کر",
+      "romanized": "Rasm ada kar.",
+      "difficulty": 1,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "رسم",
+          "expected_ipa": ["r", "ə", "s", "m"]
+        },
+        {
+          "word": "ادا",
+          "expected_ipa": ["ə", "d", "aː"]
+        },
+        {
+          "word": "کر",
+          "expected_ipa": ["k", "ə", "r"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_42",
+      "text": "رشتہ دار آئے ہیں",
+      "romanized": "Rishtedar aaye hain.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "رشتہ",
+          "expected_ipa": ["r", "ɪ", "ʃ", "t̪", "aː"]
+        },
+        {
+          "word": "دار",
+          "expected_ipa": ["d", "aː", "r"]
+        },
+        {
+          "word": "آئے",
+          "expected_ipa": ["aː", "y", "eː"]
+        },
+        {
+          "word": "ہیں",
+          "expected_ipa": ["h", "ɛ̃ː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_43",
+      "text": "فرصت میں ملنا",
+      "romanized": "Fursat mein milna.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "فرصت",
+          "expected_ipa": ["f", "ʊ", "r", "s", "ət̪"]
+        },
+        {
+          "word": "میں",
+          "expected_ipa": ["m", "ɛ̃ː"]
+        },
+        {
+          "word": "ملنا",
+          "expected_ipa": ["m", "ɪ", "l", "n", "aː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_44",
+      "text": "گرمی بہت ہے",
+      "romanized": "Garmi bohat hai.",
+      "difficulty": 1,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "گرمی",
+          "expected_ipa": ["g", "ə", "r", "m", "iː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "h", "ʊ", "t̪"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_gli_45",
+      "text": "برکت ہو تم پر",
+      "romanized": "Barkat ho tum par.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "برکت",
+          "expected_ipa": ["b", "ə", "r", "k", "ət̪"]
+        },
+        {
+          "word": "ہو",
+          "expected_ipa": ["h", "oː"]
+        },
+        {
+          "word": "تم",
+          "expected_ipa": ["t̪", "ʊ", "m"]
+        },
+        {
+          "word": "پر",
+          "expected_ipa": ["p", "ə", "r"]
+        }
+      ]
+    }
+  ]
+}

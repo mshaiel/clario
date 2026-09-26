@@ -1,0 +1,991 @@
+{
+  "test_type": "epenthesis",
+  "description": "Short English sentences to detect epenthesis.",
+  "sentences": [
+    {
+      "id": "en_epe_01",
+      "text": "The street is clean.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "The",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "street",
+          "expected_ipa": ["s", "t", "r", "i", "t"]
+        },
+        {
+          "word": "is",
+          "expected_ipa": ["ɪ", "z"]
+        },
+        {
+          "word": "clean",
+          "expected_ipa": ["k", "l", "i", "n"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_02",
+      "text": "Don't splash the water.",
+      "difficulty": 2,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Don't",
+          "expected_ipa": ["d", "oʊ", "n", "t"]
+        },
+        {
+          "word": "splash",
+          "expected_ipa": ["s", "p", "l", "æ", "ʃ"]
+        },
+        {
+          "word": "the",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "water",
+          "expected_ipa": ["w", "ɑ", "t", "ər"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_03",
+      "text": "The train left early.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "The",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "train",
+          "expected_ipa": ["t", "r", "eɪ", "n"]
+        },
+        {
+          "word": "left",
+          "expected_ipa": ["l", "ɛ", "f", "t"]
+        },
+        {
+          "word": "early",
+          "expected_ipa": ["ɜ", "r", "l", "i"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_04",
+      "text": "Please drink water.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Please",
+          "expected_ipa": ["p", "l", "i", "z"]
+        },
+        {
+          "word": "drink",
+          "expected_ipa": ["d", "r", "ɪ", "ŋ", "k"]
+        },
+        {
+          "word": "water",
+          "expected_ipa": ["w", "ɑ", "t", "ər"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_05",
+      "text": "Wash the plate.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Wash",
+          "expected_ipa": ["w", "ɑ", "ʃ"]
+        },
+        {
+          "word": "the",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "plate",
+          "expected_ipa": ["p", "l", "eɪ", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_06",
+      "text": "The sky is blue.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "The",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "sky",
+          "expected_ipa": ["s", "k", "aɪ"]
+        },
+        {
+          "word": "is",
+          "expected_ipa": ["ɪ", "z"]
+        },
+        {
+          "word": "blue",
+          "expected_ipa": ["b", "l", "u"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_07",
+      "text": "Fill the glass.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Fill",
+          "expected_ipa": ["f", "ɪ", "l"]
+        },
+        {
+          "word": "the",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "glass",
+          "expected_ipa": ["g", "l", "æ", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_08",
+      "text": "Keep it clean.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Keep",
+          "expected_ipa": ["k", "i", "p"]
+        },
+        {
+          "word": "it",
+          "expected_ipa": ["ɪ", "t"]
+        },
+        {
+          "word": "clean",
+          "expected_ipa": ["k", "l", "i", "n"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_09",
+      "text": "A frog jumped out.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "A",
+          "expected_ipa": ["ə"]
+        },
+        {
+          "word": "frog",
+          "expected_ipa": ["f", "r", "ɑ", "g"]
+        },
+        {
+          "word": "jumped",
+          "expected_ipa": ["ʤ", "ʌ", "m", "p", "t"]
+        },
+        {
+          "word": "out",
+          "expected_ipa": ["aʊ", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_10",
+      "text": "That's a great idea.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "That's",
+          "expected_ipa": ["ð", "æ", "t", "s"]
+        },
+        {
+          "word": "a",
+          "expected_ipa": ["ə"]
+        },
+        {
+          "word": "great",
+          "expected_ipa": ["g", "r", "eɪ", "t"]
+        },
+        {
+          "word": "idea",
+          "expected_ipa": ["aɪ", "d", "i", "ə"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_11",
+      "text": "Win the prize.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Win",
+          "expected_ipa": ["w", "ɪ", "n"]
+        },
+        {
+          "word": "the",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "prize",
+          "expected_ipa": ["p", "r", "aɪ", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_12",
+      "text": "Brush your teeth.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Brush",
+          "expected_ipa": ["b", "r", "ʌ", "ʃ"]
+        },
+        {
+          "word": "your",
+          "expected_ipa": ["j", "ʊ", "ər"]
+        },
+        {
+          "word": "teeth",
+          "expected_ipa": ["t", "i", "θ"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_13",
+      "text": "He is strong.",
+      "difficulty": 2,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "He",
+          "expected_ipa": ["h", "i"]
+        },
+        {
+          "word": "is",
+          "expected_ipa": ["ɪ", "z"]
+        },
+        {
+          "word": "strong",
+          "expected_ipa": ["s", "t", "r", "ɔ", "ŋ"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_14",
+      "text": "Don't scream loudly.",
+      "difficulty": 2,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Don't",
+          "expected_ipa": ["d", "oʊ", "n", "t"]
+        },
+        {
+          "word": "scream",
+          "expected_ipa": ["s", "k", "r", "i", "m"]
+        },
+        {
+          "word": "loudly",
+          "expected_ipa": ["l", "aʊ", "d", "l", "i"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_15",
+      "text": "Spring is coming.",
+      "difficulty": 2,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Spring",
+          "expected_ipa": ["s", "p", "r", "ɪ", "ŋ"]
+        },
+        {
+          "word": "is",
+          "expected_ipa": ["ɪ", "z"]
+        },
+        {
+          "word": "coming",
+          "expected_ipa": ["k", "ʌ", "m", "ɪ", "ŋ"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_16",
+      "text": "Throw the ball.",
+      "difficulty": 2,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Throw",
+          "expected_ipa": ["θ", "r", "oʊ"]
+        },
+        {
+          "word": "the",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "ball",
+          "expected_ipa": ["b", "ɔ", "l"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_17",
+      "text": "I like shrimp.",
+      "difficulty": 2,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "I",
+          "expected_ipa": ["aɪ"]
+        },
+        {
+          "word": "like",
+          "expected_ipa": ["l", "aɪ", "k"]
+        },
+        {
+          "word": "shrimp",
+          "expected_ipa": ["ʃ", "r", "ɪ", "m", "p"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_18",
+      "text": "The athlete ran fast.",
+      "difficulty": 3,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "The",
+          "expected_ipa": ["ð", "i"]
+        },
+        {
+          "word": "athlete",
+          "expected_ipa": ["æ", "θ", "l", "i", "t"]
+        },
+        {
+          "word": "ran",
+          "expected_ipa": ["r", "æ", "n"]
+        },
+        {
+          "word": "fast",
+          "expected_ipa": ["f", "æ", "s", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_19",
+      "text": "Watch a film.",
+      "difficulty": 2,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Watch",
+          "expected_ipa": ["w", "ɑ", "ʧ"]
+        },
+        {
+          "word": "a",
+          "expected_ipa": ["ə"]
+        },
+        {
+          "word": "film",
+          "expected_ipa": ["f", "ɪ", "l", "m"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_20",
+      "text": "Show your strength.",
+      "difficulty": 3,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Show",
+          "expected_ipa": ["ʃ", "oʊ"]
+        },
+        {
+          "word": "your",
+          "expected_ipa": ["j", "ʊ", "ər"]
+        },
+        {
+          "word": "strength",
+          "expected_ipa": ["s", "t", "r", "ɛ", "ŋ", "θ"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_21",
+      "text": "He is sixth.",
+      "difficulty": 3,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "He",
+          "expected_ipa": ["h", "i"]
+        },
+        {
+          "word": "is",
+          "expected_ipa": ["ɪ", "z"]
+        },
+        {
+          "word": "sixth",
+          "expected_ipa": ["s", "ɪ", "k", "s", "θ"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_22",
+      "text": "The chips are crisp.",
+      "difficulty": 2,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "The",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "chips",
+          "expected_ipa": ["ʧ", "ɪ", "p", "s"]
+        },
+        {
+          "word": "are",
+          "expected_ipa": ["ɑ", "r"]
+        },
+        {
+          "word": "crisp",
+          "expected_ipa": ["k", "r", "ɪ", "s", "p"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_23",
+      "text": "Grasp the rope.",
+      "difficulty": 2,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Grasp",
+          "expected_ipa": ["g", "r", "æ", "s", "p"]
+        },
+        {
+          "word": "the",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "rope",
+          "expected_ipa": ["r", "oʊ", "p"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_24",
+      "text": "Be prompt always.",
+      "difficulty": 2,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Be",
+          "expected_ipa": ["b", "i"]
+        },
+        {
+          "word": "prompt",
+          "expected_ipa": ["p", "r", "ɑ", "m", "p", "t"]
+        },
+        {
+          "word": "always",
+          "expected_ipa": ["ɔ", "l", "w", "eɪ", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_25",
+      "text": "The box is empty.",
+      "difficulty": 2,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "The",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "box",
+          "expected_ipa": ["b", "ɑ", "k", "s"]
+        },
+        {
+          "word": "is",
+          "expected_ipa": ["ɪ", "z"]
+        },
+        {
+          "word": "empty",
+          "expected_ipa": ["ɛ", "m", "p", "t", "i"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_26",
+      "text": "I dreamt a lot.",
+      "difficulty": 2,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "I",
+          "expected_ipa": ["aɪ"]
+        },
+        {
+          "word": "dreamt",
+          "expected_ipa": ["d", "r", "ɛ", "m", "t"]
+        },
+        {
+          "word": "a",
+          "expected_ipa": ["ə"]
+        },
+        {
+          "word": "lot",
+          "expected_ipa": ["l", "ɑ", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_27",
+      "text": "Sculpt the clay.",
+      "difficulty": 3,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Sculpt",
+          "expected_ipa": ["s", "k", "ʌ", "l", "p", "t"]
+        },
+        {
+          "word": "the",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "clay",
+          "expected_ipa": ["k", "l", "eɪ"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_28",
+      "text": "Change the bulb.",
+      "difficulty": 2,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Change",
+          "expected_ipa": ["ʧ", "eɪ", "n", "ʤ"]
+        },
+        {
+          "word": "the",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "bulb",
+          "expected_ipa": ["b", "ʌ", "l", "b"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_29",
+      "text": "Fill the bottle.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Fill",
+          "expected_ipa": ["f", "ɪ", "l"]
+        },
+        {
+          "word": "the",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "bottle",
+          "expected_ipa": ["b", "ɑ", "t", "l"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_30",
+      "text": "A little bird.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "A",
+          "expected_ipa": ["ə"]
+        },
+        {
+          "word": "little",
+          "expected_ipa": ["l", "ɪ", "t", "l"]
+        },
+        {
+          "word": "bird",
+          "expected_ipa": ["b", "ɜ", "r", "d"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_31",
+      "text": "Set the table.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Set",
+          "expected_ipa": ["s", "ɛ", "t"]
+        },
+        {
+          "word": "the",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "table",
+          "expected_ipa": ["t", "eɪ", "b", "l"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_32",
+      "text": "Eat an apple.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Eat",
+          "expected_ipa": ["i", "t"]
+        },
+        {
+          "word": "an",
+          "expected_ipa": ["æ", "n"]
+        },
+        {
+          "word": "apple",
+          "expected_ipa": ["æ", "p", "l"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_33",
+      "text": "Many people came.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Many",
+          "expected_ipa": ["m", "ɛ", "n", "i"]
+        },
+        {
+          "word": "people",
+          "expected_ipa": ["p", "i", "p", "l"]
+        },
+        {
+          "word": "came",
+          "expected_ipa": ["k", "eɪ", "m"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_34",
+      "text": "Fasten the button.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Fasten",
+          "expected_ipa": ["f", "æ", "s", "ən"]
+        },
+        {
+          "word": "the",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "button",
+          "expected_ipa": ["b", "ʌ", "t", "n"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_35",
+      "text": "Listen to music.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Listen",
+          "expected_ipa": ["l", "ɪ", "s", "ən"]
+        },
+        {
+          "word": "to",
+          "expected_ipa": ["t", "u"]
+        },
+        {
+          "word": "music",
+          "expected_ipa": ["m", "j", "u", "z", "ɪ", "k"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_36",
+      "text": "Water the garden.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Water",
+          "expected_ipa": ["w", "ɑ", "t", "ər"]
+        },
+        {
+          "word": "the",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "garden",
+          "expected_ipa": ["g", "ɑ", "r", "d", "n"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_37",
+      "text": "Open the door.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Open",
+          "expected_ipa": ["oʊ", "p", "ən"]
+        },
+        {
+          "word": "the",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "door",
+          "expected_ipa": ["d", "ɔ", "r"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_38",
+      "text": "Count to seven.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Count",
+          "expected_ipa": ["k", "aʊ", "n", "t"]
+        },
+        {
+          "word": "to",
+          "expected_ipa": ["t", "u"]
+        },
+        {
+          "word": "seven",
+          "expected_ipa": ["s", "ɛ", "v", "ən"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_39",
+      "text": "Speak crisply now.",
+      "difficulty": 3,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Speak",
+          "expected_ipa": ["s", "p", "i", "k"]
+        },
+        {
+          "word": "crisply",
+          "expected_ipa": ["k", "r", "ɪ", "s", "p", "l", "i"]
+        },
+        {
+          "word": "now",
+          "expected_ipa": ["n", "aʊ"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_40",
+      "text": "Catch a glimpse.",
+      "difficulty": 3,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Catch",
+          "expected_ipa": ["k", "æ", "ʧ"]
+        },
+        {
+          "word": "a",
+          "expected_ipa": ["ə"]
+        },
+        {
+          "word": "glimpse",
+          "expected_ipa": ["g", "l", "ɪ", "m", "p", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_41",
+      "text": "The twelfth month.",
+      "difficulty": 3,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "The",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "twelfth",
+          "expected_ipa": ["t", "w", "ɛ", "l", "f", "θ"]
+        },
+        {
+          "word": "month",
+          "expected_ipa": ["m", "ʌ", "n", "θ"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_42",
+      "text": "Feel the warmth.",
+      "difficulty": 3,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Feel",
+          "expected_ipa": ["f", "i", "l"]
+        },
+        {
+          "word": "the",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "warmth",
+          "expected_ipa": ["w", "ɔ", "r", "m", "θ"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_43",
+      "text": "Measure its breadth.",
+      "difficulty": 3,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Measure",
+          "expected_ipa": ["m", "ɛ", "ʒ", "ər"]
+        },
+        {
+          "word": "its",
+          "expected_ipa": ["ɪ", "t", "s"]
+        },
+        {
+          "word": "breadth",
+          "expected_ipa": ["b", "r", "ɛ", "d", "θ"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_44",
+      "text": "Don't struggle much.",
+      "difficulty": 2,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Don't",
+          "expected_ipa": ["d", "oʊ", "n", "t"]
+        },
+        {
+          "word": "struggle",
+          "expected_ipa": ["s", "t", "r", "ʌ", "g", "l"]
+        },
+        {
+          "word": "much",
+          "expected_ipa": ["m", "ʌ", "ʧ"]
+        }
+      ]
+    },
+    {
+      "id": "en_epe_45",
+      "text": "Sprinkle some salt.",
+      "difficulty": 3,
+      "test_type": "epenthesis",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Sprinkle",
+          "expected_ipa": ["s", "p", "r", "ɪ", "ŋ", "k", "l"]
+        },
+        {
+          "word": "some",
+          "expected_ipa": ["s", "ʌ", "m"]
+        },
+        {
+          "word": "salt",
+          "expected_ipa": ["s", "ɔ", "l", "t"]
+        }
+      ]
+    }
+  ]
+}

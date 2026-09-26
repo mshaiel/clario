@@ -1,0 +1,1087 @@
+{
+  "test_type": "repetitions",
+  "description": "Short English sentences to detect repetitions.",
+  "sentences": [
+    {
+      "id": "en_rep_01",
+      "text": "I like red apples.",
+      "difficulty": 1,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "I",
+          "expected_ipa": ["aɪ"]
+        },
+        {
+          "word": "like",
+          "expected_ipa": ["l", "aɪ", "k"]
+        },
+        {
+          "word": "red",
+          "expected_ipa": ["r", "ɛ", "d"]
+        },
+        {
+          "word": "apples",
+          "expected_ipa": ["æ", "p", "ə", "l", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_02",
+      "text": "She saw a bird.",
+      "difficulty": 1,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "She",
+          "expected_ipa": ["ʃ", "i"]
+        },
+        {
+          "word": "saw",
+          "expected_ipa": ["s", "ɔ"]
+        },
+        {
+          "word": "a",
+          "expected_ipa": ["ə"]
+        },
+        {
+          "word": "bird",
+          "expected_ipa": ["b", "ɜ", "r", "d"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_03",
+      "text": "He can run fast.",
+      "difficulty": 1,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "He",
+          "expected_ipa": ["h", "i"]
+        },
+        {
+          "word": "can",
+          "expected_ipa": ["k", "æ", "n"]
+        },
+        {
+          "word": "run",
+          "expected_ipa": ["r", "ʌ", "n"]
+        },
+        {
+          "word": "fast",
+          "expected_ipa": ["f", "æ", "s", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_04",
+      "text": "We play with toys.",
+      "difficulty": 1,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "We",
+          "expected_ipa": ["w", "i"]
+        },
+        {
+          "word": "play",
+          "expected_ipa": ["p", "l", "eɪ"]
+        },
+        {
+          "word": "with",
+          "expected_ipa": ["w", "ɪ", "ð"]
+        },
+        {
+          "word": "toys",
+          "expected_ipa": ["t", "ɔɪ", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_05",
+      "text": "They eat hot food.",
+      "difficulty": 1,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "They",
+          "expected_ipa": ["ð", "eɪ"]
+        },
+        {
+          "word": "eat",
+          "expected_ipa": ["i", "t"]
+        },
+        {
+          "word": "hot",
+          "expected_ipa": ["h", "ɑ", "t"]
+        },
+        {
+          "word": "food",
+          "expected_ipa": ["f", "u", "d"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_06",
+      "text": "My cat is black.",
+      "difficulty": 1,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "My",
+          "expected_ipa": ["m", "aɪ"]
+        },
+        {
+          "word": "cat",
+          "expected_ipa": ["k", "æ", "t"]
+        },
+        {
+          "word": "is",
+          "expected_ipa": ["ɪ", "z"]
+        },
+        {
+          "word": "black",
+          "expected_ipa": ["b", "l", "æ", "k"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_07",
+      "text": "The sun shines bright.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "The",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "sun",
+          "expected_ipa": ["s", "ʌ", "n"]
+        },
+        {
+          "word": "shines",
+          "expected_ipa": ["ʃ", "aɪ", "n", "z"]
+        },
+        {
+          "word": "bright",
+          "expected_ipa": ["b", "r", "aɪ", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_08",
+      "text": "Jump up and down.",
+      "difficulty": 1,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Jump",
+          "expected_ipa": ["dʒ", "ʌ", "m", "p"]
+        },
+        {
+          "word": "up",
+          "expected_ipa": ["ʌ", "p"]
+        },
+        {
+          "word": "and",
+          "expected_ipa": ["æ", "n", "d"]
+        },
+        {
+          "word": "down",
+          "expected_ipa": ["d", "aʊ", "n"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_09",
+      "text": "Read this big book.",
+      "difficulty": 1,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Read",
+          "expected_ipa": ["r", "i", "d"]
+        },
+        {
+          "word": "this",
+          "expected_ipa": ["ð", "ɪ", "s"]
+        },
+        {
+          "word": "big",
+          "expected_ipa": ["b", "ɪ", "g"]
+        },
+        {
+          "word": "book",
+          "expected_ipa": ["b", "ʊ", "k"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_10",
+      "text": "Drink some cold water.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Drink",
+          "expected_ipa": ["d", "r", "ɪ", "ŋ", "k"]
+        },
+        {
+          "word": "some",
+          "expected_ipa": ["s", "ʌ", "m"]
+        },
+        {
+          "word": "cold",
+          "expected_ipa": ["k", "oʊ", "l", "d"]
+        },
+        {
+          "word": "water",
+          "expected_ipa": ["w", "ɔ", "t", "ər"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_11",
+      "text": "Please close the door.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Please",
+          "expected_ipa": ["p", "l", "i", "z"]
+        },
+        {
+          "word": "close",
+          "expected_ipa": ["k", "l", "oʊ", "z"]
+        },
+        {
+          "word": "the",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "door",
+          "expected_ipa": ["d", "ɔ", "r"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_12",
+      "text": "Open your blue eyes.",
+      "difficulty": 1,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Open",
+          "expected_ipa": ["oʊ", "p", "ə", "n"]
+        },
+        {
+          "word": "your",
+          "expected_ipa": ["j", "ɔ", "r"]
+        },
+        {
+          "word": "blue",
+          "expected_ipa": ["b", "l", "u"]
+        },
+        {
+          "word": "eyes",
+          "expected_ipa": ["aɪ", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_13",
+      "text": "Sing a happy song.",
+      "difficulty": 1,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Sing",
+          "expected_ipa": ["s", "ɪ", "ŋ"]
+        },
+        {
+          "word": "a",
+          "expected_ipa": ["ə"]
+        },
+        {
+          "word": "happy",
+          "expected_ipa": ["h", "æ", "p", "i"]
+        },
+        {
+          "word": "song",
+          "expected_ipa": ["s", "ɔ", "ŋ"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_14",
+      "text": "Walk to the store.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Walk",
+          "expected_ipa": ["w", "ɔ", "k"]
+        },
+        {
+          "word": "to",
+          "expected_ipa": ["t", "u"]
+        },
+        {
+          "word": "the",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "store",
+          "expected_ipa": ["s", "t", "ɔ", "r"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_15",
+      "text": "Talk about your day.",
+      "difficulty": 1,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Talk",
+          "expected_ipa": ["t", "ɔ", "k"]
+        },
+        {
+          "word": "about",
+          "expected_ipa": ["ə", "b", "aʊ", "t"]
+        },
+        {
+          "word": "your",
+          "expected_ipa": ["j", "ɔ", "r"]
+        },
+        {
+          "word": "day",
+          "expected_ipa": ["d", "eɪ"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_16",
+      "text": "The green grass grows.",
+      "difficulty": 3,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "The",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "green",
+          "expected_ipa": ["g", "r", "i", "n"]
+        },
+        {
+          "word": "grass",
+          "expected_ipa": ["g", "r", "æ", "s"]
+        },
+        {
+          "word": "grows",
+          "expected_ipa": ["g", "r", "oʊ", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_17",
+      "text": "Small snails slowly slide.",
+      "difficulty": 3,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Small",
+          "expected_ipa": ["s", "m", "ɔ", "l"]
+        },
+        {
+          "word": "snails",
+          "expected_ipa": ["s", "n", "eɪ", "l", "z"]
+        },
+        {
+          "word": "slowly",
+          "expected_ipa": ["s", "l", "oʊ", "l", "i"]
+        },
+        {
+          "word": "slide",
+          "expected_ipa": ["s", "l", "aɪ", "d"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_18",
+      "text": "Fresh fruit tastes great.",
+      "difficulty": 3,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Fresh",
+          "expected_ipa": ["f", "r", "ɛ", "ʃ"]
+        },
+        {
+          "word": "fruit",
+          "expected_ipa": ["f", "r", "u", "t"]
+        },
+        {
+          "word": "tastes",
+          "expected_ipa": ["t", "eɪ", "s", "t", "s"]
+        },
+        {
+          "word": "great",
+          "expected_ipa": ["g", "r", "eɪ", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_19",
+      "text": "Bright blue birds fly.",
+      "difficulty": 3,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Bright",
+          "expected_ipa": ["b", "r", "aɪ", "t"]
+        },
+        {
+          "word": "blue",
+          "expected_ipa": ["b", "l", "u"]
+        },
+        {
+          "word": "birds",
+          "expected_ipa": ["b", "ɜ", "r", "d", "z"]
+        },
+        {
+          "word": "fly",
+          "expected_ipa": ["f", "l", "aɪ"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_20",
+      "text": "Clean clothes smell fresh.",
+      "difficulty": 3,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Clean",
+          "expected_ipa": ["k", "l", "i", "n"]
+        },
+        {
+          "word": "clothes",
+          "expected_ipa": ["k", "l", "oʊ", "ð", "z"]
+        },
+        {
+          "word": "smell",
+          "expected_ipa": ["s", "m", "ɛ", "l"]
+        },
+        {
+          "word": "fresh",
+          "expected_ipa": ["f", "r", "ɛ", "ʃ"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_21",
+      "text": "She sells seashells.",
+      "difficulty": 3,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "She",
+          "expected_ipa": ["ʃ", "i"]
+        },
+        {
+          "word": "sells",
+          "expected_ipa": ["s", "ɛ", "l", "z"]
+        },
+        {
+          "word": "seashells",
+          "expected_ipa": ["s", "i", "ʃ", "ɛ", "l", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_22",
+      "text": "Peter Piper picked.",
+      "difficulty": 3,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Peter",
+          "expected_ipa": ["p", "i", "t", "ər"]
+        },
+        {
+          "word": "Piper",
+          "expected_ipa": ["p", "aɪ", "p", "ər"]
+        },
+        {
+          "word": "picked",
+          "expected_ipa": ["p", "ɪ", "k", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_23",
+      "text": "Fuzzy wuzzy was.",
+      "difficulty": 3,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Fuzzy",
+          "expected_ipa": ["f", "ʌ", "z", "i"]
+        },
+        {
+          "word": "wuzzy",
+          "expected_ipa": ["w", "ʌ", "z", "i"]
+        },
+        {
+          "word": "was",
+          "expected_ipa": ["w", "ʌ", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_24",
+      "text": "Six slick seals.",
+      "difficulty": 3,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Six",
+          "expected_ipa": ["s", "ɪ", "k", "s"]
+        },
+        {
+          "word": "slick",
+          "expected_ipa": ["s", "l", "ɪ", "k"]
+        },
+        {
+          "word": "seals",
+          "expected_ipa": ["s", "i", "l", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_25",
+      "text": "Truly rural truly.",
+      "difficulty": 3,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Truly",
+          "expected_ipa": ["t", "r", "u", "l", "i"]
+        },
+        {
+          "word": "rural",
+          "expected_ipa": ["r", "ʊ", "r", "ə", "l"]
+        },
+        {
+          "word": "truly",
+          "expected_ipa": ["t", "r", "u", "l", "i"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_26",
+      "text": "The big brown bear.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "The",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "big",
+          "expected_ipa": ["b", "ɪ", "g"]
+        },
+        {
+          "word": "brown",
+          "expected_ipa": ["b", "r", "aʊ", "n"]
+        },
+        {
+          "word": "bear",
+          "expected_ipa": ["b", "ɛ", "r"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_27",
+      "text": "A proper copper coffee.",
+      "difficulty": 3,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "A",
+          "expected_ipa": ["ə"]
+        },
+        {
+          "word": "proper",
+          "expected_ipa": ["p", "r", "ɑ", "p", "ər"]
+        },
+        {
+          "word": "copper",
+          "expected_ipa": ["k", "ɑ", "p", "ər"]
+        },
+        {
+          "word": "coffee",
+          "expected_ipa": ["k", "ɑ", "f", "i"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_28",
+      "text": "Unique New York.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Unique",
+          "expected_ipa": ["j", "u", "n", "i", "k"]
+        },
+        {
+          "word": "New",
+          "expected_ipa": ["n", "u"]
+        },
+        {
+          "word": "York",
+          "expected_ipa": ["j", "ɔ", "r", "k"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_29",
+      "text": "Red lorry, yellow lorry.",
+      "difficulty": 3,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Red",
+          "expected_ipa": ["r", "ɛ", "d"]
+        },
+        {
+          "word": "lorry",
+          "expected_ipa": ["l", "ɔ", "r", "i"]
+        },
+        {
+          "word": "yellow",
+          "expected_ipa": ["j", "ɛ", "l", "oʊ"]
+        },
+        {
+          "word": "lorry",
+          "expected_ipa": ["l", "ɔ", "r", "i"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_30",
+      "text": "Black bugs blood.",
+      "difficulty": 3,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Black",
+          "expected_ipa": ["b", "l", "æ", "k"]
+        },
+        {
+          "word": "bugs",
+          "expected_ipa": ["b", "ʌ", "g", "z"]
+        },
+        {
+          "word": "blood",
+          "expected_ipa": ["b", "l", "ʌ", "d"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_31",
+      "text": "I like ice cream.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "I",
+          "expected_ipa": ["aɪ"]
+        },
+        {
+          "word": "like",
+          "expected_ipa": ["l", "aɪ", "k"]
+        },
+        {
+          "word": "ice",
+          "expected_ipa": ["aɪ", "s"]
+        },
+        {
+          "word": "cream",
+          "expected_ipa": ["k", "r", "i", "m"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_32",
+      "text": "He saw a ghost.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "He",
+          "expected_ipa": ["h", "i"]
+        },
+        {
+          "word": "saw",
+          "expected_ipa": ["s", "ɔ"]
+        },
+        {
+          "word": "a",
+          "expected_ipa": ["ə"]
+        },
+        {
+          "word": "ghost",
+          "expected_ipa": ["g", "oʊ", "s", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_33",
+      "text": "The dog ran fast.",
+      "difficulty": 1,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "The",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "dog",
+          "expected_ipa": ["d", "ɔ", "g"]
+        },
+        {
+          "word": "ran",
+          "expected_ipa": ["r", "æ", "n"]
+        },
+        {
+          "word": "fast",
+          "expected_ipa": ["f", "æ", "s", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_34",
+      "text": "Three free throws.",
+      "difficulty": 3,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Three",
+          "expected_ipa": ["θ", "r", "i"]
+        },
+        {
+          "word": "free",
+          "expected_ipa": ["f", "r", "i"]
+        },
+        {
+          "word": "throws",
+          "expected_ipa": ["θ", "r", "oʊ", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_35",
+      "text": "Strict strong strings.",
+      "difficulty": 3,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Strict",
+          "expected_ipa": ["s", "t", "r", "ɪ", "k", "t"]
+        },
+        {
+          "word": "strong",
+          "expected_ipa": ["s", "t", "r", "ɔ", "ŋ"]
+        },
+        {
+          "word": "strings",
+          "expected_ipa": ["s", "t", "r", "ɪ", "ŋ", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_36",
+      "text": "Crisp crusts crackle.",
+      "difficulty": 3,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Crisp",
+          "expected_ipa": ["k", "r", "ɪ", "s", "p"]
+        },
+        {
+          "word": "crusts",
+          "expected_ipa": ["k", "r", "ʌ", "s", "t", "s"]
+        },
+        {
+          "word": "crackle",
+          "expected_ipa": ["k", "r", "æ", "k", "ə", "l"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_37",
+      "text": "The sixth sick sheik's.",
+      "difficulty": 3,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "The",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "sixth",
+          "expected_ipa": ["s", "ɪ", "k", "s", "θ"]
+        },
+        {
+          "word": "sick",
+          "expected_ipa": ["s", "ɪ", "k"]
+        },
+        {
+          "word": "sheik's",
+          "expected_ipa": ["ʃ", "i", "k", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_38",
+      "text": "Many men make money.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Many",
+          "expected_ipa": ["m", "ɛ", "n", "i"]
+        },
+        {
+          "word": "men",
+          "expected_ipa": ["m", "ɛ", "n"]
+        },
+        {
+          "word": "make",
+          "expected_ipa": ["m", "eɪ", "k"]
+        },
+        {
+          "word": "money",
+          "expected_ipa": ["m", "ʌ", "n", "i"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_39",
+      "text": "Round brown bread.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Round",
+          "expected_ipa": ["r", "aʊ", "n", "d"]
+        },
+        {
+          "word": "brown",
+          "expected_ipa": ["b", "r", "aʊ", "n"]
+        },
+        {
+          "word": "bread",
+          "expected_ipa": ["b", "r", "ɛ", "d"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_40",
+      "text": "A big black bug.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "A",
+          "expected_ipa": ["ə"]
+        },
+        {
+          "word": "big",
+          "expected_ipa": ["b", "ɪ", "g"]
+        },
+        {
+          "word": "black",
+          "expected_ipa": ["b", "l", "æ", "k"]
+        },
+        {
+          "word": "bug",
+          "expected_ipa": ["b", "ʌ", "g"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_41",
+      "text": "I scream, you scream.",
+      "difficulty": 3,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "I",
+          "expected_ipa": ["aɪ"]
+        },
+        {
+          "word": "scream",
+          "expected_ipa": ["s", "k", "r", "i", "m"]
+        },
+        {
+          "word": "you",
+          "expected_ipa": ["j", "u"]
+        },
+        {
+          "word": "scream",
+          "expected_ipa": ["s", "k", "r", "i", "m"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_42",
+      "text": "We need more wood.",
+      "difficulty": 1,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "We",
+          "expected_ipa": ["w", "i"]
+        },
+        {
+          "word": "need",
+          "expected_ipa": ["n", "i", "d"]
+        },
+        {
+          "word": "more",
+          "expected_ipa": ["m", "ɔ", "r"]
+        },
+        {
+          "word": "wood",
+          "expected_ipa": ["w", "ʊ", "d"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_43",
+      "text": "He ate eight apples.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "He",
+          "expected_ipa": ["h", "i"]
+        },
+        {
+          "word": "ate",
+          "expected_ipa": ["eɪ", "t"]
+        },
+        {
+          "word": "eight",
+          "expected_ipa": ["eɪ", "t"]
+        },
+        {
+          "word": "apples",
+          "expected_ipa": ["æ", "p", "ə", "l", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_44",
+      "text": "She sells shiny shoes.",
+      "difficulty": 3,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "She",
+          "expected_ipa": ["ʃ", "i"]
+        },
+        {
+          "word": "sells",
+          "expected_ipa": ["s", "ɛ", "l", "z"]
+        },
+        {
+          "word": "shiny",
+          "expected_ipa": ["ʃ", "aɪ", "n", "i"]
+        },
+        {
+          "word": "shoes",
+          "expected_ipa": ["ʃ", "u", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_rep_45",
+      "text": "The quick brown fox.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "english",
+      "targets": [
+        {
+          "word": "The",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "quick",
+          "expected_ipa": ["k", "w", "ɪ", "k"]
+        },
+        {
+          "word": "brown",
+          "expected_ipa": ["b", "r", "aʊ", "n"]
+        },
+        {
+          "word": "fox",
+          "expected_ipa": ["f", "ɑ", "k", "s"]
+        }
+      ]
+    }
+  ]
+}

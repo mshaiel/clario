@@ -1,0 +1,951 @@
+{
+  "test_type": "cluster_reduction",
+  "description": "Short English sentences to detect cluster_reduction.",
+  "sentences": [
+    {
+      "id": "en_clu_01",
+      "text": "Stop the train.",
+      "difficulty": 1,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Stop",
+          "expected_ipa": ["s", "t", "ɑ", "p"]
+        },
+        {
+          "word": "the",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "train",
+          "expected_ipa": ["t", "ɹ", "eɪ", "n"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_02",
+      "text": "Small frogs jump.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Small",
+          "expected_ipa": ["s", "m", "ɔ", "l"]
+        },
+        {
+          "word": "frogs",
+          "expected_ipa": ["f", "ɹ", "ɑ", "g", "z"]
+        },
+        {
+          "word": "jump",
+          "expected_ipa": ["d͡ʒ", "ʌ", "m", "p"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_03",
+      "text": "She plays sports.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "She",
+          "expected_ipa": ["ʃ", "i"]
+        },
+        {
+          "word": "plays",
+          "expected_ipa": ["p", "l", "eɪ", "z"]
+        },
+        {
+          "word": "sports",
+          "expected_ipa": ["s", "p", "ɔ", "ɹ", "t", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_04",
+      "text": "Spin the string.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Spin",
+          "expected_ipa": ["s", "p", "ɪ", "n"]
+        },
+        {
+          "word": "the",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "string",
+          "expected_ipa": ["s", "t", "ɹ", "ɪ", "ŋ"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_05",
+      "text": "Strong winds blow.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Strong",
+          "expected_ipa": ["s", "t", "ɹ", "ɑ", "ŋ"]
+        },
+        {
+          "word": "winds",
+          "expected_ipa": ["w", "ɪ", "n", "d", "z"]
+        },
+        {
+          "word": "blow",
+          "expected_ipa": ["b", "l", "oʊ"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_06",
+      "text": "Splash the spray.",
+      "difficulty": 3,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Splash",
+          "expected_ipa": ["s", "p", "l", "æ", "ʃ"]
+        },
+        {
+          "word": "the",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "spray",
+          "expected_ipa": ["s", "p", "ɹ", "eɪ"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_07",
+      "text": "Scrub the street.",
+      "difficulty": 3,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Scrub",
+          "expected_ipa": ["s", "k", "ɹ", "ʌ", "b"]
+        },
+        {
+          "word": "the",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "street",
+          "expected_ipa": ["s", "t", "ɹ", "i", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_08",
+      "text": "He skips school.",
+      "difficulty": 1,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "He",
+          "expected_ipa": ["h", "i"]
+        },
+        {
+          "word": "skips",
+          "expected_ipa": ["s", "k", "ɪ", "p", "s"]
+        },
+        {
+          "word": "school",
+          "expected_ipa": ["s", "k", "u", "l"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_09",
+      "text": "They sleep soundly.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "They",
+          "expected_ipa": ["ð", "eɪ"]
+        },
+        {
+          "word": "sleep",
+          "expected_ipa": ["s", "l", "i", "p"]
+        },
+        {
+          "word": "soundly",
+          "expected_ipa": ["s", "aʊ", "n", "d", "l", "i"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_10",
+      "text": "Blue flags wave.",
+      "difficulty": 1,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Blue",
+          "expected_ipa": ["b", "l", "u"]
+        },
+        {
+          "word": "flags",
+          "expected_ipa": ["f", "l", "æ", "g", "z"]
+        },
+        {
+          "word": "wave",
+          "expected_ipa": ["w", "eɪ", "v"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_11",
+      "text": "Clean plates shine.",
+      "difficulty": 1,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Clean",
+          "expected_ipa": ["k", "l", "i", "n"]
+        },
+        {
+          "word": "plates",
+          "expected_ipa": ["p", "l", "eɪ", "t", "s"]
+        },
+        {
+          "word": "shine",
+          "expected_ipa": ["ʃ", "aɪ", "n"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_12",
+      "text": "Gladly play games.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Gladly",
+          "expected_ipa": ["g", "l", "æ", "d", "l", "i"]
+        },
+        {
+          "word": "play",
+          "expected_ipa": ["p", "l", "eɪ"]
+        },
+        {
+          "word": "games",
+          "expected_ipa": ["g", "eɪ", "m", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_13",
+      "text": "Please bring plums.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Please",
+          "expected_ipa": ["p", "l", "i", "z"]
+        },
+        {
+          "word": "bring",
+          "expected_ipa": ["b", "ɹ", "ɪ", "ŋ"]
+        },
+        {
+          "word": "plums",
+          "expected_ipa": ["p", "l", "ʌ", "m", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_14",
+      "text": "Fluffy clouds float.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Fluffy",
+          "expected_ipa": ["f", "l", "ʌ", "f", "i"]
+        },
+        {
+          "word": "clouds",
+          "expected_ipa": ["k", "l", "aʊ", "d", "z"]
+        },
+        {
+          "word": "float",
+          "expected_ipa": ["f", "l", "oʊ", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_15",
+      "text": "Brown frogs croak.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Brown",
+          "expected_ipa": ["b", "ɹ", "aʊ", "n"]
+        },
+        {
+          "word": "frogs",
+          "expected_ipa": ["f", "ɹ", "ɑ", "g", "z"]
+        },
+        {
+          "word": "croak",
+          "expected_ipa": ["k", "ɹ", "oʊ", "k"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_16",
+      "text": "Drink fresh milk.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Drink",
+          "expected_ipa": ["d", "ɹ", "ɪ", "ŋ", "k"]
+        },
+        {
+          "word": "fresh",
+          "expected_ipa": ["f", "ɹ", "ɛ", "ʃ"]
+        },
+        {
+          "word": "milk",
+          "expected_ipa": ["m", "ɪ", "l", "k"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_17",
+      "text": "Great crabs crawl.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Great",
+          "expected_ipa": ["g", "ɹ", "eɪ", "t"]
+        },
+        {
+          "word": "crabs",
+          "expected_ipa": ["k", "ɹ", "æ", "b", "z"]
+        },
+        {
+          "word": "crawl",
+          "expected_ipa": ["k", "ɹ", "ɔ", "l"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_18",
+      "text": "Pretty flowers grow.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Pretty",
+          "expected_ipa": ["p", "ɹ", "ɪ", "t", "i"]
+        },
+        {
+          "word": "flowers",
+          "expected_ipa": ["f", "l", "aʊ", "ɚ", "z"]
+        },
+        {
+          "word": "grow",
+          "expected_ipa": ["g", "ɹ", "oʊ"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_19",
+      "text": "Try three tricks.",
+      "difficulty": 3,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Try",
+          "expected_ipa": ["t", "ɹ", "aɪ"]
+        },
+        {
+          "word": "three",
+          "expected_ipa": ["θ", "ɹ", "i"]
+        },
+        {
+          "word": "tricks",
+          "expected_ipa": ["t", "ɹ", "ɪ", "k", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_20",
+      "text": "Shrimp are great.",
+      "difficulty": 3,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Shrimp",
+          "expected_ipa": ["ʃ", "ɹ", "ɪ", "m", "p"]
+        },
+        {
+          "word": "are",
+          "expected_ipa": ["ɑ", "ɹ"]
+        },
+        {
+          "word": "great",
+          "expected_ipa": ["g", "ɹ", "eɪ", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_21",
+      "text": "He felt cold.",
+      "difficulty": 1,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "He",
+          "expected_ipa": ["h", "i"]
+        },
+        {
+          "word": "felt",
+          "expected_ipa": ["f", "ɛ", "l", "t"]
+        },
+        {
+          "word": "cold",
+          "expected_ipa": ["k", "oʊ", "l", "d"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_22",
+      "text": "She wants help.",
+      "difficulty": 1,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "She",
+          "expected_ipa": ["ʃ", "i"]
+        },
+        {
+          "word": "wants",
+          "expected_ipa": ["w", "ɑ", "n", "t", "s"]
+        },
+        {
+          "word": "help",
+          "expected_ipa": ["h", "ɛ", "l", "p"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_23",
+      "text": "They built forts.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "They",
+          "expected_ipa": ["ð", "eɪ"]
+        },
+        {
+          "word": "built",
+          "expected_ipa": ["b", "ɪ", "l", "t"]
+        },
+        {
+          "word": "forts",
+          "expected_ipa": ["f", "ɔ", "ɹ", "t", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_24",
+      "text": "We must jump.",
+      "difficulty": 1,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "We",
+          "expected_ipa": ["w", "i"]
+        },
+        {
+          "word": "must",
+          "expected_ipa": ["m", "ʌ", "s", "t"]
+        },
+        {
+          "word": "jump",
+          "expected_ipa": ["d͡ʒ", "ʌ", "m", "p"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_25",
+      "text": "The child slept.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "The",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "child",
+          "expected_ipa": ["t͡ʃ", "aɪ", "l", "d"]
+        },
+        {
+          "word": "slept",
+          "expected_ipa": ["s", "l", "ɛ", "p", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_26",
+      "text": "He counts plants.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "He",
+          "expected_ipa": ["h", "i"]
+        },
+        {
+          "word": "counts",
+          "expected_ipa": ["k", "aʊ", "n", "t", "s"]
+        },
+        {
+          "word": "plants",
+          "expected_ipa": ["p", "l", "æ", "n", "t", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_27",
+      "text": "The sixth month.",
+      "difficulty": 3,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "The",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "sixth",
+          "expected_ipa": ["s", "ɪ", "k", "s", "θ"]
+        },
+        {
+          "word": "month",
+          "expected_ipa": ["m", "ʌ", "n", "θ"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_28",
+      "text": "He helped prompt.",
+      "difficulty": 3,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "He",
+          "expected_ipa": ["h", "i"]
+        },
+        {
+          "word": "helped",
+          "expected_ipa": ["h", "ɛ", "l", "p", "t"]
+        },
+        {
+          "word": "prompt",
+          "expected_ipa": ["p", "ɹ", "ɑ", "m", "p", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_29",
+      "text": "She thinks fast.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "She",
+          "expected_ipa": ["ʃ", "i"]
+        },
+        {
+          "word": "thinks",
+          "expected_ipa": ["θ", "ɪ", "ŋ", "k", "s"]
+        },
+        {
+          "word": "fast",
+          "expected_ipa": ["f", "æ", "s", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_30",
+      "text": "He wants gifts.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "He",
+          "expected_ipa": ["h", "i"]
+        },
+        {
+          "word": "wants",
+          "expected_ipa": ["w", "ɑ", "n", "t", "s"]
+        },
+        {
+          "word": "gifts",
+          "expected_ipa": ["g", "ɪ", "f", "t", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_31",
+      "text": "Bright stars shine.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Bright",
+          "expected_ipa": ["b", "ɹ", "aɪ", "t"]
+        },
+        {
+          "word": "stars",
+          "expected_ipa": ["s", "t", "ɑ", "ɹ", "z"]
+        },
+        {
+          "word": "shine",
+          "expected_ipa": ["ʃ", "aɪ", "n"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_32",
+      "text": "Clean clothes dry.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Clean",
+          "expected_ipa": ["k", "l", "i", "n"]
+        },
+        {
+          "word": "clothes",
+          "expected_ipa": ["k", "l", "oʊ", "ð", "z"]
+        },
+        {
+          "word": "dry",
+          "expected_ipa": ["d", "ɹ", "aɪ"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_33",
+      "text": "Grand plans work.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Grand",
+          "expected_ipa": ["g", "ɹ", "æ", "n", "d"]
+        },
+        {
+          "word": "plans",
+          "expected_ipa": ["p", "l", "æ", "n", "z"]
+        },
+        {
+          "word": "work",
+          "expected_ipa": ["w", "ɝ", "k"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_34",
+      "text": "They spread crumbs.",
+      "difficulty": 3,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "They",
+          "expected_ipa": ["ð", "eɪ"]
+        },
+        {
+          "word": "spread",
+          "expected_ipa": ["s", "p", "ɹ", "ɛ", "d"]
+        },
+        {
+          "word": "crumbs",
+          "expected_ipa": ["k", "ɹ", "ʌ", "m", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_35",
+      "text": "Fresh fruits taste.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Fresh",
+          "expected_ipa": ["f", "ɹ", "ɛ", "ʃ"]
+        },
+        {
+          "word": "fruits",
+          "expected_ipa": ["f", "ɹ", "u", "t", "s"]
+        },
+        {
+          "word": "taste",
+          "expected_ipa": ["t", "eɪ", "s", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_36",
+      "text": "Please bring bread.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Please",
+          "expected_ipa": ["p", "l", "i", "z"]
+        },
+        {
+          "word": "bring",
+          "expected_ipa": ["b", "ɹ", "ɪ", "ŋ"]
+        },
+        {
+          "word": "bread",
+          "expected_ipa": ["b", "ɹ", "ɛ", "d"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_37",
+      "text": "Small plants grow.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Small",
+          "expected_ipa": ["s", "m", "ɔ", "l"]
+        },
+        {
+          "word": "plants",
+          "expected_ipa": ["p", "l", "æ", "n", "t", "s"]
+        },
+        {
+          "word": "grow",
+          "expected_ipa": ["g", "ɹ", "oʊ"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_38",
+      "text": "The strong branch.",
+      "difficulty": 3,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "The",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "strong",
+          "expected_ipa": ["s", "t", "ɹ", "ɑ", "ŋ"]
+        },
+        {
+          "word": "branch",
+          "expected_ipa": ["b", "ɹ", "æ", "n", "t͡ʃ"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_39",
+      "text": "Crisp green grapes.",
+      "difficulty": 3,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Crisp",
+          "expected_ipa": ["k", "ɹ", "ɪ", "s", "p"]
+        },
+        {
+          "word": "green",
+          "expected_ipa": ["g", "ɹ", "i", "n"]
+        },
+        {
+          "word": "grapes",
+          "expected_ipa": ["g", "ɹ", "eɪ", "p", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_40",
+      "text": "Twelve black swans.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Twelve",
+          "expected_ipa": ["t", "w", "ɛ", "l", "v"]
+        },
+        {
+          "word": "black",
+          "expected_ipa": ["b", "l", "æ", "k"]
+        },
+        {
+          "word": "swans",
+          "expected_ipa": ["s", "w", "ɑ", "n", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_41",
+      "text": "She drinks water.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "She",
+          "expected_ipa": ["ʃ", "i"]
+        },
+        {
+          "word": "drinks",
+          "expected_ipa": ["d", "ɹ", "ɪ", "ŋ", "k", "s"]
+        },
+        {
+          "word": "water",
+          "expected_ipa": ["w", "ɑ", "t", "ɚ"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_42",
+      "text": "They play drums.",
+      "difficulty": 1,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "They",
+          "expected_ipa": ["ð", "eɪ"]
+        },
+        {
+          "word": "play",
+          "expected_ipa": ["p", "l", "eɪ"]
+        },
+        {
+          "word": "drums",
+          "expected_ipa": ["d", "ɹ", "ʌ", "m", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_43",
+      "text": "He grabs sticks.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "He",
+          "expected_ipa": ["h", "i"]
+        },
+        {
+          "word": "grabs",
+          "expected_ipa": ["g", "ɹ", "æ", "b", "z"]
+        },
+        {
+          "word": "sticks",
+          "expected_ipa": ["s", "t", "ɪ", "k", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_44",
+      "text": "The brave knight.",
+      "difficulty": 1,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "The",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "brave",
+          "expected_ipa": ["b", "ɹ", "eɪ", "v"]
+        },
+        {
+          "word": "knight",
+          "expected_ipa": ["n", "aɪ", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_clu_45",
+      "text": "Clean the floor.",
+      "difficulty": 1,
+      "test_type": "cluster_reduction",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Clean",
+          "expected_ipa": ["k", "l", "i", "n"]
+        },
+        {
+          "word": "the",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "floor",
+          "expected_ipa": ["f", "l", "ɔ", "ɹ"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    function isTherapist() {
+      return isAuthenticated() &&
+        exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+        get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'therapist';
+    }
+
+    function isAssignedTherapist(userId) {
+      return isTherapist() && (
+        request.auth.uid in get(/databases/$(database)/documents/users/$(userId)).data.assigned_therapists
+      );
+    }
+
+    // -------------------------------------------------------------------------
+    // User Profiles & Progress Documents
+    // -------------------------------------------------------------------------
+    match /users/{userId} {
+      // Patients can read and update their own profile.
+      // Assigned therapists can read patient profiles.
+      allow read: if isOwner(userId) || isAssignedTherapist(userId);
+      allow create: if isAuthenticated() && request.auth.uid == userId;
+      allow update: if isOwner(userId);
+      allow delete: if false; // Soft deletes preferred for clinical compliance
+
+      // User assessment progress and session logs
+      match /assessment_progress/{moduleId} {
+        allow read: if isOwner(userId) || isAssignedTherapist(userId);
+        allow write: if isOwner(userId);
+      }
+
+      // Assessment plans generated for the user
+      match /assessment_plans/{planId} {
+        allow read: if isOwner(userId) || isAssignedTherapist(userId);
+        allow write: if isOwner(userId);
+      }
+
+      // Language-scoped gamification stats and achievements
+      match /{gamificationDoc=gamification_*} {
+        allow read: if isOwner(userId);
+        allow write: if isOwner(userId);
+
+        match /stats {
+          allow read: if isOwner(userId);
+          allow write: if isOwner(userId);
+        }
+
+        match /badges {
+          allow read: if isOwner(userId);
+          allow write: if isOwner(userId);
+        }
+      }
+
+      // Validated error logs
+      match /validated_errors/{errorId} {
+        allow read: if isOwner(userId) || isAssignedTherapist(userId);
+        allow write: if isOwner(userId);
+      }
+    }
+
+    // -------------------------------------------------------------------------
+    // Clinical Sentence Banks (Read-Only Master Data)
+    // -------------------------------------------------------------------------
+    match /sentence_banks/{bankId} {
+      allow read: if isAuthenticated();
+      allow write: if false; // Admin / server SDK only
+    }
+
+    // Default deny for unmapped paths
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

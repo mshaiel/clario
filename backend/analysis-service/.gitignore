@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.pyo
+key.json
+*.env
+.env
+*-key.txt
+*-api-key.txt
+hf-write.txt
+hf-token.txt
+.DS_Store
+Thumbs.db

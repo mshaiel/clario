@@ -1,0 +1,951 @@
+{
+  "test_type": "velar_fronting",
+  "description": "Short English sentences to detect velar_fronting.",
+  "sentences": [
+    {
+      "id": "en_vel_01",
+      "text": "Go get cake.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Go",
+          "expected_ipa": ["g", "oʊ"]
+        },
+        {
+          "word": "get",
+          "expected_ipa": ["g", "ɛ", "t"]
+        },
+        {
+          "word": "cake",
+          "expected_ipa": ["k", "eɪ", "k"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_02",
+      "text": "The cat cooks.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "The",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "cat",
+          "expected_ipa": ["k", "æ", "t"]
+        },
+        {
+          "word": "cooks",
+          "expected_ipa": ["k", "ʊ", "k", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_03",
+      "text": "Big dog barks.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Big",
+          "expected_ipa": ["b", "ɪ", "g"]
+        },
+        {
+          "word": "dog",
+          "expected_ipa": ["d", "ɔ", "g"]
+        },
+        {
+          "word": "barks",
+          "expected_ipa": ["b", "ɑ", "r", "k", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_04",
+      "text": "Kick the ball.",
+      "difficulty": 1,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Kick",
+          "expected_ipa": ["k", "ɪ", "k"]
+        },
+        {
+          "word": "the",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "ball",
+          "expected_ipa": ["b", "ɔ", "l"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_05",
+      "text": "Green grass grows.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Green",
+          "expected_ipa": ["g", "r", "i", "n"]
+        },
+        {
+          "word": "grass",
+          "expected_ipa": ["g", "r", "æ", "s"]
+        },
+        {
+          "word": "grows",
+          "expected_ipa": ["g", "r", "oʊ", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_06",
+      "text": "Look at book.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Look",
+          "expected_ipa": ["l", "ʊ", "k"]
+        },
+        {
+          "word": "at",
+          "expected_ipa": ["æ", "t"]
+        },
+        {
+          "word": "book",
+          "expected_ipa": ["b", "ʊ", "k"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_07",
+      "text": "Give me cookie.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Give",
+          "expected_ipa": ["g", "ɪ", "v"]
+        },
+        {
+          "word": "me",
+          "expected_ipa": ["m", "i"]
+        },
+        {
+          "word": "cookie",
+          "expected_ipa": ["k", "ʊ", "k", "i"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_08",
+      "text": "A quick game.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "A",
+          "expected_ipa": ["ə"]
+        },
+        {
+          "word": "quick",
+          "expected_ipa": ["k", "w", "ɪ", "k"]
+        },
+        {
+          "word": "game",
+          "expected_ipa": ["g", "eɪ", "m"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_09",
+      "text": "The clock ticks.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "The",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "clock",
+          "expected_ipa": ["k", "l", "ɑ", "k"]
+        },
+        {
+          "word": "ticks",
+          "expected_ipa": ["t", "ɪ", "k", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_10",
+      "text": "My pig digs.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "My",
+          "expected_ipa": ["m", "aɪ"]
+        },
+        {
+          "word": "pig",
+          "expected_ipa": ["p", "ɪ", "g"]
+        },
+        {
+          "word": "digs",
+          "expected_ipa": ["d", "ɪ", "g", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_11",
+      "text": "Can you cook?",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Can",
+          "expected_ipa": ["k", "æ", "n"]
+        },
+        {
+          "word": "you",
+          "expected_ipa": ["j", "u"]
+        },
+        {
+          "word": "cook",
+          "expected_ipa": ["k", "ʊ", "k"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_12",
+      "text": "Grab the grapes.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Grab",
+          "expected_ipa": ["g", "r", "æ", "b"]
+        },
+        {
+          "word": "the",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "grapes",
+          "expected_ipa": ["g", "r", "eɪ", "p", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_13",
+      "text": "A good book.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "A",
+          "expected_ipa": ["ə"]
+        },
+        {
+          "word": "good",
+          "expected_ipa": ["g", "ʊ", "d"]
+        },
+        {
+          "word": "book",
+          "expected_ipa": ["b", "ʊ", "k"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_14",
+      "text": "Keep it clean.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Keep",
+          "expected_ipa": ["k", "i", "p"]
+        },
+        {
+          "word": "it",
+          "expected_ipa": ["ɪ", "t"]
+        },
+        {
+          "word": "clean",
+          "expected_ipa": ["k", "l", "i", "n"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_15",
+      "text": "The girl sings.",
+      "difficulty": 1,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "The",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "girl",
+          "expected_ipa": ["g", "ɜ", "r", "l"]
+        },
+        {
+          "word": "sings",
+          "expected_ipa": ["s", "ɪ", "ŋ", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_16",
+      "text": "Pick up rocks.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Pick",
+          "expected_ipa": ["p", "ɪ", "k"]
+        },
+        {
+          "word": "up",
+          "expected_ipa": ["ʌ", "p"]
+        },
+        {
+          "word": "rocks",
+          "expected_ipa": ["r", "ɑ", "k", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_17",
+      "text": "Go to park.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Go",
+          "expected_ipa": ["g", "oʊ"]
+        },
+        {
+          "word": "to",
+          "expected_ipa": ["t", "u"]
+        },
+        {
+          "word": "park",
+          "expected_ipa": ["p", "ɑ", "r", "k"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_18",
+      "text": "A big wagon.",
+      "difficulty": 3,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "A",
+          "expected_ipa": ["ə"]
+        },
+        {
+          "word": "big",
+          "expected_ipa": ["b", "ɪ", "g"]
+        },
+        {
+          "word": "wagon",
+          "expected_ipa": ["w", "æ", "g", "ə", "n"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_19",
+      "text": "The king came.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "The",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "king",
+          "expected_ipa": ["k", "ɪ", "ŋ"]
+        },
+        {
+          "word": "came",
+          "expected_ipa": ["k", "eɪ", "m"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_20",
+      "text": "Drink cold milk.",
+      "difficulty": 3,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Drink",
+          "expected_ipa": ["d", "r", "ɪ", "ŋ", "k"]
+        },
+        {
+          "word": "cold",
+          "expected_ipa": ["k", "oʊ", "l", "d"]
+        },
+        {
+          "word": "milk",
+          "expected_ipa": ["m", "ɪ", "l", "k"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_21",
+      "text": "Get a gift.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Get",
+          "expected_ipa": ["g", "ɛ", "t"]
+        },
+        {
+          "word": "a",
+          "expected_ipa": ["ə"]
+        },
+        {
+          "word": "gift",
+          "expected_ipa": ["g", "ɪ", "f", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_22",
+      "text": "The duck quacks.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "The",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "duck",
+          "expected_ipa": ["d", "ʌ", "k"]
+        },
+        {
+          "word": "quacks",
+          "expected_ipa": ["k", "w", "æ", "k", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_23",
+      "text": "He likes cake.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "He",
+          "expected_ipa": ["h", "i"]
+        },
+        {
+          "word": "likes",
+          "expected_ipa": ["l", "aɪ", "k", "s"]
+        },
+        {
+          "word": "cake",
+          "expected_ipa": ["k", "eɪ", "k"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_24",
+      "text": "A grey goose.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "A",
+          "expected_ipa": ["ə"]
+        },
+        {
+          "word": "grey",
+          "expected_ipa": ["g", "r", "eɪ"]
+        },
+        {
+          "word": "goose",
+          "expected_ipa": ["g", "u", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_25",
+      "text": "Walk to work.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Walk",
+          "expected_ipa": ["w", "ɔ", "k"]
+        },
+        {
+          "word": "to",
+          "expected_ipa": ["t", "u"]
+        },
+        {
+          "word": "work",
+          "expected_ipa": ["w", "ɜ", "r", "k"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_26",
+      "text": "The frog croaks.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "The",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "frog",
+          "expected_ipa": ["f", "r", "ɔ", "g"]
+        },
+        {
+          "word": "croaks",
+          "expected_ipa": ["k", "r", "oʊ", "k", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_27",
+      "text": "I like dogs.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "I",
+          "expected_ipa": ["aɪ"]
+        },
+        {
+          "word": "like",
+          "expected_ipa": ["l", "aɪ", "k"]
+        },
+        {
+          "word": "dogs",
+          "expected_ipa": ["d", "ɔ", "g", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_28",
+      "text": "A big hug.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "A",
+          "expected_ipa": ["ə"]
+        },
+        {
+          "word": "big",
+          "expected_ipa": ["b", "ɪ", "g"]
+        },
+        {
+          "word": "hug",
+          "expected_ipa": ["h", "ʌ", "g"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_29",
+      "text": "Come get gum.",
+      "difficulty": 3,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Come",
+          "expected_ipa": ["k", "ʌ", "m"]
+        },
+        {
+          "word": "get",
+          "expected_ipa": ["g", "ɛ", "t"]
+        },
+        {
+          "word": "gum",
+          "expected_ipa": ["g", "ʌ", "m"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_30",
+      "text": "The car goes.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "The",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "car",
+          "expected_ipa": ["k", "ɑ", "r"]
+        },
+        {
+          "word": "goes",
+          "expected_ipa": ["g", "oʊ", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_31",
+      "text": "Make a cake.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Make",
+          "expected_ipa": ["m", "eɪ", "k"]
+        },
+        {
+          "word": "a",
+          "expected_ipa": ["ə"]
+        },
+        {
+          "word": "cake",
+          "expected_ipa": ["k", "eɪ", "k"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_32",
+      "text": "Give good gifts.",
+      "difficulty": 3,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Give",
+          "expected_ipa": ["g", "ɪ", "v"]
+        },
+        {
+          "word": "good",
+          "expected_ipa": ["g", "ʊ", "d"]
+        },
+        {
+          "word": "gifts",
+          "expected_ipa": ["g", "ɪ", "f", "t", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_33",
+      "text": "The key broke.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "The",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "key",
+          "expected_ipa": ["k", "i"]
+        },
+        {
+          "word": "broke",
+          "expected_ipa": ["b", "r", "oʊ", "k"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_34",
+      "text": "A lucky pick.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "A",
+          "expected_ipa": ["ə"]
+        },
+        {
+          "word": "lucky",
+          "expected_ipa": ["l", "ʌ", "k", "i"]
+        },
+        {
+          "word": "pick",
+          "expected_ipa": ["p", "ɪ", "k"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_35",
+      "text": "Dig big holes.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Dig",
+          "expected_ipa": ["d", "ɪ", "g"]
+        },
+        {
+          "word": "big",
+          "expected_ipa": ["b", "ɪ", "g"]
+        },
+        {
+          "word": "holes",
+          "expected_ipa": ["h", "oʊ", "l", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_36",
+      "text": "The cup fell.",
+      "difficulty": 1,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "The",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "cup",
+          "expected_ipa": ["k", "ʌ", "p"]
+        },
+        {
+          "word": "fell",
+          "expected_ipa": ["f", "ɛ", "l"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_37",
+      "text": "Grab the glue.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Grab",
+          "expected_ipa": ["g", "r", "æ", "b"]
+        },
+        {
+          "word": "the",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "glue",
+          "expected_ipa": ["g", "l", "u"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_38",
+      "text": "A black cat.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "A",
+          "expected_ipa": ["ə"]
+        },
+        {
+          "word": "black",
+          "expected_ipa": ["b", "l", "æ", "k"]
+        },
+        {
+          "word": "cat",
+          "expected_ipa": ["k", "æ", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_39",
+      "text": "The girl giggles.",
+      "difficulty": 3,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "The",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "girl",
+          "expected_ipa": ["g", "ɜ", "r", "l"]
+        },
+        {
+          "word": "giggles",
+          "expected_ipa": ["g", "ɪ", "g", "ə", "l", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_40",
+      "text": "Look at sky.",
+      "difficulty": 1,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Look",
+          "expected_ipa": ["l", "ʊ", "k"]
+        },
+        {
+          "word": "at",
+          "expected_ipa": ["æ", "t"]
+        },
+        {
+          "word": "sky",
+          "expected_ipa": ["s", "k", "aɪ"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_41",
+      "text": "My back aches.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "My",
+          "expected_ipa": ["m", "aɪ"]
+        },
+        {
+          "word": "back",
+          "expected_ipa": ["b", "æ", "k"]
+        },
+        {
+          "word": "aches",
+          "expected_ipa": ["eɪ", "k", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_42",
+      "text": "The green grapes.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "The",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "green",
+          "expected_ipa": ["g", "r", "i", "n"]
+        },
+        {
+          "word": "grapes",
+          "expected_ipa": ["g", "r", "eɪ", "p", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_43",
+      "text": "Quickly go home.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Quickly",
+          "expected_ipa": ["k", "w", "ɪ", "k", "l", "i"]
+        },
+        {
+          "word": "go",
+          "expected_ipa": ["g", "oʊ"]
+        },
+        {
+          "word": "home",
+          "expected_ipa": ["h", "oʊ", "m"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_44",
+      "text": "A big game.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "A",
+          "expected_ipa": ["ə"]
+        },
+        {
+          "word": "big",
+          "expected_ipa": ["b", "ɪ", "g"]
+        },
+        {
+          "word": "game",
+          "expected_ipa": ["g", "eɪ", "m"]
+        }
+      ]
+    },
+    {
+      "id": "en_vel_45",
+      "text": "The clock stopped.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "english",
+      "targets": [
+        {
+          "word": "The",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "clock",
+          "expected_ipa": ["k", "l", "ɑ", "k"]
+        },
+        {
+          "word": "stopped",
+          "expected_ipa": ["s", "t", "ɑ", "p", "t"]
+        }
+      ]
+    }
+  ]
+}

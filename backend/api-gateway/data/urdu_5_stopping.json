@@ -1,0 +1,1096 @@
+{
+  "test_type": "stopping",
+  "description": "Short Urdu sentences to detect stopping.",
+  "sentences": [
+    {
+      "id": "ur_sto_01",
+      "text": "سونا بہت قیمتی ہے۔",
+      "romanized": "Sona bohot qeemti hai.",
+      "difficulty": 1,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "سونا",
+          "expected_ipa": ["soːnaː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["bəɦoːt"]
+        },
+        {
+          "word": "قیمتی",
+          "expected_ipa": ["qiːmtiː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["hɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_02",
+      "text": "یہ سفید رنگ ہے۔",
+      "romanized": "Yeh safed rang hai.",
+      "difficulty": 2,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["jɛh"]
+        },
+        {
+          "word": "سفید",
+          "expected_ipa": ["səfeːd"]
+        },
+        {
+          "word": "رنگ",
+          "expected_ipa": ["rəŋɡ"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["hɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_03",
+      "text": "ہمیشہ سچ بولو۔",
+      "romanized": "Hamesha sach bolo.",
+      "difficulty": 1,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "ہمیشہ",
+          "expected_ipa": ["həmeːʃaː"]
+        },
+        {
+          "word": "سچ",
+          "expected_ipa": ["sətʃ"]
+        },
+        {
+          "word": "بولو۔",
+          "expected_ipa": ["boloː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_04",
+      "text": "اس نے دیکھا۔",
+      "romanized": "Us ne dekha.",
+      "difficulty": 1,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "اس",
+          "expected_ipa": ["ʊs"]
+        },
+        {
+          "word": "نے",
+          "expected_ipa": ["neː"]
+        },
+        {
+          "word": "دیکھا۔",
+          "expected_ipa": ["deːkhaː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_05",
+      "text": "بس یہاں رکو۔",
+      "romanized": "Bas yahan ruko.",
+      "difficulty": 1,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "بس",
+          "expected_ipa": ["bəs"]
+        },
+        {
+          "word": "یہاں",
+          "expected_ipa": ["jəɦaːn"]
+        },
+        {
+          "word": "رکو۔",
+          "expected_ipa": ["rʊkoː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_06",
+      "text": "یہ سبز پودا ہے۔",
+      "romanized": "Yeh sabz pauda hai.",
+      "difficulty": 2,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["jɛh"]
+        },
+        {
+          "word": "سبز",
+          "expected_ipa": ["səbz"]
+        },
+        {
+          "word": "پودا",
+          "expected_ipa": ["poːdaː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["hɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_07",
+      "text": "اپنی زبان سنبھالو۔",
+      "romanized": "Apni zabaan sambhalo.",
+      "difficulty": 1,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "اپنی",
+          "expected_ipa": ["əpniː"]
+        },
+        {
+          "word": "زبان",
+          "expected_ipa": ["zəbaːn"]
+        },
+        {
+          "word": "سنبھالو۔",
+          "expected_ipa": ["səmbɦaːloː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_08",
+      "text": "وہ تیز دوڑا۔",
+      "romanized": "Woh tez daura.",
+      "difficulty": 1,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋoː"]
+        },
+        {
+          "word": "تیز",
+          "expected_ipa": ["teːz"]
+        },
+        {
+          "word": "دوڑا۔",
+          "expected_ipa": ["ɖoːɽaː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_09",
+      "text": "یہ میری میز ہے۔",
+      "romanized": "Yeh meri mez hai.",
+      "difficulty": 1,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["jɛh"]
+        },
+        {
+          "word": "میری",
+          "expected_ipa": ["meːriː"]
+        },
+        {
+          "word": "میز",
+          "expected_ipa": ["meːz"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["hɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_10",
+      "text": "شام ہو گئی ہے۔",
+      "romanized": "Shaam ho gayi hai.",
+      "difficulty": 1,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "شام",
+          "expected_ipa": ["ʃaːm"]
+        },
+        {
+          "word": "ہو",
+          "expected_ipa": ["ɦoː"]
+        },
+        {
+          "word": "گئی",
+          "expected_ipa": ["gəjiː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["hɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_11",
+      "text": "شیر بہت طاقتور ہے۔",
+      "romanized": "Sher bohot taqatwar hai.",
+      "difficulty": 1,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "شیر",
+          "expected_ipa": ["ʃeːr"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["bəɦoːt"]
+        },
+        {
+          "word": "طاقتور",
+          "expected_ipa": ["taːqətʋər"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["hɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_12",
+      "text": "کام شروع کرو۔",
+      "romanized": "Kaam shuru karo.",
+      "difficulty": 1,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "کام",
+          "expected_ipa": ["kaːm"]
+        },
+        {
+          "word": "شروع",
+          "expected_ipa": ["ʃʊruː"]
+        },
+        {
+          "word": "کرو۔",
+          "expected_ipa": ["kəroː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_13",
+      "text": "فرش صاف کرو۔",
+      "romanized": "Farsh saaf karo.",
+      "difficulty": 3,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "فرش",
+          "expected_ipa": ["fərʃ"]
+        },
+        {
+          "word": "صاف",
+          "expected_ipa": ["saːf"]
+        },
+        {
+          "word": "کرو۔",
+          "expected_ipa": ["kəroː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_14",
+      "text": "وہ فورا آیا۔",
+      "romanized": "Woh fauran aaya.",
+      "difficulty": 1,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋoː"]
+        },
+        {
+          "word": "فورا",
+          "expected_ipa": ["fɔːrən"]
+        },
+        {
+          "word": "آیا۔",
+          "expected_ipa": ["aːjaː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_15",
+      "text": "اس نے فیس دی۔",
+      "romanized": "Us ne fees di.",
+      "difficulty": 2,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "اس",
+          "expected_ipa": ["ʊs"]
+        },
+        {
+          "word": "نے",
+          "expected_ipa": ["neː"]
+        },
+        {
+          "word": "فیس",
+          "expected_ipa": ["fiːs"]
+        },
+        {
+          "word": "دی۔",
+          "expected_ipa": ["diː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_16",
+      "text": "یہ خوبصورت پھول ہے۔",
+      "romanized": "Yeh khoobsurat phool hai.",
+      "difficulty": 2,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["jɛh"]
+        },
+        {
+          "word": "خوبصورت",
+          "expected_ipa": ["xuːbsuːrət"]
+        },
+        {
+          "word": "پھول",
+          "expected_ipa": ["phuːl"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["hɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_17",
+      "text": "وہ بہت خوش ہے۔",
+      "romanized": "Woh bohot khush hai.",
+      "difficulty": 2,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋoː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["bəɦoːt"]
+        },
+        {
+          "word": "خوش",
+          "expected_ipa": ["xʊʃ"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["hɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_18",
+      "text": "یہ خاص بات ہے۔",
+      "romanized": "Yeh khaas baat hai.",
+      "difficulty": 2,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["jɛh"]
+        },
+        {
+          "word": "خاص",
+          "expected_ipa": ["xaːs"]
+        },
+        {
+          "word": "بات",
+          "expected_ipa": ["baːt"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["hɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_19",
+      "text": "یہ غلط جواب ہے۔",
+      "romanized": "Yeh ghalat jawab hai.",
+      "difficulty": 1,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["jɛh"]
+        },
+        {
+          "word": "غلط",
+          "expected_ipa": ["ɣələt"]
+        },
+        {
+          "word": "جواب",
+          "expected_ipa": ["dʒəʋaːb"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["hɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_20",
+      "text": "وہ غریب آدمی ہے۔",
+      "romanized": "Woh ghareeb aadmi hai.",
+      "difficulty": 1,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋoː"]
+        },
+        {
+          "word": "غریب",
+          "expected_ipa": ["ɣəriːb"]
+        },
+        {
+          "word": "آدمی",
+          "expected_ipa": ["aːdmiː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["hɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_21",
+      "text": "ہوا چل رہی ہے۔",
+      "romanized": "Hawa chal rahi hai.",
+      "difficulty": 1,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "ہوا",
+          "expected_ipa": ["ɦəʋaː"]
+        },
+        {
+          "word": "چل",
+          "expected_ipa": ["tʃəl"]
+        },
+        {
+          "word": "رہی",
+          "expected_ipa": ["rəɦiː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["hɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_22",
+      "text": "اپنے ہاتھ دھو۔",
+      "romanized": "Apne haath dho.",
+      "difficulty": 1,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "اپنے",
+          "expected_ipa": ["əpneː"]
+        },
+        {
+          "word": "ہاتھ",
+          "expected_ipa": ["ɦaːtʰ"]
+        },
+        {
+          "word": "دھو۔",
+          "expected_ipa": ["dʱoː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_23",
+      "text": "شیشہ ٹوٹ گیا۔",
+      "romanized": "Sheesha toot gaya.",
+      "difficulty": 2,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "شیشہ",
+          "expected_ipa": ["ʃiːʃaː"]
+        },
+        {
+          "word": "ٹوٹ",
+          "expected_ipa": ["ʈuːʈ"]
+        },
+        {
+          "word": "گیا۔",
+          "expected_ipa": ["gəjaː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_24",
+      "text": "سفر بہت لمبا ہے۔",
+      "romanized": "Safar bohot lamba hai.",
+      "difficulty": 2,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "سفر",
+          "expected_ipa": ["səfər"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["bəɦoːt"]
+        },
+        {
+          "word": "لمبا",
+          "expected_ipa": ["ləmbaː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["hɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_25",
+      "text": "فصل اچھی ہوئی۔",
+      "romanized": "Fasal achi hui.",
+      "difficulty": 2,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "فصل",
+          "expected_ipa": ["fəsəl"]
+        },
+        {
+          "word": "اچھی",
+          "expected_ipa": ["ətʃtʃiː"]
+        },
+        {
+          "word": "ہوئی۔",
+          "expected_ipa": ["ɦuːiː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_26",
+      "text": "صبر کرو، ٹھیک ہو گا۔",
+      "romanized": "Sabr karo, theek hoga.",
+      "difficulty": 2,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "صبر",
+          "expected_ipa": ["səbr"]
+        },
+        {
+          "word": "کرو،",
+          "expected_ipa": ["kəroː"]
+        },
+        {
+          "word": "ٹھیک",
+          "expected_ipa": ["ʈʰiːk"]
+        },
+        {
+          "word": "ہو",
+          "expected_ipa": ["ɦoːgaː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_27",
+      "text": "ضد مت کرو۔",
+      "romanized": "Zid mat karo.",
+      "difficulty": 1,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "ضد",
+          "expected_ipa": ["zɪd"]
+        },
+        {
+          "word": "مت",
+          "expected_ipa": ["mət"]
+        },
+        {
+          "word": "کرو۔",
+          "expected_ipa": ["kəroː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_28",
+      "text": "وہ ظالم شخص ہے۔",
+      "romanized": "Woh zaalim shakhs hai.",
+      "difficulty": 2,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋoː"]
+        },
+        {
+          "word": "ظالم",
+          "expected_ipa": ["zaːlɪm"]
+        },
+        {
+          "word": "شخص",
+          "expected_ipa": ["ʃəxs"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["hɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_29",
+      "text": "یہ ثابت ہو گیا۔",
+      "romanized": "Yeh saabit ho gaya.",
+      "difficulty": 1,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["jɛh"]
+        },
+        {
+          "word": "ثابت",
+          "expected_ipa": ["saːbɪt"]
+        },
+        {
+          "word": "ہو",
+          "expected_ipa": ["ɦoː"]
+        },
+        {
+          "word": "گیا۔",
+          "expected_ipa": ["gəjaː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_30",
+      "text": "وہ بہت ذہین ہے۔",
+      "romanized": "Woh bohot zaheen hai.",
+      "difficulty": 2,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋoː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["bəɦoːt"]
+        },
+        {
+          "word": "ذہین",
+          "expected_ipa": ["zəɦiːn"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["hɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_31",
+      "text": "وہ حاضر ہے۔",
+      "romanized": "Woh haazir hai.",
+      "difficulty": 2,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋoː"]
+        },
+        {
+          "word": "حاضر",
+          "expected_ipa": ["ɦaːzɪr"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["hɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_32",
+      "text": "یہ بڑا خطرہ ہے۔",
+      "romanized": "Yeh bara khatra hai.",
+      "difficulty": 1,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["jɛh"]
+        },
+        {
+          "word": "بڑا",
+          "expected_ipa": ["bəɽaː"]
+        },
+        {
+          "word": "خطرہ",
+          "expected_ipa": ["xətraː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["hɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_33",
+      "text": "اسے غصہ آیا۔",
+      "romanized": "Usay ghussa aaya.",
+      "difficulty": 2,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "اسے",
+          "expected_ipa": ["ʊseː"]
+        },
+        {
+          "word": "غصہ",
+          "expected_ipa": ["ɣʊssaː"]
+        },
+        {
+          "word": "آیا۔",
+          "expected_ipa": ["aːjaː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_34",
+      "text": "شکر ہے خدا کا۔",
+      "romanized": "Shukar hai Khuda ka.",
+      "difficulty": 1,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "شکر",
+          "expected_ipa": ["ʃʊkər"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["hɛː"]
+        },
+        {
+          "word": "خدا",
+          "expected_ipa": ["xʊdaː"]
+        },
+        {
+          "word": "کا۔",
+          "expected_ipa": ["kaː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_35",
+      "text": "وہ بہت سست ہے۔",
+      "romanized": "Woh bohot sust hai.",
+      "difficulty": 3,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋoː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["bəɦoːt"]
+        },
+        {
+          "word": "سست",
+          "expected_ipa": ["sʊst"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["hɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_36",
+      "text": "فساد مت پھیلاؤ۔",
+      "romanized": "Fasaad mat phailao.",
+      "difficulty": 2,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "فساد",
+          "expected_ipa": ["fəsaːd"]
+        },
+        {
+          "word": "مت",
+          "expected_ipa": ["mət"]
+        },
+        {
+          "word": "پھیلاؤ۔",
+          "expected_ipa": ["phɛːlaːoː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_37",
+      "text": "وہ اچھا شخص ہے۔",
+      "romanized": "Woh acha shakhs hai.",
+      "difficulty": 3,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋoː"]
+        },
+        {
+          "word": "اچھا",
+          "expected_ipa": ["ətʃtʃaː"]
+        },
+        {
+          "word": "شخص",
+          "expected_ipa": ["ʃəxs"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["hɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_38",
+      "text": "اس نے سفارش کی۔",
+      "romanized": "Us ne sifarish ki.",
+      "difficulty": 3,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "اس",
+          "expected_ipa": ["ʊs"]
+        },
+        {
+          "word": "نے",
+          "expected_ipa": ["neː"]
+        },
+        {
+          "word": "سفارش",
+          "expected_ipa": ["sɪfaːrɪʃ"]
+        },
+        {
+          "word": "کی۔",
+          "expected_ipa": ["kiː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_39",
+      "text": "حوصلہ رکھو، ٹھیک ہو گا۔",
+      "romanized": "Hausla rakho, theek hoga.",
+      "difficulty": 2,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "حوصلہ",
+          "expected_ipa": ["ɦɔːslaː"]
+        },
+        {
+          "word": "رکھو،",
+          "expected_ipa": ["rəkʰoː"]
+        },
+        {
+          "word": "ٹھیک",
+          "expected_ipa": ["ʈʰiːk"]
+        },
+        {
+          "word": "ہو",
+          "expected_ipa": ["ɦoːgaː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_40",
+      "text": "بہت خسارہ ہوا۔",
+      "romanized": "Bohot khasara hua.",
+      "difficulty": 2,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "بہت",
+          "expected_ipa": ["bəɦoːt"]
+        },
+        {
+          "word": "خسارہ",
+          "expected_ipa": ["xəsaːraː"]
+        },
+        {
+          "word": "ہوا۔",
+          "expected_ipa": ["ɦuːaː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_41",
+      "text": "وہ غائب ہو گیا۔",
+      "romanized": "Woh ghaib ho gaya.",
+      "difficulty": 1,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋoː"]
+        },
+        {
+          "word": "غائب",
+          "expected_ipa": ["ɣaːɪb"]
+        },
+        {
+          "word": "ہو",
+          "expected_ipa": ["ɦoː"]
+        },
+        {
+          "word": "گیا۔",
+          "expected_ipa": ["gəjaː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_42",
+      "text": "شیشے مت توڑو۔",
+      "romanized": "Sheeshe mat toro.",
+      "difficulty": 2,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "شیشے",
+          "expected_ipa": ["ʃiːʃeː"]
+        },
+        {
+          "word": "مت",
+          "expected_ipa": ["mət"]
+        },
+        {
+          "word": "توڑو۔",
+          "expected_ipa": ["toːɽoː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_43",
+      "text": "اسے سزا ملی۔",
+      "romanized": "Usay saza mili.",
+      "difficulty": 2,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "اسے",
+          "expected_ipa": ["ʊseː"]
+        },
+        {
+          "word": "سزا",
+          "expected_ipa": ["səzaː"]
+        },
+        {
+          "word": "ملی۔",
+          "expected_ipa": ["mɪliː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_44",
+      "text": "فکر مت کرو۔",
+      "romanized": "Fikar mat karo.",
+      "difficulty": 1,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "فکر",
+          "expected_ipa": ["fɪkər"]
+        },
+        {
+          "word": "مت",
+          "expected_ipa": ["mət"]
+        },
+        {
+          "word": "کرو۔",
+          "expected_ipa": ["kəroː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_sto_45",
+      "text": "اپنی حفاظت کرو۔",
+      "romanized": "Apni hifazat karo.",
+      "difficulty": 3,
+      "test_type": "stopping",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "اپنی",
+          "expected_ipa": ["əpniː"]
+        },
+        {
+          "word": "حفاظت",
+          "expected_ipa": ["ɦɪfaːzət"]
+        },
+        {
+          "word": "کرو۔",
+          "expected_ipa": ["kəroː"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1083 @@
+{
+  "test_type": "prolongation",
+  "description": "Short English sentences to detect prolongation.",
+  "sentences": [
+    {
+      "id": "en_pro_01",
+      "text": "See fast fox.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "See",
+          "expected_ipa": ["s", "i"]
+        },
+        {
+          "word": "fast",
+          "expected_ipa": ["f", "æ", "s", "t"]
+        },
+        {
+          "word": "fox",
+          "expected_ipa": ["f", "ɑ", "k", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_02",
+      "text": "My mom loves me.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "My",
+          "expected_ipa": ["m", "aɪ"]
+        },
+        {
+          "word": "mom",
+          "expected_ipa": ["m", "ɑ", "m"]
+        },
+        {
+          "word": "loves",
+          "expected_ipa": ["l", "ʌ", "v", "z"]
+        },
+        {
+          "word": "me",
+          "expected_ipa": ["m", "i"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_03",
+      "text": "Five men ran fast.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Five",
+          "expected_ipa": ["f", "aɪ", "v"]
+        },
+        {
+          "word": "men",
+          "expected_ipa": ["m", "ɛ", "n"]
+        },
+        {
+          "word": "ran",
+          "expected_ipa": ["r", "æ", "n"]
+        },
+        {
+          "word": "fast",
+          "expected_ipa": ["f", "æ", "s", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_04",
+      "text": "Zoom past van.",
+      "difficulty": 2,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Zoom",
+          "expected_ipa": ["z", "u", "m"]
+        },
+        {
+          "word": "past",
+          "expected_ipa": ["p", "æ", "s", "t"]
+        },
+        {
+          "word": "van",
+          "expected_ipa": ["v", "æ", "n"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_05",
+      "text": "She sees seven fish.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "She",
+          "expected_ipa": ["ʃ", "i"]
+        },
+        {
+          "word": "sees",
+          "expected_ipa": ["s", "i", "z"]
+        },
+        {
+          "word": "seven",
+          "expected_ipa": ["s", "ɛ", "v", "ə", "n"]
+        },
+        {
+          "word": "fish",
+          "expected_ipa": ["f", "ɪ", "ʃ"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_06",
+      "text": "Fans love music.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Fans",
+          "expected_ipa": ["f", "æ", "n", "z"]
+        },
+        {
+          "word": "love",
+          "expected_ipa": ["l", "ʌ", "v"]
+        },
+        {
+          "word": "music",
+          "expected_ipa": ["m", "j", "u", "z", "ɪ", "k"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_07",
+      "text": "Many men swim fast.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Many",
+          "expected_ipa": ["m", "ɛ", "n", "i"]
+        },
+        {
+          "word": "men",
+          "expected_ipa": ["m", "ɛ", "n"]
+        },
+        {
+          "word": "swim",
+          "expected_ipa": ["s", "w", "ɪ", "m"]
+        },
+        {
+          "word": "fast",
+          "expected_ipa": ["f", "æ", "s", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_08",
+      "text": "His nose is fine.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "His",
+          "expected_ipa": ["h", "ɪ", "z"]
+        },
+        {
+          "word": "nose",
+          "expected_ipa": ["n", "oʊ", "z"]
+        },
+        {
+          "word": "is",
+          "expected_ipa": ["ɪ", "z"]
+        },
+        {
+          "word": "fine",
+          "expected_ipa": ["f", "aɪ", "n"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_09",
+      "text": "Sam runs very fast.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Sam",
+          "expected_ipa": ["s", "æ", "m"]
+        },
+        {
+          "word": "runs",
+          "expected_ipa": ["r", "ʌ", "n", "z"]
+        },
+        {
+          "word": "very",
+          "expected_ipa": ["v", "ɛ", "r", "i"]
+        },
+        {
+          "word": "fast",
+          "expected_ipa": ["f", "æ", "s", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_10",
+      "text": "We saw five vans.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "We",
+          "expected_ipa": ["w", "i"]
+        },
+        {
+          "word": "saw",
+          "expected_ipa": ["s", "ɔ"]
+        },
+        {
+          "word": "five",
+          "expected_ipa": ["f", "aɪ", "v"]
+        },
+        {
+          "word": "vans",
+          "expected_ipa": ["v", "æ", "n", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_11",
+      "text": "Some fish swim near.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Some",
+          "expected_ipa": ["s", "ʌ", "m"]
+        },
+        {
+          "word": "fish",
+          "expected_ipa": ["f", "ɪ", "ʃ"]
+        },
+        {
+          "word": "swim",
+          "expected_ipa": ["s", "w", "ɪ", "m"]
+        },
+        {
+          "word": "near",
+          "expected_ipa": ["n", "ɪ", "r"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_12",
+      "text": "Sun is warm.",
+      "difficulty": 2,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Sun",
+          "expected_ipa": ["s", "ʌ", "n"]
+        },
+        {
+          "word": "is",
+          "expected_ipa": ["ɪ", "z"]
+        },
+        {
+          "word": "warm",
+          "expected_ipa": ["w", "ɔ", "r", "m"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_13",
+      "text": "Many friends visit us.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Many",
+          "expected_ipa": ["m", "ɛ", "n", "i"]
+        },
+        {
+          "word": "friends",
+          "expected_ipa": ["f", "r", "ɛ", "n", "d", "z"]
+        },
+        {
+          "word": "visit",
+          "expected_ipa": ["v", "ɪ", "z", "ɪ", "t"]
+        },
+        {
+          "word": "us",
+          "expected_ipa": ["ʌ", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_14",
+      "text": "He feels very fine.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "He",
+          "expected_ipa": ["h", "i"]
+        },
+        {
+          "word": "feels",
+          "expected_ipa": ["f", "i", "l", "z"]
+        },
+        {
+          "word": "very",
+          "expected_ipa": ["v", "ɛ", "r", "i"]
+        },
+        {
+          "word": "fine",
+          "expected_ipa": ["f", "aɪ", "n"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_15",
+      "text": "My name is Sam.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "My",
+          "expected_ipa": ["m", "aɪ"]
+        },
+        {
+          "word": "name",
+          "expected_ipa": ["n", "eɪ", "m"]
+        },
+        {
+          "word": "is",
+          "expected_ipa": ["ɪ", "z"]
+        },
+        {
+          "word": "Sam",
+          "expected_ipa": ["s", "æ", "m"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_16",
+      "text": "Seven swans swim slowly.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Seven",
+          "expected_ipa": ["s", "ɛ", "v", "ə", "n"]
+        },
+        {
+          "word": "swans",
+          "expected_ipa": ["s", "w", "ɑ", "n", "z"]
+        },
+        {
+          "word": "swim",
+          "expected_ipa": ["s", "w", "ɪ", "m"]
+        },
+        {
+          "word": "slowly",
+          "expected_ipa": ["s", "l", "oʊ", "l", "i"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_17",
+      "text": "Vase is new.",
+      "difficulty": 2,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Vase",
+          "expected_ipa": ["v", "eɪ", "s"]
+        },
+        {
+          "word": "is",
+          "expected_ipa": ["ɪ", "z"]
+        },
+        {
+          "word": "new",
+          "expected_ipa": ["n", "u"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_18",
+      "text": "Mom needs some food.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Mom",
+          "expected_ipa": ["m", "ɑ", "m"]
+        },
+        {
+          "word": "needs",
+          "expected_ipa": ["n", "i", "d", "z"]
+        },
+        {
+          "word": "some",
+          "expected_ipa": ["s", "ʌ", "m"]
+        },
+        {
+          "word": "food",
+          "expected_ipa": ["f", "u", "d"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_19",
+      "text": "He has many friends.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "He",
+          "expected_ipa": ["h", "i"]
+        },
+        {
+          "word": "has",
+          "expected_ipa": ["h", "æ", "z"]
+        },
+        {
+          "word": "many",
+          "expected_ipa": ["m", "ɛ", "n", "i"]
+        },
+        {
+          "word": "friends",
+          "expected_ipa": ["f", "r", "ɛ", "n", "d", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_20",
+      "text": "Zoo has animals.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Zoo",
+          "expected_ipa": ["z", "u"]
+        },
+        {
+          "word": "has",
+          "expected_ipa": ["h", "æ", "z"]
+        },
+        {
+          "word": "animals",
+          "expected_ipa": ["æ", "n", "ɪ", "m", "ə", "l", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_21",
+      "text": "Five fish swim fast.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Five",
+          "expected_ipa": ["f", "aɪ", "v"]
+        },
+        {
+          "word": "fish",
+          "expected_ipa": ["f", "ɪ", "ʃ"]
+        },
+        {
+          "word": "swim",
+          "expected_ipa": ["s", "w", "ɪ", "m"]
+        },
+        {
+          "word": "fast",
+          "expected_ipa": ["f", "æ", "s", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_22",
+      "text": "My son is fine.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "My",
+          "expected_ipa": ["m", "aɪ"]
+        },
+        {
+          "word": "son",
+          "expected_ipa": ["s", "ʌ", "n"]
+        },
+        {
+          "word": "is",
+          "expected_ipa": ["ɪ", "z"]
+        },
+        {
+          "word": "fine",
+          "expected_ipa": ["f", "aɪ", "n"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_23",
+      "text": "Fans love show.",
+      "difficulty": 2,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Fans",
+          "expected_ipa": ["f", "æ", "n", "z"]
+        },
+        {
+          "word": "love",
+          "expected_ipa": ["l", "ʌ", "v"]
+        },
+        {
+          "word": "show",
+          "expected_ipa": ["ʃ", "oʊ"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_24",
+      "text": "Sam needs some help.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Sam",
+          "expected_ipa": ["s", "æ", "m"]
+        },
+        {
+          "word": "needs",
+          "expected_ipa": ["n", "i", "d", "z"]
+        },
+        {
+          "word": "some",
+          "expected_ipa": ["s", "ʌ", "m"]
+        },
+        {
+          "word": "help",
+          "expected_ipa": ["h", "ɛ", "l", "p"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_25",
+      "text": "Visit my new home.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Visit",
+          "expected_ipa": ["v", "ɪ", "z", "ɪ", "t"]
+        },
+        {
+          "word": "my",
+          "expected_ipa": ["m", "aɪ"]
+        },
+        {
+          "word": "new",
+          "expected_ipa": ["n", "u"]
+        },
+        {
+          "word": "home",
+          "expected_ipa": ["h", "oʊ", "m"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_26",
+      "text": "Vase is full.",
+      "difficulty": 2,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Vase",
+          "expected_ipa": ["v", "eɪ", "s"]
+        },
+        {
+          "word": "is",
+          "expected_ipa": ["ɪ", "z"]
+        },
+        {
+          "word": "full",
+          "expected_ipa": ["f", "ʊ", "l"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_27",
+      "text": "Many men need food.",
+      "difficulty": 2,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Many",
+          "expected_ipa": ["m", "ɛ", "n", "i"]
+        },
+        {
+          "word": "men",
+          "expected_ipa": ["m", "ɛ", "n"]
+        },
+        {
+          "word": "need",
+          "expected_ipa": ["n", "i", "d"]
+        },
+        {
+          "word": "food",
+          "expected_ipa": ["f", "u", "d"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_28",
+      "text": "His mom is nice.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "His",
+          "expected_ipa": ["h", "ɪ", "z"]
+        },
+        {
+          "word": "mom",
+          "expected_ipa": ["m", "ɑ", "m"]
+        },
+        {
+          "word": "is",
+          "expected_ipa": ["ɪ", "z"]
+        },
+        {
+          "word": "nice",
+          "expected_ipa": ["n", "aɪ", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_29",
+      "text": "See five new vans.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "See",
+          "expected_ipa": ["s", "i"]
+        },
+        {
+          "word": "five",
+          "expected_ipa": ["f", "aɪ", "v"]
+        },
+        {
+          "word": "new",
+          "expected_ipa": ["n", "u"]
+        },
+        {
+          "word": "vans",
+          "expected_ipa": ["v", "æ", "n", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_30",
+      "text": "Some men are fast.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Some",
+          "expected_ipa": ["s", "ʌ", "m"]
+        },
+        {
+          "word": "men",
+          "expected_ipa": ["m", "ɛ", "n"]
+        },
+        {
+          "word": "are",
+          "expected_ipa": ["ɑ", "r"]
+        },
+        {
+          "word": "fast",
+          "expected_ipa": ["f", "æ", "s", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_31",
+      "text": "Sun feels warm.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Sun",
+          "expected_ipa": ["s", "ʌ", "n"]
+        },
+        {
+          "word": "feels",
+          "expected_ipa": ["f", "i", "l", "z"]
+        },
+        {
+          "word": "warm",
+          "expected_ipa": ["w", "ɔ", "r", "m"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_32",
+      "text": "My friends love music.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "My",
+          "expected_ipa": ["m", "aɪ"]
+        },
+        {
+          "word": "friends",
+          "expected_ipa": ["f", "r", "ɛ", "n", "d", "z"]
+        },
+        {
+          "word": "love",
+          "expected_ipa": ["l", "ʌ", "v"]
+        },
+        {
+          "word": "music",
+          "expected_ipa": ["m", "j", "u", "z", "ɪ", "k"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_33",
+      "text": "He needs some fun.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "He",
+          "expected_ipa": ["h", "i"]
+        },
+        {
+          "word": "needs",
+          "expected_ipa": ["n", "i", "d", "z"]
+        },
+        {
+          "word": "some",
+          "expected_ipa": ["s", "ʌ", "m"]
+        },
+        {
+          "word": "fun",
+          "expected_ipa": ["f", "ʌ", "n"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_34",
+      "text": "Sam sees many fish.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Sam",
+          "expected_ipa": ["s", "æ", "m"]
+        },
+        {
+          "word": "sees",
+          "expected_ipa": ["s", "i", "z"]
+        },
+        {
+          "word": "many",
+          "expected_ipa": ["m", "ɛ", "n", "i"]
+        },
+        {
+          "word": "fish",
+          "expected_ipa": ["f", "ɪ", "ʃ"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_35",
+      "text": "Van is fast.",
+      "difficulty": 2,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Van",
+          "expected_ipa": ["v", "æ", "n"]
+        },
+        {
+          "word": "is",
+          "expected_ipa": ["ɪ", "z"]
+        },
+        {
+          "word": "fast",
+          "expected_ipa": ["f", "æ", "s", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_36",
+      "text": "Mom makes nice food.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Mom",
+          "expected_ipa": ["m", "ɑ", "m"]
+        },
+        {
+          "word": "makes",
+          "expected_ipa": ["m", "eɪ", "k", "s"]
+        },
+        {
+          "word": "nice",
+          "expected_ipa": ["n", "aɪ", "s"]
+        },
+        {
+          "word": "food",
+          "expected_ipa": ["f", "u", "d"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_37",
+      "text": "Five men are fine.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Five",
+          "expected_ipa": ["f", "aɪ", "v"]
+        },
+        {
+          "word": "men",
+          "expected_ipa": ["m", "ɛ", "n"]
+        },
+        {
+          "word": "are",
+          "expected_ipa": ["ɑ", "r"]
+        },
+        {
+          "word": "fine",
+          "expected_ipa": ["f", "aɪ", "n"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_38",
+      "text": "Zoom past fence.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Zoom",
+          "expected_ipa": ["z", "u", "m"]
+        },
+        {
+          "word": "past",
+          "expected_ipa": ["p", "æ", "s", "t"]
+        },
+        {
+          "word": "fence",
+          "expected_ipa": ["f", "ɛ", "n", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_39",
+      "text": "She loves her son.",
+      "difficulty": 2,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "She",
+          "expected_ipa": ["ʃ", "i"]
+        },
+        {
+          "word": "loves",
+          "expected_ipa": ["l", "ʌ", "v", "z"]
+        },
+        {
+          "word": "her",
+          "expected_ipa": ["h", "ɜ", "r"]
+        },
+        {
+          "word": "son",
+          "expected_ipa": ["s", "ʌ", "n"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_40",
+      "text": "My nose feels funny.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "My",
+          "expected_ipa": ["m", "aɪ"]
+        },
+        {
+          "word": "nose",
+          "expected_ipa": ["n", "oʊ", "z"]
+        },
+        {
+          "word": "feels",
+          "expected_ipa": ["f", "i", "l", "z"]
+        },
+        {
+          "word": "funny",
+          "expected_ipa": ["f", "ʌ", "n", "i"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_41",
+      "text": "Sam needs five cents.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Sam",
+          "expected_ipa": ["s", "æ", "m"]
+        },
+        {
+          "word": "needs",
+          "expected_ipa": ["n", "i", "d", "z"]
+        },
+        {
+          "word": "five",
+          "expected_ipa": ["f", "aɪ", "v"]
+        },
+        {
+          "word": "cents",
+          "expected_ipa": ["s", "ɛ", "n", "t", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_42",
+      "text": "Sun is shining.",
+      "difficulty": 2,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Sun",
+          "expected_ipa": ["s", "ʌ", "n"]
+        },
+        {
+          "word": "is",
+          "expected_ipa": ["ɪ", "z"]
+        },
+        {
+          "word": "shining",
+          "expected_ipa": ["ʃ", "aɪ", "n", "ɪ", "ŋ"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_43",
+      "text": "Many fish swim fast.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Many",
+          "expected_ipa": ["m", "ɛ", "n", "i"]
+        },
+        {
+          "word": "fish",
+          "expected_ipa": ["f", "ɪ", "ʃ"]
+        },
+        {
+          "word": "swim",
+          "expected_ipa": ["s", "w", "ɪ", "m"]
+        },
+        {
+          "word": "fast",
+          "expected_ipa": ["f", "æ", "s", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_44",
+      "text": "He has some fun.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "He",
+          "expected_ipa": ["h", "i"]
+        },
+        {
+          "word": "has",
+          "expected_ipa": ["h", "æ", "z"]
+        },
+        {
+          "word": "some",
+          "expected_ipa": ["s", "ʌ", "m"]
+        },
+        {
+          "word": "fun",
+          "expected_ipa": ["f", "ʌ", "n"]
+        }
+      ]
+    },
+    {
+      "id": "en_pro_45",
+      "text": "My mom is fine.",
+      "difficulty": 3,
+      "test_type": "prolongation",
+      "language": "english",
+      "targets": [
+        {
+          "word": "My",
+          "expected_ipa": ["m", "aɪ"]
+        },
+        {
+          "word": "mom",
+          "expected_ipa": ["m", "ɑ", "m"]
+        },
+        {
+          "word": "is",
+          "expected_ipa": ["ɪ", "z"]
+        },
+        {
+          "word": "fine",
+          "expected_ipa": ["f", "aɪ", "n"]
+        }
+      ]
+    }
+  ]
+}

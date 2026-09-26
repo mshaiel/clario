@@ -1,0 +1,955 @@
+{
+  "test_type": "gliding",
+  "description": "Short English sentences to detect gliding.",
+  "sentences": [
+    {
+      "id": "en_gli_01",
+      "text": "Red car runs fast.",
+      "difficulty": 1,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Red",
+          "expected_ipa": ["r", "ɛ", "d"]
+        },
+        {
+          "word": "car",
+          "expected_ipa": ["k", "ɑ", "r"]
+        },
+        {
+          "word": "runs",
+          "expected_ipa": ["r", "ʌ", "n", "z"]
+        },
+        {
+          "word": "fast",
+          "expected_ipa": ["f", "æ", "s", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_02",
+      "text": "Look at light.",
+      "difficulty": 1,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Look",
+          "expected_ipa": ["l", "ʊ", "k"]
+        },
+        {
+          "word": "at",
+          "expected_ipa": ["æ", "t"]
+        },
+        {
+          "word": "light",
+          "expected_ipa": ["l", "a", "ɪ", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_03",
+      "text": "Green frog jumps.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Green",
+          "expected_ipa": ["g", "r", "i", "n"]
+        },
+        {
+          "word": "frog",
+          "expected_ipa": ["f", "r", "ɔ", "g"]
+        },
+        {
+          "word": "jumps",
+          "expected_ipa": ["d", "ʒ", "ʌ", "m", "p", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_04",
+      "text": "Blue flag waves.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Blue",
+          "expected_ipa": ["b", "l", "u"]
+        },
+        {
+          "word": "flag",
+          "expected_ipa": ["f", "l", "æ", "g"]
+        },
+        {
+          "word": "waves",
+          "expected_ipa": ["w", "e", "ɪ", "v", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_05",
+      "text": "Hear the roar.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Hear",
+          "expected_ipa": ["h", "ɪ", "r"]
+        },
+        {
+          "word": "the",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "roar",
+          "expected_ipa": ["r", "ɔ", "r"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_06",
+      "text": "Feel the ball.",
+      "difficulty": 1,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Feel",
+          "expected_ipa": ["f", "i", "l"]
+        },
+        {
+          "word": "the",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "ball",
+          "expected_ipa": ["b", "ɔ", "l"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_07",
+      "text": "Bright blue truck.",
+      "difficulty": 3,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Bright",
+          "expected_ipa": ["b", "r", "a", "ɪ", "t"]
+        },
+        {
+          "word": "blue",
+          "expected_ipa": ["b", "l", "u"]
+        },
+        {
+          "word": "truck",
+          "expected_ipa": ["t", "r", "ʌ", "k"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_08",
+      "text": "Run around tree.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Run",
+          "expected_ipa": ["r", "ʌ", "n"]
+        },
+        {
+          "word": "around",
+          "expected_ipa": ["ə", "ˈr", "a", "ʊ", "n", "d"]
+        },
+        {
+          "word": "tree",
+          "expected_ipa": ["t", "r", "i"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_09",
+      "text": "Play with blocks.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Play",
+          "expected_ipa": ["p", "l", "e", "ɪ"]
+        },
+        {
+          "word": "with",
+          "expected_ipa": ["w", "ɪ", "ð"]
+        },
+        {
+          "word": "blocks",
+          "expected_ipa": ["b", "l", "ɑ", "k", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_10",
+      "text": "Read a book.",
+      "difficulty": 1,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Read",
+          "expected_ipa": ["r", "i", "d"]
+        },
+        {
+          "word": "a",
+          "expected_ipa": ["ə"]
+        },
+        {
+          "word": "book",
+          "expected_ipa": ["b", "ʊ", "k"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_11",
+      "text": "Look at leaves.",
+      "difficulty": 1,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Look",
+          "expected_ipa": ["l", "ʊ", "k"]
+        },
+        {
+          "word": "at",
+          "expected_ipa": ["æ", "t"]
+        },
+        {
+          "word": "leaves",
+          "expected_ipa": ["l", "i", "v", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_12",
+      "text": "Drive a car.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Drive",
+          "expected_ipa": ["d", "r", "a", "ɪ", "v"]
+        },
+        {
+          "word": "a",
+          "expected_ipa": ["ə"]
+        },
+        {
+          "word": "car",
+          "expected_ipa": ["k", "ɑ", "r"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_13",
+      "text": "Clean the floor.",
+      "difficulty": 3,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Clean",
+          "expected_ipa": ["k", "l", "i", "n"]
+        },
+        {
+          "word": "the",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "floor",
+          "expected_ipa": ["f", "l", "ɔ", "r"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_14",
+      "text": "Rain makes puddles.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Rain",
+          "expected_ipa": ["r", "e", "n"]
+        },
+        {
+          "word": "makes",
+          "expected_ipa": ["m", "e", "ɪ", "k", "s"]
+        },
+        {
+          "word": "puddles",
+          "expected_ipa": ["p", "ʌ", "d", "ə", "l", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_15",
+      "text": "Light is bright.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Light",
+          "expected_ipa": ["l", "a", "ɪ", "t"]
+        },
+        {
+          "word": "is",
+          "expected_ipa": ["ɪ", "z"]
+        },
+        {
+          "word": "bright",
+          "expected_ipa": ["b", "r", "a", "ɪ", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_16",
+      "text": "Three brave frogs.",
+      "difficulty": 3,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Three",
+          "expected_ipa": ["θ", "r", "i"]
+        },
+        {
+          "word": "brave",
+          "expected_ipa": ["b", "r", "e", "ɪ", "v"]
+        },
+        {
+          "word": "frogs",
+          "expected_ipa": ["f", "r", "ɔ", "g", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_17",
+      "text": "Please play loudly.",
+      "difficulty": 3,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Please",
+          "expected_ipa": ["p", "l", "i", "z"]
+        },
+        {
+          "word": "play",
+          "expected_ipa": ["p", "l", "e", "ɪ"]
+        },
+        {
+          "word": "loudly",
+          "expected_ipa": ["l", "a", "ʊ", "d", "l", "i"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_18",
+      "text": "Where are bears?",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Where",
+          "expected_ipa": ["w", "ɛ", "r"]
+        },
+        {
+          "word": "are",
+          "expected_ipa": ["ɑ", "r"]
+        },
+        {
+          "word": "bears",
+          "expected_ipa": ["b", "ɛ", "r", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_19",
+      "text": "Call the girl.",
+      "difficulty": 3,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Call",
+          "expected_ipa": ["k", "ɔ", "l"]
+        },
+        {
+          "word": "the",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "girl",
+          "expected_ipa": ["g", "ɜ", "r", "l"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_20",
+      "text": "Run to road.",
+      "difficulty": 1,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Run",
+          "expected_ipa": ["r", "ʌ", "n"]
+        },
+        {
+          "word": "to",
+          "expected_ipa": ["t", "u"]
+        },
+        {
+          "word": "road",
+          "expected_ipa": ["r", "o", "ʊ", "d"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_21",
+      "text": "Little lamb sleeps.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Little",
+          "expected_ipa": ["l", "ɪ", "t", "ə", "l"]
+        },
+        {
+          "word": "lamb",
+          "expected_ipa": ["l", "æ", "m"]
+        },
+        {
+          "word": "sleeps",
+          "expected_ipa": ["s", "l", "i", "p", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_22",
+      "text": "Grow green plants.",
+      "difficulty": 3,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Grow",
+          "expected_ipa": ["g", "r", "o", "ʊ"]
+        },
+        {
+          "word": "green",
+          "expected_ipa": ["g", "r", "i", "n"]
+        },
+        {
+          "word": "plants",
+          "expected_ipa": ["p", "l", "æ", "n", "t", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_23",
+      "text": "Black crow flies.",
+      "difficulty": 3,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Black",
+          "expected_ipa": ["b", "l", "æ", "k"]
+        },
+        {
+          "word": "crow",
+          "expected_ipa": ["k", "r", "o", "ʊ"]
+        },
+        {
+          "word": "flies",
+          "expected_ipa": ["f", "l", "a", "ɪ", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_24",
+      "text": "Drink fresh water.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Drink",
+          "expected_ipa": ["d", "r", "ɪ", "ŋ", "k"]
+        },
+        {
+          "word": "fresh",
+          "expected_ipa": ["f", "r", "ɛ", "ʃ"]
+        },
+        {
+          "word": "water",
+          "expected_ipa": ["w", "ɔ", "t", "ə", "r"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_25",
+      "text": "Glad to play.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Glad",
+          "expected_ipa": ["g", "l", "æ", "d"]
+        },
+        {
+          "word": "to",
+          "expected_ipa": ["t", "u"]
+        },
+        {
+          "word": "play",
+          "expected_ipa": ["p", "l", "e", "ɪ"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_26",
+      "text": "Right here now.",
+      "difficulty": 1,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Right",
+          "expected_ipa": ["r", "a", "ɪ", "t"]
+        },
+        {
+          "word": "here",
+          "expected_ipa": ["h", "ɪ", "r"]
+        },
+        {
+          "word": "now",
+          "expected_ipa": ["n", "a", "ʊ"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_27",
+      "text": "Long yellow line.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Long",
+          "expected_ipa": ["l", "ɔ", "ŋ"]
+        },
+        {
+          "word": "yellow",
+          "expected_ipa": ["j", "ɛ", "l", "o", "ʊ"]
+        },
+        {
+          "word": "line",
+          "expected_ipa": ["l", "a", "ɪ", "n"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_28",
+      "text": "Great blue dragon.",
+      "difficulty": 3,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Great",
+          "expected_ipa": ["g", "r", "e", "ɪ", "t"]
+        },
+        {
+          "word": "blue",
+          "expected_ipa": ["b", "l", "u"]
+        },
+        {
+          "word": "dragon",
+          "expected_ipa": ["d", "r", "æ", "g", "ə", "n"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_29",
+      "text": "Clean bright glass.",
+      "difficulty": 3,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Clean",
+          "expected_ipa": ["k", "l", "i", "n"]
+        },
+        {
+          "word": "bright",
+          "expected_ipa": ["b", "r", "a", "ɪ", "t"]
+        },
+        {
+          "word": "glass",
+          "expected_ipa": ["g", "l", "æ", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_30",
+      "text": "Carry a ruler.",
+      "difficulty": 3,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Carry",
+          "expected_ipa": ["k", "æ", "r", "i"]
+        },
+        {
+          "word": "a",
+          "expected_ipa": ["ə"]
+        },
+        {
+          "word": "ruler",
+          "expected_ipa": ["r", "u", "l", "ə", "r"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_31",
+      "text": "Help the child.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Help",
+          "expected_ipa": ["h", "ɛ", "l", "p"]
+        },
+        {
+          "word": "the",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "child",
+          "expected_ipa": ["t", "ʃ", "a", "ɪ", "l", "d"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_32",
+      "text": "Roses are red.",
+      "difficulty": 1,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Roses",
+          "expected_ipa": ["r", "o", "ʊ", "z", "ɪ", "z"]
+        },
+        {
+          "word": "are",
+          "expected_ipa": ["ɑ", "r"]
+        },
+        {
+          "word": "red",
+          "expected_ipa": ["r", "ɛ", "d"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_33",
+      "text": "Lions love meat.",
+      "difficulty": 1,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Lions",
+          "expected_ipa": ["l", "a", "ɪ", "ə", "n", "z"]
+        },
+        {
+          "word": "love",
+          "expected_ipa": ["l", "ʌ", "v"]
+        },
+        {
+          "word": "meat",
+          "expected_ipa": ["m", "i", "t"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_34",
+      "text": "Pretty brown dress.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Pretty",
+          "expected_ipa": ["p", "r", "ɪ", "t", "i"]
+        },
+        {
+          "word": "brown",
+          "expected_ipa": ["b", "r", "a", "ʊ", "n"]
+        },
+        {
+          "word": "dress",
+          "expected_ipa": ["d", "r", "ɛ", "s"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_35",
+      "text": "Sleep on floor.",
+      "difficulty": 3,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Sleep",
+          "expected_ipa": ["s", "l", "i", "p"]
+        },
+        {
+          "word": "on",
+          "expected_ipa": ["ɑ", "n"]
+        },
+        {
+          "word": "floor",
+          "expected_ipa": ["f", "l", "ɔ", "r"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_36",
+      "text": "Purple grapes grow.",
+      "difficulty": 3,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Purple",
+          "expected_ipa": ["p", "ɜ", "r", "p", "ə", "l"]
+        },
+        {
+          "word": "grapes",
+          "expected_ipa": ["g", "r", "e", "ɪ", "p", "s"]
+        },
+        {
+          "word": "grow",
+          "expected_ipa": ["g", "r", "o", "ʊ"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_37",
+      "text": "Global warming problem.",
+      "difficulty": 3,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Global",
+          "expected_ipa": ["g", "l", "o", "ʊ", "b", "ə", "l"]
+        },
+        {
+          "word": "warming",
+          "expected_ipa": ["w", "ɔ", "r", "m", "ɪ", "ŋ"]
+        },
+        {
+          "word": "problem",
+          "expected_ipa": ["p", "r", "ɑ", "b", "l", "ə", "m"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_38",
+      "text": "Pour more water.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Pour",
+          "expected_ipa": ["p", "ɔ", "r"]
+        },
+        {
+          "word": "more",
+          "expected_ipa": ["m", "ɔ", "r"]
+        },
+        {
+          "word": "water",
+          "expected_ipa": ["w", "ɔ", "t", "ə", "r"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_39",
+      "text": "Tell a tale.",
+      "difficulty": 1,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Tell",
+          "expected_ipa": ["t", "ɛ", "l"]
+        },
+        {
+          "word": "a",
+          "expected_ipa": ["ə"]
+        },
+        {
+          "word": "tale",
+          "expected_ipa": ["t", "e", "ɪ", "l"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_40",
+      "text": "Run, run, run.",
+      "difficulty": 1,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Run",
+          "expected_ipa": ["r", "ʌ", "n"]
+        },
+        {
+          "word": "run",
+          "expected_ipa": ["r", "ʌ", "n"]
+        },
+        {
+          "word": "run",
+          "expected_ipa": ["r", "ʌ", "n"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_41",
+      "text": "Love to laugh.",
+      "difficulty": 1,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Love",
+          "expected_ipa": ["l", "ʌ", "v"]
+        },
+        {
+          "word": "to",
+          "expected_ipa": ["t", "u"]
+        },
+        {
+          "word": "laugh",
+          "expected_ipa": ["l", "æ", "f"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_42",
+      "text": "Crisp green leaves.",
+      "difficulty": 3,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Crisp",
+          "expected_ipa": ["k", "r", "ɪ", "s", "p"]
+        },
+        {
+          "word": "green",
+          "expected_ipa": ["g", "r", "i", "n"]
+        },
+        {
+          "word": "leaves",
+          "expected_ipa": ["l", "i", "v", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_43",
+      "text": "Please bring plums.",
+      "difficulty": 3,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Please",
+          "expected_ipa": ["p", "l", "i", "z"]
+        },
+        {
+          "word": "bring",
+          "expected_ipa": ["b", "r", "ɪ", "ŋ"]
+        },
+        {
+          "word": "plums",
+          "expected_ipa": ["p", "l", "ʌ", "m", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_44",
+      "text": "Hear the birds.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Hear",
+          "expected_ipa": ["h", "ɪ", "r"]
+        },
+        {
+          "word": "the",
+          "expected_ipa": ["ð", "ə"]
+        },
+        {
+          "word": "birds",
+          "expected_ipa": ["b", "ɜ", "r", "d", "z"]
+        }
+      ]
+    },
+    {
+      "id": "en_gli_45",
+      "text": "Milk is cold.",
+      "difficulty": 2,
+      "test_type": "gliding",
+      "language": "english",
+      "targets": [
+        {
+          "word": "Milk",
+          "expected_ipa": ["m", "ɪ", "l", "k"]
+        },
+        {
+          "word": "is",
+          "expected_ipa": ["ɪ", "z"]
+        },
+        {
+          "word": "cold",
+          "expected_ipa": ["k", "o", "ʊ", "l", "d"]
+        }
+      ]
+    }
+  ]
+}

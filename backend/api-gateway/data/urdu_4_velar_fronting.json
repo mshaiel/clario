@@ -1,0 +1,1076 @@
+{
+  "test_type": "velar_fronting",
+  "description": "Urdu sentences to detect velar_fronting.",
+  "sentences": [
+    {
+      "id": "ur_vel_1_01",
+      "text": "گائے گھاس کھاتی ہے۔",
+      "romanized": "Gaaye ghaas khaati hai.",
+      "difficulty": 1,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "گائے",
+          "expected_ipa": ["g", "ɑː", "e"]
+        },
+        {
+          "word": "گھاس",
+          "expected_ipa": ["gʱ", "ɑː", "s"]
+        },
+        {
+          "word": "کھاتی",
+          "expected_ipa": ["kʰ", "ɑː", "t̪", "iː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_1_02",
+      "text": "کالا کوٹ پہن۔",
+      "romanized": "Kaala coat pehan.",
+      "difficulty": 1,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "کالا",
+          "expected_ipa": ["k", "ɑː", "l", "ɑː"]
+        },
+        {
+          "word": "کوٹ",
+          "expected_ipa": ["k", "oː", "ʈ"]
+        },
+        {
+          "word": "پہن۔",
+          "expected_ipa": ["p", "ɛ", "ɦ", "ən"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_1_03",
+      "text": "گیت گانا اچھا ہے۔",
+      "romanized": "Geet gaana achha hai.",
+      "difficulty": 1,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "گیت",
+          "expected_ipa": ["g", "iː", "t̪"]
+        },
+        {
+          "word": "گانا",
+          "expected_ipa": ["g", "ɑː", "n", "ɑː"]
+        },
+        {
+          "word": "اچھا",
+          "expected_ipa": ["ə", "tʃ", "tʃʰ", "ɑː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_1_04",
+      "text": "کیلا جلدی کھاؤ۔",
+      "romanized": "Kela jaldi khaao.",
+      "difficulty": 1,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "کیلا",
+          "expected_ipa": ["k", "eː", "l", "ɑː"]
+        },
+        {
+          "word": "جلدی",
+          "expected_ipa": ["d͡ʒ", "əl", "d̪", "iː"]
+        },
+        {
+          "word": "کھاؤ۔",
+          "expected_ipa": ["kʰ", "ɑː", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_1_05",
+      "text": "گھر بہت گرم ہے۔",
+      "romanized": "Ghar bohat garam hai.",
+      "difficulty": 1,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "گھر",
+          "expected_ipa": ["gʱ", "ər"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t̪"]
+        },
+        {
+          "word": "گرم",
+          "expected_ipa": ["g", "ə", "r", "əm"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_1_06",
+      "text": "گلاس کہاں ہے؟",
+      "romanized": "Gilaas kahaan hai?",
+      "difficulty": 1,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "گلاس",
+          "expected_ipa": ["g", "ɪ", "l", "ɑː", "s"]
+        },
+        {
+          "word": "کہاں",
+          "expected_ipa": ["k", "ə", "ɦ", "ɑ̃ː"]
+        },
+        {
+          "word": "ہے؟",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_1_07",
+      "text": "کبوتر اڑ رہا ہے۔",
+      "romanized": "Kabootar uṛ raha hai.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "کبوتر",
+          "expected_ipa": ["k", "ə", "b", "uː", "t̪", "ər"]
+        },
+        {
+          "word": "اڑ",
+          "expected_ipa": ["ʊ", "ɽ"]
+        },
+        {
+          "word": "رہا",
+          "expected_ipa": ["r", "ə", "ɦ", "ɑː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_1_08",
+      "text": "گہری کھائی ہے۔",
+      "romanized": "Gehri khaai hai.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "گہری",
+          "expected_ipa": ["g", "ɛ", "ɦ", "ə", "r", "iː"]
+        },
+        {
+          "word": "کھائی",
+          "expected_ipa": ["kʰ", "ɑː", "iː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_1_09",
+      "text": "کاغذ کہاں ہے؟",
+      "romanized": "Kaagaz kahaan hai?",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "کاغذ",
+          "expected_ipa": ["k", "ɑː", "g", "ə", "z"]
+        },
+        {
+          "word": "کہاں",
+          "expected_ipa": ["k", "ə", "ɦ", "ɑ̃ː"]
+        },
+        {
+          "word": "ہے؟",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_1_10",
+      "text": "گدھا گانا گاتا ہے۔",
+      "romanized": "Gadhaa gaana gaata hai.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "گدھا",
+          "expected_ipa": ["g", "ə", "d̪ʱ", "ɑː"]
+        },
+        {
+          "word": "گانا",
+          "expected_ipa": ["g", "ɑː", "n", "ɑː"]
+        },
+        {
+          "word": "گاتا",
+          "expected_ipa": ["g", "ɑː", "t̪", "ɑː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_1_11",
+      "text": "کسان کھیت میں ہے۔",
+      "romanized": "Kisaan khet mein hai.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "کسان",
+          "expected_ipa": ["k", "ɪ", "s", "ɑː", "n"]
+        },
+        {
+          "word": "کھیت",
+          "expected_ipa": ["kʰ", "eː", "t̪"]
+        },
+        {
+          "word": "میں",
+          "expected_ipa": ["m", "ɛ̃ː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_1_12",
+      "text": "گوبھی کاٹ دو۔",
+      "romanized": "Gobhi kaaṭ do.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "گوبھی",
+          "expected_ipa": ["g", "oː", "bʱ", "iː"]
+        },
+        {
+          "word": "کاٹ",
+          "expected_ipa": ["k", "ɑː", "ʈ"]
+        },
+        {
+          "word": "دو۔",
+          "expected_ipa": ["d̪", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_1_13",
+      "text": "گہری کھوج کرو۔",
+      "romanized": "Gehri khoj karo.",
+      "difficulty": 3,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "گہری",
+          "expected_ipa": ["g", "ɛ", "ɦ", "ə", "r", "iː"]
+        },
+        {
+          "word": "کھوج",
+          "expected_ipa": ["kʰ", "oː", "d͡ʒ"]
+        },
+        {
+          "word": "کرو۔",
+          "expected_ipa": ["k", "ə", "r", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_1_14",
+      "text": "کچی گاجر کھاؤ۔",
+      "romanized": "Kacchi gaajar khaao.",
+      "difficulty": 3,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "کچی",
+          "expected_ipa": ["k", "ə", "tʃ", "tʃ", "iː"]
+        },
+        {
+          "word": "گاجر",
+          "expected_ipa": ["g", "ɑː", "d͡ʒ", "ər"]
+        },
+        {
+          "word": "کھاؤ۔",
+          "expected_ipa": ["kʰ", "ɑː", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_1_15",
+      "text": "گہرے رنگ کا گلاب۔",
+      "romanized": "Gehre rang ka gulaab.",
+      "difficulty": 3,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "گہرے",
+          "expected_ipa": ["g", "ɛ", "ɦ", "ə", "r", "eː"]
+        },
+        {
+          "word": "رنگ",
+          "expected_ipa": ["r", "ə", "ŋ", "g"]
+        },
+        {
+          "word": "کا",
+          "expected_ipa": ["k", "ɑː"]
+        },
+        {
+          "word": "گلاب۔",
+          "expected_ipa": ["g", "ʊ", "l", "ɑː", "b"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_2_01",
+      "text": "گائے گھاس کھاتی ہے۔",
+      "romanized": "Gaaye ghaas khaati hai.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "گائے",
+          "expected_ipa": ["g", "ɑː", "ɪ"]
+        },
+        {
+          "word": "گھاس",
+          "expected_ipa": ["gʱ", "ɑː", "s"]
+        },
+        {
+          "word": "کھاتی",
+          "expected_ipa": ["kʰ", "ɑː", "t̪", "iː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_2_02",
+      "text": "کھیل کود اچھا ہے۔",
+      "romanized": "Khel kood achha hai.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "کھیل",
+          "expected_ipa": ["kʰ", "eː", "l"]
+        },
+        {
+          "word": "کود",
+          "expected_ipa": ["k", "uː", "d̪"]
+        },
+        {
+          "word": "اچھا",
+          "expected_ipa": ["ə", "t͡ʃ", "ʰ", "ɑː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_2_03",
+      "text": "گھر بہت بڑا ہے۔",
+      "romanized": "Ghar bohot bada hai.",
+      "difficulty": 1,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "گھر",
+          "expected_ipa": ["gʱ", "ə", "r"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "oː", "t̪"]
+        },
+        {
+          "word": "بڑا",
+          "expected_ipa": ["b", "ə", "ɽ", "ɑː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_2_04",
+      "text": "کالا کوٹ پہن لو۔",
+      "romanized": "Kaala coat pehan lo.",
+      "difficulty": 1,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "کالا",
+          "expected_ipa": ["k", "ɑː", "l", "ɑː"]
+        },
+        {
+          "word": "کوٹ",
+          "expected_ipa": ["k", "oː", "ʈ"]
+        },
+        {
+          "word": "پہن",
+          "expected_ipa": ["p", "ɛ", "ɦ", "ən"]
+        },
+        {
+          "word": "لو۔",
+          "expected_ipa": ["l", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_2_05",
+      "text": "گیت بہت اچھا ہے۔",
+      "romanized": "Geet bohot achha hai.",
+      "difficulty": 1,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "گیت",
+          "expected_ipa": ["g", "iː", "t̪"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "oː", "t̪"]
+        },
+        {
+          "word": "اچھا",
+          "expected_ipa": ["ə", "t͡ʃ", "ʰ", "ɑː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_2_06",
+      "text": "کھیت میں کام کرو۔",
+      "romanized": "Khet mein kaam karo.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "کھیت",
+          "expected_ipa": ["kʰ", "eː", "t̪"]
+        },
+        {
+          "word": "میں",
+          "expected_ipa": ["m", "ɛ̃ː"]
+        },
+        {
+          "word": "کام",
+          "expected_ipa": ["k", "ɑː", "m"]
+        },
+        {
+          "word": "کرو۔",
+          "expected_ipa": ["k", "ə", "r", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_2_07",
+      "text": "گول گپّے کھاؤ۔",
+      "romanized": "Gol gappay khao.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "گول",
+          "expected_ipa": ["g", "oː", "l"]
+        },
+        {
+          "word": "گپّے",
+          "expected_ipa": ["g", "ə", "p", "ː", "eː"]
+        },
+        {
+          "word": "کھاؤ۔",
+          "expected_ipa": ["kʰ", "ɑː", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_2_08",
+      "text": "کمرہ صاف کرو۔",
+      "romanized": "Kamra saaf karo.",
+      "difficulty": 1,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "کمرہ",
+          "expected_ipa": ["k", "ə", "m", "ɾ", "ɑː"]
+        },
+        {
+          "word": "صاف",
+          "expected_ipa": ["s", "ɑː", "f"]
+        },
+        {
+          "word": "کرو۔",
+          "expected_ipa": ["k", "ə", "r", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_2_09",
+      "text": "گھوڑا تیز بھاگا۔",
+      "romanized": "Ghoṛa tez bhaaga.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "گھوڑا",
+          "expected_ipa": ["gʱ", "oː", "ɽ", "ɑː"]
+        },
+        {
+          "word": "تیز",
+          "expected_ipa": ["t̪", "eː", "z"]
+        },
+        {
+          "word": "بھاگا۔",
+          "expected_ipa": ["bʱ", "ɑː", "g", "ɑː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_2_10",
+      "text": "کھیرا بہت تازہ ہے۔",
+      "romanized": "Kheera bohot taaza hai.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "کھیرا",
+          "expected_ipa": ["kʰ", "iː", "ɾ", "ɑː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "oː", "t̪"]
+        },
+        {
+          "word": "تازہ",
+          "expected_ipa": ["t̪", "ɑː", "z", "ɑː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_2_11",
+      "text": "گھنٹی بج رہی ہے۔",
+      "romanized": "Ghanti baj rahi hai.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "گھنٹی",
+          "expected_ipa": ["gʱ", "ə", "ɳ", "ʈ", "iː"]
+        },
+        {
+          "word": "بج",
+          "expected_ipa": ["b", "ə", "d͡ʒ"]
+        },
+        {
+          "word": "رہی",
+          "expected_ipa": ["r", "ə", "ɦ", "iː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_2_12",
+      "text": "کپڑے استری کرو۔",
+      "romanized": "Kapṛe istree karo.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "کپڑے",
+          "expected_ipa": ["k", "ə", "p", "ɽ", "eː"]
+        },
+        {
+          "word": "استری",
+          "expected_ipa": ["ɪ", "s", "t̪", "ɾ", "iː"]
+        },
+        {
+          "word": "کرو۔",
+          "expected_ipa": ["k", "ə", "r", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_2_13",
+      "text": "گاجر بہت اچھی ہے۔",
+      "romanized": "Gaajar bohot achhi hai.",
+      "difficulty": 1,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "گاجر",
+          "expected_ipa": ["g", "ɑː", "d͡ʒ", "ə", "r"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "oː", "t̪"]
+        },
+        {
+          "word": "اچھی",
+          "expected_ipa": ["ə", "t͡ʃ", "ʰ", "iː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_2_14",
+      "text": "کھیل کا میدان۔",
+      "romanized": "Khel ka maidaan.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "کھیل",
+          "expected_ipa": ["kʰ", "eː", "l"]
+        },
+        {
+          "word": "کا",
+          "expected_ipa": ["k", "ɑː"]
+        },
+        {
+          "word": "میدان۔",
+          "expected_ipa": ["m", "ɛː", "d̪", "ɑː", "n"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_2_15",
+      "text": "گہرا رنگ پسند ہے۔",
+      "romanized": "Gehra rang pasand hai.",
+      "difficulty": 3,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "گہرا",
+          "expected_ipa": ["g", "ɛː", "ɦ", "ɾ", "ɑː"]
+        },
+        {
+          "word": "رنگ",
+          "expected_ipa": ["r", "ə", "ŋ", "g"]
+        },
+        {
+          "word": "پسند",
+          "expected_ipa": ["p", "ə", "s", "ə", "n", "d̪"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_3_01",
+      "text": "گائے گھاس کھاتی ہے۔",
+      "romanized": "Gaaye ghaas khaati hai.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "گائے",
+          "expected_ipa": ["g", "ɑ", "ː", "ɪ"]
+        },
+        {
+          "word": "گھاس",
+          "expected_ipa": ["gʰ", "ɑ", "ː", "s"]
+        },
+        {
+          "word": "کھاتی",
+          "expected_ipa": ["kʰ", "ɑ", "ː", "t", "̪", "ɪ"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛ", "ː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_3_02",
+      "text": "کھیل کود اچھا ہے۔",
+      "romanized": "Khel kood achha hai.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "کھیل",
+          "expected_ipa": ["kʰ", "e", "ː", "l"]
+        },
+        {
+          "word": "کود",
+          "expected_ipa": ["k", "u", "ː", "d̪"]
+        },
+        {
+          "word": "اچھا",
+          "expected_ipa": ["ə", "tʃ", "ʰ", "ɑ", "ː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛ", "ː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_3_03",
+      "text": "گھوڑا تیز بھاگا۔",
+      "romanized": "Ghora tez bhaaga.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "گھوڑا",
+          "expected_ipa": ["gʰ", "o", "ː", "ɽ", "ɑ", "ː"]
+        },
+        {
+          "word": "تیز",
+          "expected_ipa": ["t", "e", "ː", "z"]
+        },
+        {
+          "word": "بھاگا۔",
+          "expected_ipa": ["bʰ", "ɑ", "ː", "g", "ɑ", "ː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_3_04",
+      "text": "کالا کوٹ پہنو۔",
+      "romanized": "Kaala coat pehno.",
+      "difficulty": 1,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "کالا",
+          "expected_ipa": ["k", "ɑ", "ː", "l", "ɑ", "ː"]
+        },
+        {
+          "word": "کوٹ",
+          "expected_ipa": ["k", "o", "ː", "ʈ"]
+        },
+        {
+          "word": "پہنو۔",
+          "expected_ipa": ["p", "ɛ", "h", "n", "o", "ː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_3_05",
+      "text": "گیت گانا پسند ہے۔",
+      "romanized": "Geet gaana pasand hai.",
+      "difficulty": 1,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "گیت",
+          "expected_ipa": ["g", "i", "ː", "t", "̪"]
+        },
+        {
+          "word": "گانا",
+          "expected_ipa": ["g", "ɑ", "ː", "n", "ɑ", "ː"]
+        },
+        {
+          "word": "پسند",
+          "expected_ipa": ["p", "ə", "s", "ə", "n", "d̪"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "ɛ", "ː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_3_06",
+      "text": "کمرہ صاف کرو۔",
+      "romanized": "Kamra saaf karo.",
+      "difficulty": 1,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "کمرہ",
+          "expected_ipa": ["k", "ə", "m", "ɾ", "ɑ", "ː"]
+        },
+        {
+          "word": "صاف",
+          "expected_ipa": ["s", "ɑ", "ː", "f"]
+        },
+        {
+          "word": "کرو۔",
+          "expected_ipa": ["k", "ə", "ɾ", "o", "ː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_3_07",
+      "text": "گول گپّے کھاؤ۔",
+      "romanized": "Gol gappay khao.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "گول",
+          "expected_ipa": ["g", "o", "ː", "l"]
+        },
+        {
+          "word": "گپّے",
+          "expected_ipa": ["g", "ə", "p", "p", "e", "ː"]
+        },
+        {
+          "word": "کھاؤ۔",
+          "expected_ipa": ["kʰ", "ɑ", "ː", "o", "ː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_3_08",
+      "text": "کون آیا گھر؟",
+      "romanized": "Kaun aaya ghar?",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "کون",
+          "expected_ipa": ["k", "ɔ", "ː", "n"]
+        },
+        {
+          "word": "آیا",
+          "expected_ipa": ["ɑ", "ː", "j", "ɑ", "ː"]
+        },
+        {
+          "word": "گھر؟",
+          "expected_ipa": ["gʰ", "ə", "ɾ"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_3_09",
+      "text": "گھڑی کہاں رکھی؟",
+      "romanized": "Ghadi kahan rakhi?",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "گھڑی",
+          "expected_ipa": ["gʰ", "ə", "ɽ", "i", "ː"]
+        },
+        {
+          "word": "کہاں",
+          "expected_ipa": ["k", "ə", "h", "ɑ", "ː", "̃"]
+        },
+        {
+          "word": "رکھی؟",
+          "expected_ipa": ["ɾ", "ə", "kʰ", "i", "ː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_3_10",
+      "text": "کچھ کام کرو۔",
+      "romanized": "Kuch kaam karo.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "کچھ",
+          "expected_ipa": ["k", "ʊ", "tʃ", "ʰ"]
+        },
+        {
+          "word": "کام",
+          "expected_ipa": ["k", "ɑ", "ː", "m"]
+        },
+        {
+          "word": "کرو۔",
+          "expected_ipa": ["k", "ə", "ɾ", "o", "ː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_3_11",
+      "text": "گہری نیند سویا۔",
+      "romanized": "Gehri neend soya.",
+      "difficulty": 1,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "گہری",
+          "expected_ipa": ["g", "ɛ", "h", "ɾ", "i", "ː"]
+        },
+        {
+          "word": "نیند",
+          "expected_ipa": ["n", "i", "ː", "n", "d̪"]
+        },
+        {
+          "word": "سویا۔",
+          "expected_ipa": ["s", "o", "ː", "j", "ɑ", "ː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_3_12",
+      "text": "کھیت میں کام۔",
+      "romanized": "Khet mein kaam.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "کھیت",
+          "expected_ipa": ["kʰ", "e", "ː", "t", "̪"]
+        },
+        {
+          "word": "میں",
+          "expected_ipa": ["m", "e", "ː", "̃"]
+        },
+        {
+          "word": "کام۔",
+          "expected_ipa": ["k", "ɑ", "ː", "m"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_3_13",
+      "text": "گھنے درخت لگاؤ۔",
+      "romanized": "Ghanay darakht lagao.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "گھنے",
+          "expected_ipa": ["gʰ", "ə", "n", "e", "ː"]
+        },
+        {
+          "word": "درخت",
+          "expected_ipa": ["d̪", "ə", "ɾ", "ə", "x", "t", "̪"]
+        },
+        {
+          "word": "لگاؤ۔",
+          "expected_ipa": ["l", "ə", "g", "ɑ", "ː", "o", "ː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_3_14",
+      "text": "کھیل بہت اچھا۔",
+      "romanized": "Khel bohat achha.",
+      "difficulty": 1,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "کھیل",
+          "expected_ipa": ["kʰ", "e", "ː", "l"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "h", "o", "ː", "t", "̪"]
+        },
+        {
+          "word": "اچھا۔",
+          "expected_ipa": ["ə", "tʃ", "ʰ", "ɑ", "ː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_vel_3_15",
+      "text": "گھر کی چابی۔",
+      "romanized": "Ghar ki chaabi.",
+      "difficulty": 2,
+      "test_type": "velar_fronting",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "گھر",
+          "expected_ipa": ["gʰ", "ə", "ɾ"]
+        },
+        {
+          "word": "کی",
+          "expected_ipa": ["k", "i", "ː"]
+        },
+        {
+          "word": "چابی۔",
+          "expected_ipa": ["tʃ", "ɑ", "ː", "b", "i", "ː"]
+        }
+      ]
+    }
+  ]
+}

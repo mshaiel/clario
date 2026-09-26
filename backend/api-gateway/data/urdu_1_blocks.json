@@ -1,0 +1,1116 @@
+{
+  "test_type": "blocks",
+  "description": "Short Urdu sentences to detect blocks.",
+  "sentences": [
+    {
+      "id": "ur_blo_01",
+      "text": "میں نے دیکھا۔",
+      "romanized": "Main ne dekha.",
+      "difficulty": 1,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "میں",
+          "expected_ipa": ["m", "ɛ̃"]
+        },
+        {
+          "word": "نے",
+          "expected_ipa": ["n", "eː"]
+        },
+        {
+          "word": "دیکھا",
+          "expected_ipa": ["d", "eː", "kʰ", "ɑː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_02",
+      "text": "وہ پانی لایا۔",
+      "romanized": "Woh paani laaya.",
+      "difficulty": 1,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "پانی",
+          "expected_ipa": ["p", "ɑː", "n", "iː"]
+        },
+        {
+          "word": "لایا",
+          "expected_ipa": ["l", "ɑː", "j", "ɑː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_03",
+      "text": "یہ کتاب پڑھو۔",
+      "romanized": "Yeh kitaab parho.",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["j", "eː"]
+        },
+        {
+          "word": "کتاب",
+          "expected_ipa": ["k", "ɪ", "t", "ɑː", "b"]
+        },
+        {
+          "word": "پڑھو",
+          "expected_ipa": ["p", "ə", "ɽ", "ʱ", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_04",
+      "text": "ٹھنڈا پانی پیو۔",
+      "romanized": "Thanda paani piyo.",
+      "difficulty": 3,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "ٹھنڈا",
+          "expected_ipa": ["ʈ", "ʰ", "ə", "ɳ", "ɖ", "ɑː"]
+        },
+        {
+          "word": "پانی",
+          "expected_ipa": ["p", "ɑː", "n", "iː"]
+        },
+        {
+          "word": "پیو",
+          "expected_ipa": ["p", "iː", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_05",
+      "text": "اس کا نام کیا ہے؟",
+      "romanized": "Is ka naam kya hai?",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "اس",
+          "expected_ipa": ["ɪ", "s"]
+        },
+        {
+          "word": "کا",
+          "expected_ipa": ["k", "ɑː"]
+        },
+        {
+          "word": "نام",
+          "expected_ipa": ["n", "ɑː", "m"]
+        },
+        {
+          "word": "کیا",
+          "expected_ipa": ["k", "j", "ɑː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_06",
+      "text": "وہ بہت خوش ہے۔",
+      "romanized": "Woh bohat khush hai.",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "خوش",
+          "expected_ipa": ["x", "ʊ", "ʃ"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_07",
+      "text": "میرا قلم کہاں ہے؟",
+      "romanized": "Mera qalam kahan hai?",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "میرا",
+          "expected_ipa": ["m", "eː", "r", "ɑː"]
+        },
+        {
+          "word": "قلم",
+          "expected_ipa": ["q", "ə", "l", "ə", "m"]
+        },
+        {
+          "word": "کہاں",
+          "expected_ipa": ["k", "ə", "ɦ", "ɑ̃ː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_08",
+      "text": "آج موسم اچھا ہے۔",
+      "romanized": "Aaj mausam achha hai.",
+      "difficulty": 1,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "آج",
+          "expected_ipa": ["ɑː", "dʒ"]
+        },
+        {
+          "word": "موسم",
+          "expected_ipa": ["m", "ɔː", "s", "ə", "m"]
+        },
+        {
+          "word": "اچھا",
+          "expected_ipa": ["ə", "tʃ", "ʰ", "ɑː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_09",
+      "text": "جلدی سے آؤ۔",
+      "romanized": "Jaldi se aao.",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "جلدی",
+          "expected_ipa": ["dʒ", "ə", "l", "d", "iː"]
+        },
+        {
+          "word": "سے",
+          "expected_ipa": ["s", "eː"]
+        },
+        {
+          "word": "آؤ",
+          "expected_ipa": ["ɑː", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_10",
+      "text": "دروازہ بند کرو۔",
+      "romanized": "Darwaza band karo.",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "دروازہ",
+          "expected_ipa": ["d", "ə", "r", "ʋ", "ɑː", "z", "ɑː"]
+        },
+        {
+          "word": "بند",
+          "expected_ipa": ["b", "ə", "n", "d"]
+        },
+        {
+          "word": "کرو",
+          "expected_ipa": ["k", "ə", "r", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_11",
+      "text": "مجھے بھوک لگی ہے۔",
+      "romanized": "Mujhe bhook lagi hai.",
+      "difficulty": 3,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "مجھے",
+          "expected_ipa": ["m", "ʊ", "dʒ", "ʱ", "eː"]
+        },
+        {
+          "word": "بھوک",
+          "expected_ipa": ["b", "ʱ", "uː", "k"]
+        },
+        {
+          "word": "لگی",
+          "expected_ipa": ["l", "ə", "g", "iː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_12",
+      "text": "یہ پھول خوبصورت ہے۔",
+      "romanized": "Yeh phool khoobsurat hai.",
+      "difficulty": 3,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["j", "eː"]
+        },
+        {
+          "word": "پھول",
+          "expected_ipa": ["p", "ʰ", "uː", "l"]
+        },
+        {
+          "word": "خوبصورت",
+          "expected_ipa": ["x", "uː", "b", "s", "uː", "r", "ə", "t"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_13",
+      "text": "چائے گرم ہے۔",
+      "romanized": "Chaaye garam hai.",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "چائے",
+          "expected_ipa": ["tʃ", "ɑː", "eː"]
+        },
+        {
+          "word": "گرم",
+          "expected_ipa": ["g", "ə", "r", "m"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_14",
+      "text": "وہ بہت تیز بھاگا۔",
+      "romanized": "Woh bohat tez bhaaga.",
+      "difficulty": 3,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "تیز",
+          "expected_ipa": ["t", "eː", "z"]
+        },
+        {
+          "word": "بھاگا",
+          "expected_ipa": ["b", "ʱ", "ɑː", "g", "ɑː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_15",
+      "text": "اپنا کام کرو۔",
+      "romanized": "Apna kaam karo.",
+      "difficulty": 1,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "اپنا",
+          "expected_ipa": ["ə", "p", "n", "ɑː"]
+        },
+        {
+          "word": "کام",
+          "expected_ipa": ["k", "ɑː", "m"]
+        },
+        {
+          "word": "کرو",
+          "expected_ipa": ["k", "ə", "r", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_16",
+      "text": "کیا حال ہے؟",
+      "romanized": "Kya haal hai?",
+      "difficulty": 1,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "کیا",
+          "expected_ipa": ["k", "j", "ɑː"]
+        },
+        {
+          "word": "حال",
+          "expected_ipa": ["h", "ɑː", "l"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_17",
+      "text": "میں ٹھیک ہوں۔",
+      "romanized": "Main theek hoon.",
+      "difficulty": 1,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "میں",
+          "expected_ipa": ["m", "ɛ̃"]
+        },
+        {
+          "word": "ٹھیک",
+          "expected_ipa": ["ʈ", "ʰ", "iː", "k"]
+        },
+        {
+          "word": "ہوں",
+          "expected_ipa": ["h", "ʊ̃ː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_18",
+      "text": "یہ میرا گھر ہے۔",
+      "romanized": "Yeh mera ghar hai.",
+      "difficulty": 1,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["j", "eː"]
+        },
+        {
+          "word": "میرا",
+          "expected_ipa": ["m", "eː", "r", "ɑː"]
+        },
+        {
+          "word": "گھر",
+          "expected_ipa": ["g", "ʱ", "ə", "r"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_19",
+      "text": "وہ سکول گیا۔",
+      "romanized": "Woh school gaya.",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "سکول",
+          "expected_ipa": ["s", "k", "uː", "l"]
+        },
+        {
+          "word": "گیا",
+          "expected_ipa": ["g", "ə", "j", "ɑː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_20",
+      "text": "مجھے نیند آ رہی ہے۔",
+      "romanized": "Mujhe neend aa rahi hai.",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "مجھے",
+          "expected_ipa": ["m", "ʊ", "dʒ", "ʱ", "eː"]
+        },
+        {
+          "word": "نیند",
+          "expected_ipa": ["n", "iː", "n", "d"]
+        },
+        {
+          "word": "آ",
+          "expected_ipa": ["ɑː"]
+        },
+        {
+          "word": "رہی",
+          "expected_ipa": ["r", "ə", "ɦ", "iː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_21",
+      "text": "یہ بہت مشکل ہے۔",
+      "romanized": "Yeh bohat mushkil hai.",
+      "difficulty": 3,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["j", "eː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "مشکل",
+          "expected_ipa": ["m", "ʊ", "ʃ", "k", "ɪ", "l"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_22",
+      "text": "بارش ہو رہی ہے۔",
+      "romanized": "Baarish ho rahi hai.",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "بارش",
+          "expected_ipa": ["b", "ɑː", "r", "ɪ", "ʃ"]
+        },
+        {
+          "word": "ہو",
+          "expected_ipa": ["h", "oː"]
+        },
+        {
+          "word": "رہی",
+          "expected_ipa": ["r", "ə", "ɦ", "iː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_23",
+      "text": "سورج نکل رہا ہے۔",
+      "romanized": "Suraj nikal raha hai.",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "سورج",
+          "expected_ipa": ["s", "uː", "r", "ə", "dʒ"]
+        },
+        {
+          "word": "نکل",
+          "expected_ipa": ["n", "ɪ", "k", "ə", "l"]
+        },
+        {
+          "word": "رہا",
+          "expected_ipa": ["r", "ə", "ɦ", "ɑː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_24",
+      "text": "چاند چمک رہا ہے۔",
+      "romanized": "Chaand chamak raha hai.",
+      "difficulty": 3,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "چاند",
+          "expected_ipa": ["tʃ", "ɑː", "n", "d"]
+        },
+        {
+          "word": "چمک",
+          "expected_ipa": ["tʃ", "ə", "m", "ək"]
+        },
+        {
+          "word": "رہا",
+          "expected_ipa": ["r", "ə", "ɦ", "ɑː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_25",
+      "text": "مجھے مدد چاہیے۔",
+      "romanized": "Mujhe madad chahiye.",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "مجھے",
+          "expected_ipa": ["m", "ʊ", "dʒ", "ʱ", "eː"]
+        },
+        {
+          "word": "مدد",
+          "expected_ipa": ["m", "ə", "d", "ə", "d"]
+        },
+        {
+          "word": "چاہیے",
+          "expected_ipa": ["tʃ", "ɑː", "ɦ", "iː", "eː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_26",
+      "text": "وہ بہت ذہین ہے۔",
+      "romanized": "Woh bohat zaheen hai.",
+      "difficulty": 3,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "ذہین",
+          "expected_ipa": ["z", "ə", "ɦ", "iː", "n"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_27",
+      "text": "یہ بہت اچھا ہے۔",
+      "romanized": "Yeh bohat achha hai.",
+      "difficulty": 1,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["j", "eː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "اچھا",
+          "expected_ipa": ["ə", "tʃ", "ʰ", "ɑː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_28",
+      "text": "کیا تم تیار ہو؟",
+      "romanized": "Kya tum tayyar ho?",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "کیا",
+          "expected_ipa": ["k", "j", "ɑː"]
+        },
+        {
+          "word": "تم",
+          "expected_ipa": ["t", "ʊ", "m"]
+        },
+        {
+          "word": "تیار",
+          "expected_ipa": ["t", "ə", "j", "j", "ɑː", "r"]
+        },
+        {
+          "word": "ہو",
+          "expected_ipa": ["h", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_29",
+      "text": "میں تیار ہوں۔",
+      "romanized": "Main tayyar hoon.",
+      "difficulty": 1,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "میں",
+          "expected_ipa": ["m", "ɛ̃"]
+        },
+        {
+          "word": "تیار",
+          "expected_ipa": ["t", "ə", "j", "j", "ɑː", "r"]
+        },
+        {
+          "word": "ہوں",
+          "expected_ipa": ["h", "ʊ̃ː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_30",
+      "text": "یہ بہت مہنگا ہے۔",
+      "romanized": "Yeh bohat mehnga hai.",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["j", "eː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "مہنگا",
+          "expected_ipa": ["m", "ɛː", "ɦ", "ŋ", "ɑː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_31",
+      "text": "وہ بہت غریب ہے۔",
+      "romanized": "Woh bohat ghareeb hai.",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "غریب",
+          "expected_ipa": ["ɣ", "ə", "r", "iː", "b"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_32",
+      "text": "مجھے جانا ہے۔",
+      "romanized": "Mujhe jaana hai.",
+      "difficulty": 1,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "مجھے",
+          "expected_ipa": ["m", "ʊ", "dʒ", "ʱ", "eː"]
+        },
+        {
+          "word": "جانا",
+          "expected_ipa": ["dʒ", "ɑː", "n", "ɑː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_33",
+      "text": "وہ یہاں نہیں ہے۔",
+      "romanized": "Woh yahan nahin hai.",
+      "difficulty": 1,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "یہاں",
+          "expected_ipa": ["j", "ə", "ɦ", "ɑ̃ː"]
+        },
+        {
+          "word": "نہیں",
+          "expected_ipa": ["n", "ə", "ɦ", "iː", "̃"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_34",
+      "text": "یہ میرا دوست ہے۔",
+      "romanized": "Yeh mera dost hai.",
+      "difficulty": 1,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["j", "eː"]
+        },
+        {
+          "word": "میرا",
+          "expected_ipa": ["m", "eː", "r", "ɑː"]
+        },
+        {
+          "word": "دوست",
+          "expected_ipa": ["d", "oː", "s", "t"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_35",
+      "text": "وہ بہت دور ہے۔",
+      "romanized": "Woh bohat door hai.",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "دور",
+          "expected_ipa": ["d", "uː", "r"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_36",
+      "text": "مجھے پیاس لگی ہے۔",
+      "romanized": "Mujhe pyaas lagi hai.",
+      "difficulty": 3,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "مجھے",
+          "expected_ipa": ["m", "ʊ", "dʒ", "ʱ", "eː"]
+        },
+        {
+          "word": "پیاس",
+          "expected_ipa": ["p", "j", "ɑː", "s"]
+        },
+        {
+          "word": "لگی",
+          "expected_ipa": ["l", "ə", "g", "iː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_37",
+      "text": "یہ بہت چھوٹا ہے۔",
+      "romanized": "Yeh bohat chhota hai.",
+      "difficulty": 3,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["j", "eː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "چھوٹا",
+          "expected_ipa": ["tʃ", "ʰ", "oː", "ʈ", "ɑː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_38",
+      "text": "وہ بہت بڑا ہے۔",
+      "romanized": "Woh bohat bada hai.",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "بڑا",
+          "expected_ipa": ["b", "ə", "ɽ", "ɑː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_39",
+      "text": "مجھے یہ پسند ہے۔",
+      "romanized": "Mujhe yeh pasand hai.",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "مجھے",
+          "expected_ipa": ["m", "ʊ", "dʒ", "ʱ", "eː"]
+        },
+        {
+          "word": "یہ",
+          "expected_ipa": ["j", "eː"]
+        },
+        {
+          "word": "پسند",
+          "expected_ipa": ["p", "ə", "s", "ə", "n", "d"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_40",
+      "text": "وہ بہت خوبصورت ہے۔",
+      "romanized": "Woh bohat khoobsurat hai.",
+      "difficulty": 3,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "خوبصورت",
+          "expected_ipa": ["x", "uː", "b", "s", "uː", "r", "ə", "t"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_41",
+      "text": "یہ بہت آسان ہے۔",
+      "romanized": "Yeh bohat aasaan hai.",
+      "difficulty": 1,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["j", "eː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "آسان",
+          "expected_ipa": ["ɑː", "s", "ɑː", "n"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_42",
+      "text": "مجھے یہ چاہیے۔",
+      "romanized": "Mujhe yeh chahiye.",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "مجھے",
+          "expected_ipa": ["m", "ʊ", "dʒ", "ʱ", "eː"]
+        },
+        {
+          "word": "یہ",
+          "expected_ipa": ["j", "eː"]
+        },
+        {
+          "word": "چاہیے",
+          "expected_ipa": ["tʃ", "ɑː", "ɦ", "iː", "eː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_43",
+      "text": "وہ بہت مصروف ہے۔",
+      "romanized": "Woh bohat masroof hai.",
+      "difficulty": 3,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "مصروف",
+          "expected_ipa": ["m", "ə", "s", "r", "uː", "f"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_44",
+      "text": "یہ بہت ضروری ہے۔",
+      "romanized": "Yeh bohat zaroori hai.",
+      "difficulty": 3,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["j", "eː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "ضروری",
+          "expected_ipa": ["z", "ə", "r", "uː", "r", "iː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_blo_45",
+      "text": "مجھے یہ نہیں چاہیے۔",
+      "romanized": "Mujhe yeh nahin chahiye.",
+      "difficulty": 2,
+      "test_type": "blocks",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "مجھے",
+          "expected_ipa": ["m", "ʊ", "dʒ", "ʱ", "eː"]
+        },
+        {
+          "word": "یہ",
+          "expected_ipa": ["j", "eː"]
+        },
+        {
+          "word": "نہیں",
+          "expected_ipa": ["n", "ə", "ɦ", "iː", "̃"]
+        },
+        {
+          "word": "چاہیے",
+          "expected_ipa": ["tʃ", "ɑː", "ɦ", "iː", "eː"]
+        }
+      ]
+    }
+  ]
+}

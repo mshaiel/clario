@@ -1,0 +1,1092 @@
+{
+  "test_type": "cluster_reduction",
+  "description": "Short Urdu sentences to detect cluster_reduction.",
+  "sentences": [
+    {
+      "id": "ur_clu_01",
+      "text": "پریم بہت اچھا ہے۔",
+      "romanized": "Prem bohat acha hai.",
+      "difficulty": 1,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "پریم",
+          "expected_ipa": ["p", "r", "eː", "m"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ə", "t̪"]
+        },
+        {
+          "word": "اچھا",
+          "expected_ipa": ["ə", "t͡ʃ", "ʰ", "aː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["ɦ", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_02",
+      "text": "ٹرین تیز چلتی ہے۔",
+      "romanized": "Train tez chalti hai.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "ٹرین",
+          "expected_ipa": ["ʈ", "r", "eː", "n"]
+        },
+        {
+          "word": "تیز",
+          "expected_ipa": ["t̪", "eː", "z"]
+        },
+        {
+          "word": "چلتی",
+          "expected_ipa": ["t͡ʃ", "ə", "l", "t̪", "iː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["ɦ", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_03",
+      "text": "درخت بہت بڑا ہے۔",
+      "romanized": "Darakht bohat bada hai.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "درخت",
+          "expected_ipa": ["d̪", "r", "ə", "x", "t̪"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ə", "t̪"]
+        },
+        {
+          "word": "بڑا",
+          "expected_ipa": ["b", "ə", "ɽ", "aː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["ɦ", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_04",
+      "text": "سکول بند ہو گیا۔",
+      "romanized": "School band ho gaya.",
+      "difficulty": 1,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "سکول",
+          "expected_ipa": ["s", "k", "uː", "l"]
+        },
+        {
+          "word": "بند",
+          "expected_ipa": ["b", "ə", "n", "d̪"]
+        },
+        {
+          "word": "ہو",
+          "expected_ipa": ["ɦ", "oː"]
+        },
+        {
+          "word": "گیا۔",
+          "expected_ipa": ["g", "ɪ", "j", "aː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_05",
+      "text": "گروپ میں آؤ۔",
+      "romanized": "Group mein aao.",
+      "difficulty": 1,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "گروپ",
+          "expected_ipa": ["g", "r", "uː", "p"]
+        },
+        {
+          "word": "میں",
+          "expected_ipa": ["m", "eː", "̃"]
+        },
+        {
+          "word": "آؤ۔",
+          "expected_ipa": ["aː", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_06",
+      "text": "پلیٹ صاف کرو۔",
+      "romanized": "Plate saaf karo.",
+      "difficulty": 1,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "پلیٹ",
+          "expected_ipa": ["p", "l", "eː", "ʈ"]
+        },
+        {
+          "word": "صاف",
+          "expected_ipa": ["s", "aː", "f"]
+        },
+        {
+          "word": "کرو۔",
+          "expected_ipa": ["k", "ə", "r", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_07",
+      "text": "فلم دیکھنی ہے۔",
+      "romanized": "Film dekhni hai.",
+      "difficulty": 1,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "فلم",
+          "expected_ipa": ["f", "ɪ", "l", "m"]
+        },
+        {
+          "word": "دیکھنی",
+          "expected_ipa": ["d̪", "eː", "k", "ʰ", "n", "iː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["ɦ", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_08",
+      "text": "سردی بہت زیادہ ہے۔",
+      "romanized": "Sardi bohat zyada hai.",
+      "difficulty": 1,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "سردی",
+          "expected_ipa": ["s", "ə", "r", "d̪", "iː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ə", "t̪"]
+        },
+        {
+          "word": "زیادہ",
+          "expected_ipa": ["z", "ɪ", "j", "aː", "d̪", "aː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["ɦ", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_09",
+      "text": "گرمی کا موسم ہے۔",
+      "romanized": "Garmi ka mausam hai.",
+      "difficulty": 1,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "گرمی",
+          "expected_ipa": ["g", "ə", "r", "m", "iː"]
+        },
+        {
+          "word": "کا",
+          "expected_ipa": ["k", "aː"]
+        },
+        {
+          "word": "موسم",
+          "expected_ipa": ["m", "ɔː", "s", "əm"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["ɦ", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_10",
+      "text": "دوست میرا انتظار کر۔",
+      "romanized": "Dost mera intezar kar.",
+      "difficulty": 1,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "دوست",
+          "expected_ipa": ["d̪", "oː", "s", "t̪"]
+        },
+        {
+          "word": "میرا",
+          "expected_ipa": ["m", "eː", "r", "aː"]
+        },
+        {
+          "word": "انتظار",
+          "expected_ipa": ["ɪ", "n", "t̪", "ɪ", "z", "aː", "r"]
+        },
+        {
+          "word": "کر۔",
+          "expected_ipa": ["k", "ə", "r"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_11",
+      "text": "سخت محنت کرو۔",
+      "romanized": "Sakht mehnat karo.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "سخت",
+          "expected_ipa": ["s", "aː", "x", "t̪"]
+        },
+        {
+          "word": "محنت",
+          "expected_ipa": ["m", "eː", "ɦ", "n", "ət̪"]
+        },
+        {
+          "word": "کرو۔",
+          "expected_ipa": ["k", "ə", "r", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_12",
+      "text": "رشتہ مضبوط بناؤ۔",
+      "romanized": "Rishta mazboot banao.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "رشتہ",
+          "expected_ipa": ["r", "ɪ", "ʃ", "t̪", "aː"]
+        },
+        {
+          "word": "مضبوط",
+          "expected_ipa": ["m", "ə", "z", "b", "uː", "t̪"]
+        },
+        {
+          "word": "بناؤ۔",
+          "expected_ipa": ["b", "ə", "n", "aː", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_13",
+      "text": "ہفتہ بہت لمبا ہے۔",
+      "romanized": "Hafta bohat lamba hai.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "ہفتہ",
+          "expected_ipa": ["ɦ", "ə", "f", "t̪", "aː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ə", "t̪"]
+        },
+        {
+          "word": "لمبا",
+          "expected_ipa": ["l", "ə", "m", "b", "aː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["ɦ", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_14",
+      "text": "چاند بہت روشن ہے۔",
+      "romanized": "Chand bohat roshan hai.",
+      "difficulty": 1,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "چاند",
+          "expected_ipa": ["t͡ʃ", "aː", "n", "d̪"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ə", "t̪"]
+        },
+        {
+          "word": "روشن",
+          "expected_ipa": ["r", "oː", "ʃ", "ən"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["ɦ", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_15",
+      "text": "رنگ بہت خوبصورت ہے۔",
+      "romanized": "Rang bohat khoobsurat hai.",
+      "difficulty": 1,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "رنگ",
+          "expected_ipa": ["r", "ə", "ŋ", "g"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ə", "t̪"]
+        },
+        {
+          "word": "خوبصورت",
+          "expected_ipa": ["x", "uː", "b", "s", "uː", "r", "ət̪"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["ɦ", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_16",
+      "text": "جنگ ختم ہو گئی۔",
+      "romanized": "Jang khatam ho gayi.",
+      "difficulty": 1,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "جنگ",
+          "expected_ipa": ["d͡ʒ", "ə", "ŋ", "g"]
+        },
+        {
+          "word": "ختم",
+          "expected_ipa": ["x", "ət̪", "əm"]
+        },
+        {
+          "word": "ہو",
+          "expected_ipa": ["ɦ", "oː"]
+        },
+        {
+          "word": "گئی۔",
+          "expected_ipa": ["g", "ə", "iː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_17",
+      "text": "بند دروازہ کھول دو۔",
+      "romanized": "Band darwaza khol do.",
+      "difficulty": 1,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "بند",
+          "expected_ipa": ["b", "ə", "n", "d̪"]
+        },
+        {
+          "word": "دروازہ",
+          "expected_ipa": ["d̪", "ə", "r", "ʋ", "aː", "z", "aː"]
+        },
+        {
+          "word": "کھول",
+          "expected_ipa": ["k", "ʰ", "oː", "l"]
+        },
+        {
+          "word": "دو۔",
+          "expected_ipa": ["d̪", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_18",
+      "text": "کند چھری تیز کرو۔",
+      "romanized": "Kund chhuri tez karo.",
+      "difficulty": 1,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "کند",
+          "expected_ipa": ["k", "ə", "n", "d̪"]
+        },
+        {
+          "word": "چھری",
+          "expected_ipa": ["t͡ʃ", "ʰ", "ʊ", "r", "iː"]
+        },
+        {
+          "word": "تیز",
+          "expected_ipa": ["t̪", "eː", "z"]
+        },
+        {
+          "word": "کرو۔",
+          "expected_ipa": ["k", "ə", "r", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_19",
+      "text": "پندرہ روپے دو۔",
+      "romanized": "Pandrah rupay do.",
+      "difficulty": 3,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "پندرہ",
+          "expected_ipa": ["p", "ə", "n", "d̪", "r", "aː"]
+        },
+        {
+          "word": "روپے",
+          "expected_ipa": ["r", "uː", "p", "eː"]
+        },
+        {
+          "word": "دو۔",
+          "expected_ipa": ["d̪", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_20",
+      "text": "مشکل کام آسان کرو۔",
+      "romanized": "Mushkil kaam asaan karo.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "مشکل",
+          "expected_ipa": ["m", "ʊ", "ʃ", "k", "ɪ", "l"]
+        },
+        {
+          "word": "کام",
+          "expected_ipa": ["k", "aː", "m"]
+        },
+        {
+          "word": "آسان",
+          "expected_ipa": ["aː", "s", "aː", "n"]
+        },
+        {
+          "word": "کرو۔",
+          "expected_ipa": ["k", "ə", "r", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_21",
+      "text": "خطرناک راستہ ہے۔",
+      "romanized": "Khatarnak rasta hai.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "خطرناک",
+          "expected_ipa": ["x", "ə", "t̪", "ə", "r", "n", "aː", "k"]
+        },
+        {
+          "word": "راستہ",
+          "expected_ipa": ["r", "aː", "s", "t̪", "aː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["ɦ", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_22",
+      "text": "مستقبل روشن ہے۔",
+      "romanized": "Mustaqbil roshan hai.",
+      "difficulty": 3,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "مستقبل",
+          "expected_ipa": ["m", "ʊ", "s", "t̪", "ə", "q", "b", "əl"]
+        },
+        {
+          "word": "روشن",
+          "expected_ipa": ["r", "oː", "ʃ", "ən"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["ɦ", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_23",
+      "text": "مستعد رہو ہمیشہ۔",
+      "romanized": "Musta'id raho hamesha.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "مستعد",
+          "expected_ipa": ["m", "ʊ", "s", "t̪", "ə", "ɪ", "d̪"]
+        },
+        {
+          "word": "رہو",
+          "expected_ipa": ["r", "ə", "ɦ", "oː"]
+        },
+        {
+          "word": "ہمیشہ۔",
+          "expected_ipa": ["ɦ", "ə", "m", "eː", "ʃ", "aː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_24",
+      "text": "مستحکم بنیاد بناؤ۔",
+      "romanized": "Mustahkam bunyad banao.",
+      "difficulty": 3,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "مستحکم",
+          "expected_ipa": ["m", "ʊ", "s", "t̪", "ə", "ɦ", "k", "əm"]
+        },
+        {
+          "word": "بنیاد",
+          "expected_ipa": ["b", "ʊ", "n", "j", "aː", "d̪"]
+        },
+        {
+          "word": "بناؤ۔",
+          "expected_ipa": ["b", "ə", "n", "aː", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_25",
+      "text": "مستند خبر دو۔",
+      "romanized": "Mustanad khabar do.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "مستند",
+          "expected_ipa": ["m", "ʊ", "s", "t̪", "ə", "n", "əd̪"]
+        },
+        {
+          "word": "خبر",
+          "expected_ipa": ["x", "ə", "b", "ə", "r"]
+        },
+        {
+          "word": "دو۔",
+          "expected_ipa": ["d̪", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_26",
+      "text": "مستقل کام کرو۔",
+      "romanized": "Mustaqil kaam karo.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "مستقل",
+          "expected_ipa": ["m", "ʊ", "s", "t̪", "ə", "q", "ɪ", "l"]
+        },
+        {
+          "word": "کام",
+          "expected_ipa": ["k", "aː", "m"]
+        },
+        {
+          "word": "کرو۔",
+          "expected_ipa": ["k", "ə", "r", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_27",
+      "text": "پیاس بہت لگی ہے۔",
+      "romanized": "Pyaas bohat lagi hai.",
+      "difficulty": 1,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "پیاس",
+          "expected_ipa": ["p", "j", "aː", "s"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ə", "t̪"]
+        },
+        {
+          "word": "لگی",
+          "expected_ipa": ["l", "ə", "g", "iː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["ɦ", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_28",
+      "text": "خواب سچا ہو گیا۔",
+      "romanized": "Khwab saccha ho gaya.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "خواب",
+          "expected_ipa": ["x", "ʋ", "aː", "b"]
+        },
+        {
+          "word": "سچا",
+          "expected_ipa": ["s", "ə", "t͡ʃ", "aː"]
+        },
+        {
+          "word": "ہو",
+          "expected_ipa": ["ɦ", "oː"]
+        },
+        {
+          "word": "گیا۔",
+          "expected_ipa": ["g", "ɪ", "j", "aː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_29",
+      "text": "سویٹر پہن لو۔",
+      "romanized": "Sweater pehan lo.",
+      "difficulty": 1,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "سویٹر",
+          "expected_ipa": ["s", "ʋ", "eː", "ʈ", "ə", "r"]
+        },
+        {
+          "word": "پہن",
+          "expected_ipa": ["p", "ɛ", "ɦ", "ən"]
+        },
+        {
+          "word": "لو۔",
+          "expected_ipa": ["l", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_30",
+      "text": "کرکٹ کھیل رہا ہے۔",
+      "romanized": "Cricket khel raha hai.",
+      "difficulty": 1,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "کرکٹ",
+          "expected_ipa": ["k", "r", "ɪ", "k", "ət̪"]
+        },
+        {
+          "word": "کھیل",
+          "expected_ipa": ["k", "ʰ", "eː", "l"]
+        },
+        {
+          "word": "رہا",
+          "expected_ipa": ["r", "ə", "ɦ", "aː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["ɦ", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_31",
+      "text": "برف پگھل رہی ہے۔",
+      "romanized": "Barf pighal rahi hai.",
+      "difficulty": 1,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "برف",
+          "expected_ipa": ["b", "ə", "r", "f"]
+        },
+        {
+          "word": "پگھل",
+          "expected_ipa": ["p", "ɪ", "g", "ʱ", "əl"]
+        },
+        {
+          "word": "رہی",
+          "expected_ipa": ["r", "ə", "ɦ", "iː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["ɦ", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_32",
+      "text": "برتن صاف رکھو۔",
+      "romanized": "Bartan saaf rakho.",
+      "difficulty": 1,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "برتن",
+          "expected_ipa": ["b", "ə", "r", "t̪", "ən"]
+        },
+        {
+          "word": "صاف",
+          "expected_ipa": ["s", "aː", "f"]
+        },
+        {
+          "word": "رکھو۔",
+          "expected_ipa": ["r", "ə", "k", "ʰ", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_33",
+      "text": "پتلا آدمی بھاگا۔",
+      "romanized": "Patla aadmi bhaga.",
+      "difficulty": 1,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "پتلا",
+          "expected_ipa": ["p", "ə", "t̪", "l", "aː"]
+        },
+        {
+          "word": "آدمی",
+          "expected_ipa": ["aː", "d̪", "m", "iː"]
+        },
+        {
+          "word": "بھاگا۔",
+          "expected_ipa": ["b", "ʱ", "aː", "g", "aː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_34",
+      "text": "چمکدار ستارے دیکھو۔",
+      "romanized": "Chamakdar sitare dekho.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "چمکدار",
+          "expected_ipa": ["t͡ʃ", "ə", "m", "ək", "d̪", "aː", "r"]
+        },
+        {
+          "word": "ستارے",
+          "expected_ipa": ["s", "ɪ", "t̪", "aː", "r", "eː"]
+        },
+        {
+          "word": "دیکھو۔",
+          "expected_ipa": ["d̪", "eː", "k", "ʰ", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_35",
+      "text": "دسترخوان بچھا دو۔",
+      "romanized": "Dastarkhwan bichha do.",
+      "difficulty": 3,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "دسترخوان",
+          "expected_ipa": ["d̪", "ə", "s", "t̪", "ə", "r", "x", "aː", "n"]
+        },
+        {
+          "word": "بچھا",
+          "expected_ipa": ["b", "ɪ", "t͡ʃ", "ʰ", "aː"]
+        },
+        {
+          "word": "دو۔",
+          "expected_ipa": ["d̪", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_36",
+      "text": "مشرق سے سورج نکلا۔",
+      "romanized": "Mashriq se suraj nikla.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "مشرق",
+          "expected_ipa": ["m", "ə", "ʃ", "r", "ɪ", "q"]
+        },
+        {
+          "word": "سے",
+          "expected_ipa": ["s", "eː"]
+        },
+        {
+          "word": "سورج",
+          "expected_ipa": ["s", "uː", "r", "əd͡ʒ"]
+        },
+        {
+          "word": "نکلا۔",
+          "expected_ipa": ["n", "ɪ", "k", "l", "aː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_37",
+      "text": "مغرب میں سورج ڈوبا۔",
+      "romanized": "Maghrib mein suraj dooba.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "مغرب",
+          "expected_ipa": ["m", "ə", "ɣ", "r", "ɪ", "b"]
+        },
+        {
+          "word": "میں",
+          "expected_ipa": ["m", "eː", "̃"]
+        },
+        {
+          "word": "سورج",
+          "expected_ipa": ["s", "uː", "r", "əd͡ʒ"]
+        },
+        {
+          "word": "ڈوبا۔",
+          "expected_ipa": ["ɖ", "uː", "b", "aː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_38",
+      "text": "پروگرام شروع ہو گیا۔",
+      "romanized": "Program shuru ho gaya.",
+      "difficulty": 3,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "پروگرام",
+          "expected_ipa": ["p", "r", "oː", "g", "r", "aː", "m"]
+        },
+        {
+          "word": "شروع",
+          "expected_ipa": ["ʃ", "ʊ", "r", "uː"]
+        },
+        {
+          "word": "ہو",
+          "expected_ipa": ["ɦ", "oː"]
+        },
+        {
+          "word": "گیا۔",
+          "expected_ipa": ["g", "ɪ", "j", "aː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_39",
+      "text": "ٹریکٹر کھیت میں ہے۔",
+      "romanized": "Tractor khet mein hai.",
+      "difficulty": 3,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "ٹریکٹر",
+          "expected_ipa": ["ʈ", "r", "ɛ", "k", "t̪", "ə", "r"]
+        },
+        {
+          "word": "کھیت",
+          "expected_ipa": ["k", "ʰ", "eː", "t̪"]
+        },
+        {
+          "word": "میں",
+          "expected_ipa": ["m", "eː", "̃"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["ɦ", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_40",
+      "text": "پھسلتا ہوا پتھر۔",
+      "romanized": "Phisalta hua patthar.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "پھسلتا",
+          "expected_ipa": ["p", "ʰ", "ɪ", "s", "ə", "l", "t̪", "aː"]
+        },
+        {
+          "word": "ہوا",
+          "expected_ipa": ["ɦ", "ʊ", "aː"]
+        },
+        {
+          "word": "پتھر۔",
+          "expected_ipa": ["p", "ə", "t̪", "ʰ", "ə", "r"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_41",
+      "text": "کلب میں جاؤ۔",
+      "romanized": "Club mein jao.",
+      "difficulty": 1,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "کلب",
+          "expected_ipa": ["k", "l", "ə", "b"]
+        },
+        {
+          "word": "میں",
+          "expected_ipa": ["m", "eː", "̃"]
+        },
+        {
+          "word": "جاؤ۔",
+          "expected_ipa": ["d͡ʒ", "aː", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_42",
+      "text": "سٹیل کا برتن۔",
+      "romanized": "Steel ka bartan.",
+      "difficulty": 2,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "سٹیل",
+          "expected_ipa": ["s", "ʈ", "iː", "l"]
+        },
+        {
+          "word": "کا",
+          "expected_ipa": ["k", "aː"]
+        },
+        {
+          "word": "برتن۔",
+          "expected_ipa": ["b", "ə", "r", "t̪", "ən"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_43",
+      "text": "سپیشل کھانا بناؤ۔",
+      "romanized": "Special khana banao.",
+      "difficulty": 1,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "سپیشل",
+          "expected_ipa": ["s", "p", "eː", "ʃ", "əl"]
+        },
+        {
+          "word": "کھانا",
+          "expected_ipa": ["k", "ʰ", "aː", "n", "aː"]
+        },
+        {
+          "word": "بناؤ۔",
+          "expected_ipa": ["b", "ə", "n", "aː", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_44",
+      "text": "سمارٹ فون استعمال کرو۔",
+      "romanized": "Smart phone istemal karo.",
+      "difficulty": 1,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "سمارٹ",
+          "expected_ipa": ["s", "m", "aː", "r", "ʈ"]
+        },
+        {
+          "word": "فون",
+          "expected_ipa": ["f", "oː", "n"]
+        },
+        {
+          "word": "استعمال",
+          "expected_ipa": ["ɪ", "s", "t̪", "eː", "m", "aː", "l"]
+        },
+        {
+          "word": "کرو۔",
+          "expected_ipa": ["k", "ə", "r", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_clu_45",
+      "text": "پیاسا بچہ پانی مانگے۔",
+      "romanized": "Pyasa bacha pani mange.",
+      "difficulty": 1,
+      "test_type": "cluster_reduction",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "پیاسا",
+          "expected_ipa": ["p", "j", "aː", "s", "aː"]
+        },
+        {
+          "word": "بچہ",
+          "expected_ipa": ["b", "ə", "t͡ʃ", "aː"]
+        },
+        {
+          "word": "پانی",
+          "expected_ipa": ["p", "aː", "n", "iː"]
+        },
+        {
+          "word": "مانگے۔",
+          "expected_ipa": ["m", "aː", "n", "g", "eː"]
+        }
+      ]
+    }
+  ]
+}

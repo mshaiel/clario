@@ -1,0 +1,1072 @@
+{
+  "test_type": "epenthesis",
+  "description": "Short Urdu sentences to detect epenthesis.",
+  "sentences": [
+    {
+      "id": "ur_epe_01",
+      "text": "شکر ادا کرو۔",
+      "romanized": "Shukr ada karo.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "شکر",
+          "expected_ipa": ["ʃ", "ʊ", "k", "r"]
+        },
+        {
+          "word": "ادا",
+          "expected_ipa": ["ə", "d", "ɑː"]
+        },
+        {
+          "word": "کرو",
+          "expected_ipa": ["k", "ə", "r", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_02",
+      "text": "صبر سے کام لو۔",
+      "romanized": "Sabr se kaam lo.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "صبر",
+          "expected_ipa": ["s", "ə", "b", "r"]
+        },
+        {
+          "word": "سے",
+          "expected_ipa": ["s", "eː"]
+        },
+        {
+          "word": "کام",
+          "expected_ipa": ["k", "ɑː", "m"]
+        },
+        {
+          "word": "لو",
+          "expected_ipa": ["l", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_03",
+      "text": "فکر مت کرو۔",
+      "romanized": "Fikr mat karo.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "فکر",
+          "expected_ipa": ["f", "ɪ", "k", "r"]
+        },
+        {
+          "word": "مت",
+          "expected_ipa": ["m", "ə", "t̪"]
+        },
+        {
+          "word": "کرو",
+          "expected_ipa": ["k", "ə", "r", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_04",
+      "text": "علم حاصل کرو۔",
+      "romanized": "Ilm hasil karo.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "علم",
+          "expected_ipa": ["ɪ", "l", "m"]
+        },
+        {
+          "word": "حاصل",
+          "expected_ipa": ["h", "ɑː", "s", "ɪ", "l"]
+        },
+        {
+          "word": "کرو",
+          "expected_ipa": ["k", "ə", "r", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_05",
+      "text": "جسم صحت مند ہے۔",
+      "romanized": "Jism sehatmand hai.",
+      "difficulty": 2,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "جسم",
+          "expected_ipa": ["d͡ʒ", "ɪ", "s", "m"]
+        },
+        {
+          "word": "صحت",
+          "expected_ipa": ["s", "eː", "h", "ə", "t̪"]
+        },
+        {
+          "word": "مند",
+          "expected_ipa": ["m", "ə", "n", "d̪"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "a", "ɪ"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_06",
+      "text": "حکم مانو اس کا۔",
+      "romanized": "Hukm mano uska.",
+      "difficulty": 2,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "حکم",
+          "expected_ipa": ["h", "ʊ", "k", "m"]
+        },
+        {
+          "word": "مانو",
+          "expected_ipa": ["m", "ɑː", "n", "oː"]
+        },
+        {
+          "word": "اس",
+          "expected_ipa": ["ʊ", "s"]
+        },
+        {
+          "word": "کا۔",
+          "expected_ipa": ["k", "ɑː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_07",
+      "text": "وقت بہت کم ہے۔",
+      "romanized": "Waqt bahut kam hai.",
+      "difficulty": 2,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وقت",
+          "expected_ipa": ["w", "ə", "q", "t̪"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "h", "ʊ", "t̪"]
+        },
+        {
+          "word": "کم",
+          "expected_ipa": ["k", "ə", "m"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "a", "ɪ"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_08",
+      "text": "قدر کرو اس کی۔",
+      "romanized": "Qadr karo iski.",
+      "difficulty": 2,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "قدر",
+          "expected_ipa": ["q", "ə", "d", "r"]
+        },
+        {
+          "word": "کرو",
+          "expected_ipa": ["k", "ə", "r", "oː"]
+        },
+        {
+          "word": "اس",
+          "expected_ipa": ["ɪ", "s"]
+        },
+        {
+          "word": "کی۔",
+          "expected_ipa": ["k", "iː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_09",
+      "text": "شہر بہت بڑا ہے۔",
+      "romanized": "Shahr bahut baṛa hai.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "شہر",
+          "expected_ipa": ["ʃ", "ə", "h", "r"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "h", "ʊ", "t̪"]
+        },
+        {
+          "word": "بڑا",
+          "expected_ipa": ["b", "ə", "ɽ", "ɑː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "a", "ɪ"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_10",
+      "text": "سخت محنت کرو۔",
+      "romanized": "Sakht mehnat karo.",
+      "difficulty": 2,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "سخت",
+          "expected_ipa": ["s", "ə", "x", "t̪"]
+        },
+        {
+          "word": "محنت",
+          "expected_ipa": ["m", "eː", "h", "n", "ət̪"]
+        },
+        {
+          "word": "کرو۔",
+          "expected_ipa": ["k", "ə", "r", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_11",
+      "text": "فرض ادا کرو۔",
+      "romanized": "Farz ada karo.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "فرض",
+          "expected_ipa": ["f", "ə", "r", "z"]
+        },
+        {
+          "word": "ادا",
+          "expected_ipa": ["ə", "d", "ɑː"]
+        },
+        {
+          "word": "کرو۔",
+          "expected_ipa": ["k", "ə", "r", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_12",
+      "text": "عرض یہ ہے کہ۔",
+      "romanized": "Arz yeh hai ke.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "عرض",
+          "expected_ipa": ["ə", "r", "z"]
+        },
+        {
+          "word": "یہ",
+          "expected_ipa": ["j", "eː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "a", "ɪ"]
+        },
+        {
+          "word": "کہ۔",
+          "expected_ipa": ["k", "eː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_13",
+      "text": "درس بہت اچھا تھا۔",
+      "romanized": "Dars bahut achha tha.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "درس",
+          "expected_ipa": ["d", "ə", "r", "s"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "h", "ʊ", "t̪"]
+        },
+        {
+          "word": "اچھا",
+          "expected_ipa": ["ə", "t͡ʃ", "h", "ɑː"]
+        },
+        {
+          "word": "تھا۔",
+          "expected_ipa": ["t̪", "h", "ɑː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_14",
+      "text": "نقص اس میں ہے۔",
+      "romanized": "Naqs is mein hai.",
+      "difficulty": 2,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "نقص",
+          "expected_ipa": ["n", "ə", "q", "s"]
+        },
+        {
+          "word": "اس",
+          "expected_ipa": ["ɪ", "s"]
+        },
+        {
+          "word": "میں",
+          "expected_ipa": ["m", "eː", "ɪ", "̃"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "a", "ɪ"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_15",
+      "text": "عقل سے کام لو۔",
+      "romanized": "Aql se kaam lo.",
+      "difficulty": 2,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "عقل",
+          "expected_ipa": ["ə", "q", "l"]
+        },
+        {
+          "word": "سے",
+          "expected_ipa": ["s", "eː"]
+        },
+        {
+          "word": "کام",
+          "expected_ipa": ["k", "ɑː", "m"]
+        },
+        {
+          "word": "لو۔",
+          "expected_ipa": ["l", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_16",
+      "text": "فضل خدا کا ہے۔",
+      "romanized": "Fazl Khuda ka hai.",
+      "difficulty": 2,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "فضل",
+          "expected_ipa": ["f", "ə", "z", "l"]
+        },
+        {
+          "word": "خدا",
+          "expected_ipa": ["x", "ʊ", "d", "ɑː"]
+        },
+        {
+          "word": "کا",
+          "expected_ipa": ["k", "ɑː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "a", "ɪ"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_17",
+      "text": "شرم آتی ہے مجھے۔",
+      "romanized": "Sharm aati hai mujhe.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "شرم",
+          "expected_ipa": ["ʃ", "ə", "r", "m"]
+        },
+        {
+          "word": "آتی",
+          "expected_ipa": ["ɑː", "t̪", "iː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "a", "ɪ"]
+        },
+        {
+          "word": "مجھے۔",
+          "expected_ipa": ["m", "ʊ", "d͡ʒ", "h", "eː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_18",
+      "text": "گرم چائے پیو۔",
+      "romanized": "Garm chaye piyo.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "گرم",
+          "expected_ipa": ["g", "ə", "r", "m"]
+        },
+        {
+          "word": "چائے",
+          "expected_ipa": ["t͡ʃ", "ɑː", "j", "eː"]
+        },
+        {
+          "word": "پیو۔",
+          "expected_ipa": ["p", "iː", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_19",
+      "text": "نرم روٹی کھاؤ۔",
+      "romanized": "Narm roti khao.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "نرم",
+          "expected_ipa": ["n", "ə", "r", "m"]
+        },
+        {
+          "word": "روٹی",
+          "expected_ipa": ["r", "oː", "ʈ", "iː"]
+        },
+        {
+          "word": "کھاؤ۔",
+          "expected_ipa": ["k", "h", "ɑː", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_20",
+      "text": "برف پگھل رہی ہے۔",
+      "romanized": "Barf pighal rahi hai.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "برف",
+          "expected_ipa": ["b", "ə", "r", "f"]
+        },
+        {
+          "word": "پگھل",
+          "expected_ipa": ["p", "ɪ", "g", "h", "əl"]
+        },
+        {
+          "word": "رہی",
+          "expected_ipa": ["r", "ə", "h", "iː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "a", "ɪ"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_21",
+      "text": "پرت در پرت۔",
+      "romanized": "Part dar part.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "پرت",
+          "expected_ipa": ["p", "ə", "r", "t̪"]
+        },
+        {
+          "word": "در",
+          "expected_ipa": ["d", "ə", "r"]
+        },
+        {
+          "word": "پرت۔",
+          "expected_ipa": ["p", "ə", "r", "t̪"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_22",
+      "text": "درد بہت شدید ہے۔",
+      "romanized": "Dard bahut shadeed hai.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "درد",
+          "expected_ipa": ["d", "ə", "r", "d̪"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "h", "ʊ", "t̪"]
+        },
+        {
+          "word": "شدید",
+          "expected_ipa": ["ʃ", "ə", "d", "iː", "d̪"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "a", "ɪ"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_23",
+      "text": "قرض ادا کرو۔",
+      "romanized": "Qarz ada karo.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "قرض",
+          "expected_ipa": ["q", "ə", "r", "z"]
+        },
+        {
+          "word": "ادا",
+          "expected_ipa": ["ə", "d", "ɑː"]
+        },
+        {
+          "word": "کرو۔",
+          "expected_ipa": ["k", "ə", "r", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_24",
+      "text": "عمر گزر گئی ہے۔",
+      "romanized": "Umr guzar gayi hai.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "عمر",
+          "expected_ipa": ["ʊ", "m", "r"]
+        },
+        {
+          "word": "گزر",
+          "expected_ipa": ["g", "ʊ", "z", "ə", "r"]
+        },
+        {
+          "word": "گئی",
+          "expected_ipa": ["g", "ə", "iː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "a", "ɪ"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_25",
+      "text": "فخر ہے مجھے۔",
+      "romanized": "Fakhr hai mujhe.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "فخر",
+          "expected_ipa": ["f", "ə", "x", "r"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "a", "ɪ"]
+        },
+        {
+          "word": "مجھے۔",
+          "expected_ipa": ["m", "ʊ", "d͡ʒ", "h", "eː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_26",
+      "text": "ذکر اس کا کرو۔",
+      "romanized": "Zikr uska karo.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "ذکر",
+          "expected_ipa": ["z", "ɪ", "k", "r"]
+        },
+        {
+          "word": "اس",
+          "expected_ipa": ["ʊ", "s"]
+        },
+        {
+          "word": "کا",
+          "expected_ipa": ["k", "ɑː"]
+        },
+        {
+          "word": "کرو۔",
+          "expected_ipa": ["k", "ə", "r", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_27",
+      "text": "بستر پر لیٹو۔",
+      "romanized": "Bistar par leṭo.",
+      "difficulty": 2,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "بستر",
+          "expected_ipa": ["b", "ɪ", "s", "t̪", "ər"]
+        },
+        {
+          "word": "پر",
+          "expected_ipa": ["p", "ə", "r"]
+        },
+        {
+          "word": "لیٹو۔",
+          "expected_ipa": ["l", "eː", "ʈ", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_28",
+      "text": "مصر ایک ملک ہے۔",
+      "romanized": "Misr ek mulk hai.",
+      "difficulty": 2,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "مصر",
+          "expected_ipa": ["m", "ɪ", "s", "r"]
+        },
+        {
+          "word": "ایک",
+          "expected_ipa": ["eː", "k"]
+        },
+        {
+          "word": "ملک",
+          "expected_ipa": ["m", "ʊ", "l", "k"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "a", "ɪ"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_29",
+      "text": "عشق ایک مرض ہے۔",
+      "romanized": "Ishq ek marz hai.",
+      "difficulty": 2,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "عشق",
+          "expected_ipa": ["ɪ", "ʃ", "q"]
+        },
+        {
+          "word": "ایک",
+          "expected_ipa": ["eː", "k"]
+        },
+        {
+          "word": "مرض",
+          "expected_ipa": ["m", "ə", "r", "z"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "a", "ɪ"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_30",
+      "text": "نقل مت کرو۔",
+      "romanized": "Naql mat karo.",
+      "difficulty": 2,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "نقل",
+          "expected_ipa": ["n", "ə", "q", "l"]
+        },
+        {
+          "word": "مت",
+          "expected_ipa": ["m", "ə", "t̪"]
+        },
+        {
+          "word": "کرو۔",
+          "expected_ipa": ["k", "ə", "r", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_31",
+      "text": "عذر قبول کرو۔",
+      "romanized": "Uzr qabool karo.",
+      "difficulty": 2,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "عذر",
+          "expected_ipa": ["ʊ", "z", "r"]
+        },
+        {
+          "word": "قبول",
+          "expected_ipa": ["q", "ə", "b", "uː", "l"]
+        },
+        {
+          "word": "کرو۔",
+          "expected_ipa": ["k", "ə", "r", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_32",
+      "text": "فصل اچھی ہوئی۔",
+      "romanized": "Fasl achhi hui.",
+      "difficulty": 2,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "فصل",
+          "expected_ipa": ["f", "ə", "s", "l"]
+        },
+        {
+          "word": "اچھی",
+          "expected_ipa": ["ə", "t͡ʃ", "h", "iː"]
+        },
+        {
+          "word": "ہوئی۔",
+          "expected_ipa": ["h", "ʊ", "iː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_33",
+      "text": "جرم سنگین ہے۔",
+      "romanized": "Jurm sangeen hai.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "جرم",
+          "expected_ipa": ["d͡ʒ", "ʊ", "r", "m"]
+        },
+        {
+          "word": "سنگین",
+          "expected_ipa": ["s", "ə", "n", "g", "iː", "n"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "a", "ɪ"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_34",
+      "text": "عزم پختہ ہے۔",
+      "romanized": "Azm pukhta hai.",
+      "difficulty": 2,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "عزم",
+          "expected_ipa": ["ə", "z", "m"]
+        },
+        {
+          "word": "پختہ",
+          "expected_ipa": ["p", "ʊ", "x", "t̪", "ɑː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "a", "ɪ"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_35",
+      "text": "رسم نبھاؤ تم۔",
+      "romanized": "Rasm nibhao tum.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "رسم",
+          "expected_ipa": ["r", "ə", "s", "m"]
+        },
+        {
+          "word": "نبھاؤ",
+          "expected_ipa": ["n", "ɪ", "b", "h", "ɑː", "oː"]
+        },
+        {
+          "word": "تم۔",
+          "expected_ipa": ["t̪", "ʊ", "m"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_36",
+      "text": "قسم کھاؤ تم۔",
+      "romanized": "Qasm khao tum.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "قسم",
+          "expected_ipa": ["q", "ə", "s", "m"]
+        },
+        {
+          "word": "کھاؤ",
+          "expected_ipa": ["k", "h", "ɑː", "oː"]
+        },
+        {
+          "word": "تم۔",
+          "expected_ipa": ["t̪", "ʊ", "m"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_37",
+      "text": "نظم پڑھو یہ۔",
+      "romanized": "Nazm paṛho yeh.",
+      "difficulty": 1,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "نظم",
+          "expected_ipa": ["n", "ə", "z", "m"]
+        },
+        {
+          "word": "پڑھو",
+          "expected_ipa": ["p", "ə", "ɽ", "h", "oː"]
+        },
+        {
+          "word": "یہ۔",
+          "expected_ipa": ["j", "eː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_38",
+      "text": "حفظ قرآن کرو۔",
+      "romanized": "Hifz Quran karo.",
+      "difficulty": 2,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "حفظ",
+          "expected_ipa": ["h", "ɪ", "f", "z"]
+        },
+        {
+          "word": "قرآن",
+          "expected_ipa": ["q", "ʊ", "r", "ɑː", "n"]
+        },
+        {
+          "word": "کرو۔",
+          "expected_ipa": ["k", "ə", "r", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_39",
+      "text": "لفظ سنو میرے۔",
+      "romanized": "Lafz suno mere.",
+      "difficulty": 2,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "لفظ",
+          "expected_ipa": ["l", "ə", "f", "z"]
+        },
+        {
+          "word": "سنو",
+          "expected_ipa": ["s", "ʊ", "n", "oː"]
+        },
+        {
+          "word": "میرے۔",
+          "expected_ipa": ["m", "eː", "r", "eː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_40",
+      "text": "فلم دیکھو یہ۔",
+      "romanized": "Film dekho yeh.",
+      "difficulty": 3,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "فلم",
+          "expected_ipa": ["f", "ɪ", "l", "m"]
+        },
+        {
+          "word": "دیکھو",
+          "expected_ipa": ["d", "eː", "k", "h", "oː"]
+        },
+        {
+          "word": "یہ۔",
+          "expected_ipa": ["j", "eː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_41",
+      "text": "ٹرین آ رہی ہے۔",
+      "romanized": "Ṭren aa rahi hai.",
+      "difficulty": 3,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "ٹرین",
+          "expected_ipa": ["ʈ", "r", "eː", "n"]
+        },
+        {
+          "word": "آ",
+          "expected_ipa": ["ɑː"]
+        },
+        {
+          "word": "رہی",
+          "expected_ipa": ["r", "ə", "h", "iː"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "a", "ɪ"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_42",
+      "text": "بریک فوراً لگاؤ۔",
+      "romanized": "Brek fauran lagao.",
+      "difficulty": 3,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "بریک",
+          "expected_ipa": ["b", "r", "eː", "k"]
+        },
+        {
+          "word": "فوراً",
+          "expected_ipa": ["f", "ɔː", "r", "ən"]
+        },
+        {
+          "word": "لگاؤ۔",
+          "expected_ipa": ["l", "ə", "g", "ɑː", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_43",
+      "text": "پلان جلدی بناؤ۔",
+      "romanized": "Plan jaldi banao.",
+      "difficulty": 3,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "پلان",
+          "expected_ipa": ["p", "l", "ɑː", "n"]
+        },
+        {
+          "word": "جلدی",
+          "expected_ipa": ["d͡ʒ", "ə", "l", "d̪", "iː"]
+        },
+        {
+          "word": "بناؤ۔",
+          "expected_ipa": ["b", "ə", "n", "ɑː", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_44",
+      "text": "سسٹم خراب ہے۔",
+      "romanized": "Sistem kharab hai.",
+      "difficulty": 3,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "سسٹم",
+          "expected_ipa": ["s", "ɪ", "s", "t̪", "əm"]
+        },
+        {
+          "word": "خراب",
+          "expected_ipa": ["x", "ə", "r", "ɑː", "b"]
+        },
+        {
+          "word": "ہے۔",
+          "expected_ipa": ["h", "a", "ɪ"]
+        }
+      ]
+    },
+    {
+      "id": "ur_epe_45",
+      "text": "ڈراما ضرور دیکھو۔",
+      "romanized": "Drama zarur dekho.",
+      "difficulty": 3,
+      "test_type": "epenthesis",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "ڈراما",
+          "expected_ipa": ["ɖ", "r", "ɑː", "m", "ɑː"]
+        },
+        {
+          "word": "ضرور",
+          "expected_ipa": ["z", "ə", "r", "uː", "r"]
+        },
+        {
+          "word": "دیکھو۔",
+          "expected_ipa": ["d", "eː", "k", "h", "oː"]
+        }
+      ]
+    }
+  ]
+}

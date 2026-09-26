@@ -1,0 +1,1152 @@
+{
+  "test_type": "repetitions",
+  "description": "Short Urdu sentences to detect repetitions.",
+  "sentences": [
+    {
+      "id": "ur_rep_01",
+      "text": "وہ گھر گیا۔",
+      "romanized": "Woh ghar gaya.",
+      "difficulty": 1,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "گھر",
+          "expected_ipa": ["g", "ʱ", "ə", "r"]
+        },
+        {
+          "word": "گیا",
+          "expected_ipa": ["g", "ə", "j", "aː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_02",
+      "text": "یہ میرا قلم ہے۔",
+      "romanized": "Yeh mera qalam hai.",
+      "difficulty": 1,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["j", "ə", "h"]
+        },
+        {
+          "word": "میرا",
+          "expected_ipa": ["m", "eː", "r", "aː"]
+        },
+        {
+          "word": "قلم",
+          "expected_ipa": ["q", "ə", "l", "ə", "m"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_03",
+      "text": "پانی پی لو۔",
+      "romanized": "Paani pee lo.",
+      "difficulty": 1,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "پانی",
+          "expected_ipa": ["p", "aː", "n", "iː"]
+        },
+        {
+          "word": "پی",
+          "expected_ipa": ["p", "iː"]
+        },
+        {
+          "word": "لو",
+          "expected_ipa": ["l", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_04",
+      "text": "وہ کتاب پڑھو۔",
+      "romanized": "Woh kitaab parho.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "کتاب",
+          "expected_ipa": ["k", "ɪ", "t", "aː", "b"]
+        },
+        {
+          "word": "پڑھو",
+          "expected_ipa": ["p", "ə", "ɽ", "ʱ", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_05",
+      "text": "میں نے دیکھا۔",
+      "romanized": "Main ne dekha.",
+      "difficulty": 1,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "میں",
+          "expected_ipa": ["m", "ɛ̃ː"]
+        },
+        {
+          "word": "نے",
+          "expected_ipa": ["n", "eː"]
+        },
+        {
+          "word": "دیکھا",
+          "expected_ipa": ["d", "eː", "k", "ʰ", "aː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_06",
+      "text": "جلدی جلدی چلو۔",
+      "romanized": "Jaldi jaldi chalo.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "جلدی",
+          "expected_ipa": ["d͡ʒ", "ə", "l", "d", "iː"]
+        },
+        {
+          "word": "جلدی",
+          "expected_ipa": ["d͡ʒ", "ə", "l", "d", "iː"]
+        },
+        {
+          "word": "چلو",
+          "expected_ipa": ["t͡ʃ", "ə", "l", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_07",
+      "text": "وہ بہت بڑا ہے۔",
+      "romanized": "Woh bohot bada hai.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "بڑا",
+          "expected_ipa": ["b", "ə", "ɽ", "aː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_08",
+      "text": "یہ لال رنگ ہے۔",
+      "romanized": "Yeh laal rang hai.",
+      "difficulty": 1,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["j", "ə", "h"]
+        },
+        {
+          "word": "لال",
+          "expected_ipa": ["l", "aː", "l"]
+        },
+        {
+          "word": "رنگ",
+          "expected_ipa": ["r", "ə", "ŋ", "g"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_09",
+      "text": "دروازہ بند کرو۔",
+      "romanized": "Darwaza band karo.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "دروازہ",
+          "expected_ipa": ["d", "ə", "r", "ʋ", "aː", "z", "aː"]
+        },
+        {
+          "word": "بند",
+          "expected_ipa": ["b", "ə", "n", "d"]
+        },
+        {
+          "word": "کرو",
+          "expected_ipa": ["k", "ə", "r", "oː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_10",
+      "text": "اس کا نام کیا؟",
+      "romanized": "Us ka naam kya?",
+      "difficulty": 1,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "اس",
+          "expected_ipa": ["ʊ", "s"]
+        },
+        {
+          "word": "کا",
+          "expected_ipa": ["k", "aː"]
+        },
+        {
+          "word": "نام",
+          "expected_ipa": ["n", "aː", "m"]
+        },
+        {
+          "word": "کیا",
+          "expected_ipa": ["k", "j", "aː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_11",
+      "text": "وہ بہت تیز بھاگا۔",
+      "romanized": "Woh bohot tez bhaaga.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "تیز",
+          "expected_ipa": ["t", "eː", "z"]
+        },
+        {
+          "word": "بھاگا",
+          "expected_ipa": ["b", "ʱ", "aː", "g", "aː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_12",
+      "text": "مجھے بھوک لگی ہے۔",
+      "romanized": "Mujhe bhook lagi hai.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "مجھے",
+          "expected_ipa": ["m", "ʊ", "d͡ʒ", "ʱ", "eː"]
+        },
+        {
+          "word": "بھوک",
+          "expected_ipa": ["b", "ʱ", "uː", "k"]
+        },
+        {
+          "word": "لگی",
+          "expected_ipa": ["l", "ə", "g", "iː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_13",
+      "text": "یہ ایک سیب ہے۔",
+      "romanized": "Yeh ek saib hai.",
+      "difficulty": 1,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["j", "ə", "h"]
+        },
+        {
+          "word": "ایک",
+          "expected_ipa": ["eː", "k"]
+        },
+        {
+          "word": "سیب",
+          "expected_ipa": ["s", "eː", "b"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_14",
+      "text": "وہ بہت خوش ہے۔",
+      "romanized": "Woh bohot khush hai.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "خوش",
+          "expected_ipa": ["χ", "ʊ", "ʃ"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_15",
+      "text": "چائے ٹھنڈی ہو گئی۔",
+      "romanized": "Chaaye thandi ho gayi.",
+      "difficulty": 3,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "چائے",
+          "expected_ipa": ["t͡ʃ", "aː", "eː"]
+        },
+        {
+          "word": "ٹھنڈی",
+          "expected_ipa": ["ʈ", "ʰ", "ə", "ɳ", "ɖ", "iː"]
+        },
+        {
+          "word": "ہو",
+          "expected_ipa": ["h", "oː"]
+        },
+        {
+          "word": "گئی",
+          "expected_ipa": ["g", "ə", "iː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_16",
+      "text": "وہ کہاں رہتا ہے؟",
+      "romanized": "Woh kahan rehta hai?",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "کہاں",
+          "expected_ipa": ["k", "ə", "ɦ", "ãː"]
+        },
+        {
+          "word": "رہتا",
+          "expected_ipa": ["r", "ə", "ɦ", "t", "aː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_17",
+      "text": "یہ بہت مشکل ہے۔",
+      "romanized": "Yeh bohot mushkil hai.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["j", "ə", "h"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "مشکل",
+          "expected_ipa": ["m", "ʊ", "ʃ", "k", "ɪ", "l"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_18",
+      "text": "اس نے کھانا کھایا۔",
+      "romanized": "Us ne khaana khaaya.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "اس",
+          "expected_ipa": ["ʊ", "s"]
+        },
+        {
+          "word": "نے",
+          "expected_ipa": ["n", "eː"]
+        },
+        {
+          "word": "کھانا",
+          "expected_ipa": ["k", "ʰ", "aː", "n", "aː"]
+        },
+        {
+          "word": "کھایا",
+          "expected_ipa": ["k", "ʰ", "aː", "j", "aː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_19",
+      "text": "وہ بہت دور ہے۔",
+      "romanized": "Woh bohot door hai.",
+      "difficulty": 1,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "دور",
+          "expected_ipa": ["d", "uː", "r"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_20",
+      "text": "یہ میرا گھر ہے۔",
+      "romanized": "Yeh mera ghar hai.",
+      "difficulty": 1,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["j", "ə", "h"]
+        },
+        {
+          "word": "میرا",
+          "expected_ipa": ["m", "eː", "r", "aː"]
+        },
+        {
+          "word": "گھر",
+          "expected_ipa": ["g", "ʱ", "ə", "r"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_21",
+      "text": "وہ بہت اچھا ہے۔",
+      "romanized": "Woh bohot achha hai.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "اچھا",
+          "expected_ipa": ["ə", "t͡ʃ", "ʰ", "aː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_22",
+      "text": "اس نے کام کیا۔",
+      "romanized": "Us ne kaam kiya.",
+      "difficulty": 1,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "اس",
+          "expected_ipa": ["ʊ", "s"]
+        },
+        {
+          "word": "نے",
+          "expected_ipa": ["n", "eː"]
+        },
+        {
+          "word": "کام",
+          "expected_ipa": ["k", "aː", "m"]
+        },
+        {
+          "word": "کیا",
+          "expected_ipa": ["k", "ɪ", "j", "aː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_23",
+      "text": "وہ بہت غریب ہے۔",
+      "romanized": "Woh bohot ghareeb hai.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "غریب",
+          "expected_ipa": ["ʁ", "ə", "r", "iː", "b"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_24",
+      "text": "یہ بہت خوبصورت ہے۔",
+      "romanized": "Yeh bohot khoobsurat hai.",
+      "difficulty": 3,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["j", "ə", "h"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "خوبصورت",
+          "expected_ipa": ["χ", "uː", "b", "s", "uː", "r", "ə", "t"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_25",
+      "text": "وہ بہت بیمار ہے۔",
+      "romanized": "Woh bohot beemar hai.",
+      "difficulty": 1,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "بیمار",
+          "expected_ipa": ["b", "iː", "m", "aː", "r"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_26",
+      "text": "اس نے مجھے بلایا۔",
+      "romanized": "Us ne mujhe bulaaya.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "اس",
+          "expected_ipa": ["ʊ", "s"]
+        },
+        {
+          "word": "نے",
+          "expected_ipa": ["n", "eː"]
+        },
+        {
+          "word": "مجھے",
+          "expected_ipa": ["m", "ʊ", "d͡ʒ", "ʱ", "eː"]
+        },
+        {
+          "word": "بلایا",
+          "expected_ipa": ["b", "ʊ", "l", "aː", "j", "aː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_27",
+      "text": "وہ بہت ذہین ہے۔",
+      "romanized": "Woh bohot zaheen hai.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "ذہین",
+          "expected_ipa": ["z", "ə", "ɦ", "iː", "n"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_28",
+      "text": "یہ بہت پرانا ہے۔",
+      "romanized": "Yeh bohot puraana hai.",
+      "difficulty": 1,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["j", "ə", "h"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "پرانا",
+          "expected_ipa": ["p", "ʊ", "r", "aː", "n", "aː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_29",
+      "text": "وہ بہت شریف ہے۔",
+      "romanized": "Woh bohot shareef hai.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "شریف",
+          "expected_ipa": ["ʃ", "ə", "r", "iː", "f"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_30",
+      "text": "یہ بہت صاف ہے۔",
+      "romanized": "Yeh bohot saaf hai.",
+      "difficulty": 1,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["j", "ə", "h"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "صاف",
+          "expected_ipa": ["s", "aː", "f"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_31",
+      "text": "وہ بہت مصروف ہے۔",
+      "romanized": "Woh bohot masroof hai.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "مصروف",
+          "expected_ipa": ["m", "ə", "s", "r", "uː", "f"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_32",
+      "text": "یہ مشکل کام ہے۔",
+      "romanized": "Yeh mushkil kaam hai.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["j", "ə", "h"]
+        },
+        {
+          "word": "مشکل",
+          "expected_ipa": ["m", "ʊ", "ʃ", "k", "ɪ", "l"]
+        },
+        {
+          "word": "کام",
+          "expected_ipa": ["k", "aː", "m"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_33",
+      "text": "وہ تیز چلتا ہے۔",
+      "romanized": "Woh tez chalta hai.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "تیز",
+          "expected_ipa": ["t", "eː", "z"]
+        },
+        {
+          "word": "چلتا",
+          "expected_ipa": ["t͡ʃ", "ə", "l", "t", "aː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_34",
+      "text": "یہ بہت گہرا ہے۔",
+      "romanized": "Yeh bohot gehra hai.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["j", "ə", "h"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "گہرا",
+          "expected_ipa": ["g", "ə", "ɦ", "r", "aː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_35",
+      "text": "وہ اچھا لڑکا ہے۔",
+      "romanized": "Woh achha ladka hai.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "اچھا",
+          "expected_ipa": ["ə", "t͡ʃ", "ʰ", "aː"]
+        },
+        {
+          "word": "لڑکا",
+          "expected_ipa": ["l", "ə", "ɽ", "k", "aː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_36",
+      "text": "یہ بہت چھوٹا ہے۔",
+      "romanized": "Yeh bohot chhota hai.",
+      "difficulty": 3,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["j", "ə", "h"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "چھوٹا",
+          "expected_ipa": ["t͡ʃ", "ʰ", "oː", "ʈ", "aː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_37",
+      "text": "وہ بڑا آدمی ہے۔",
+      "romanized": "Woh bada aadmi hai.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بڑا",
+          "expected_ipa": ["b", "ə", "ɽ", "aː"]
+        },
+        {
+          "word": "آدمی",
+          "expected_ipa": ["aː", "d", "m", "iː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_38",
+      "text": "یہ بہت میٹھا ہے۔",
+      "romanized": "Yeh bohot meetha hai.",
+      "difficulty": 3,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["j", "ə", "h"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "میٹھا",
+          "expected_ipa": ["m", "iː", "ʈ", "ʰ", "aː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_39",
+      "text": "وہ بہت بیمار تھا۔",
+      "romanized": "Woh bohot beemar tha.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "بیمار",
+          "expected_ipa": ["b", "iː", "m", "aː", "r"]
+        },
+        {
+          "word": "تھا",
+          "expected_ipa": ["t", "ʰ", "aː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_40",
+      "text": "یہ بہت ٹھنڈا ہے۔",
+      "romanized": "Yeh bohot thanda hai.",
+      "difficulty": 3,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["j", "ə", "h"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "ٹھنڈا",
+          "expected_ipa": ["ʈ", "ʰ", "ə", "ɳ", "ɖ", "aː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_41",
+      "text": "وہ بہت گرم ہے۔",
+      "romanized": "Woh bohot garam hai.",
+      "difficulty": 1,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "گرم",
+          "expected_ipa": ["g", "ə", "r", "m"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_42",
+      "text": "یہ بہت سستا ہے۔",
+      "romanized": "Yeh bohot sasta hai.",
+      "difficulty": 1,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["j", "ə", "h"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "سستا",
+          "expected_ipa": ["s", "ə", "s", "t", "aː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_43",
+      "text": "وہ بہت مہنگا ہے۔",
+      "romanized": "Woh bohot mehnga hai.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "مہنگا",
+          "expected_ipa": ["m", "ɛ", "ɦ", "ŋ", "aː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_44",
+      "text": "یہ بہت نیا ہے۔",
+      "romanized": "Yeh bohot naya hai.",
+      "difficulty": 1,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "یہ",
+          "expected_ipa": ["j", "ə", "h"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "نیا",
+          "expected_ipa": ["n", "ə", "j", "aː"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    },
+    {
+      "id": "ur_rep_45",
+      "text": "وہ بہت خوب ہے۔",
+      "romanized": "Woh bohot khoob hai.",
+      "difficulty": 2,
+      "test_type": "repetitions",
+      "language": "urdu",
+      "targets": [
+        {
+          "word": "وہ",
+          "expected_ipa": ["ʋ", "oː"]
+        },
+        {
+          "word": "بہت",
+          "expected_ipa": ["b", "ə", "ɦ", "ʊ", "t"]
+        },
+        {
+          "word": "خوب",
+          "expected_ipa": ["χ", "uː", "b"]
+        },
+        {
+          "word": "ہے",
+          "expected_ipa": ["h", "ɛː"]
+        }
+      ]
+    }
+  ]
+}

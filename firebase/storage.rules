@@ -1,0 +1,29 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    // Audio recordings uploaded by users for analysis
+    match /users/{userId}/recordings/{recordingId} {
+      allow read: if isOwner(userId);
+      // Restrict upload to audio mime types and max 15MB file size
+      allow create: if isOwner(userId)
+                    && request.resource.contentType.matches('audio/.*')
+                    && request.resource.size < 15 * 1024 * 1024;
+      allow update: if false;
+      allow delete: if isOwner(userId);
+    }
+
+    // Default deny
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}
