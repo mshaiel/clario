@@ -25,6 +25,16 @@ A complete demonstration of the system workflows, including intake triage, bilin
 - 3:13 - Personalized Curriculum & Adaptive Exercise Generation (AMLM / AEG / Gemini LLM)
 - 6:09 - Clinical Speech Modification Techniques & Real-Time Biofeedback (Silero VAD / Rate & Phonation Scoring)
 
+### Dedicated Module Recordings
+
+Individual high-resolution video recordings for each core subsystem are cataloged in the [`docs/demos/`](docs/demos/) directory:
+
+- [English Disfluency & Phonological Screening](docs/demos/english.mov) (`docs/demos/english.mov`): Demonstrates paragraph-level acoustic screening and sentence-level diagnostic assessment in English, showcasing real-time word alignment, disfluency classification (blocks, prolongations, repetitions), and SODA phoneme error modal breakdown with interactive AI CoPilot guidance.
+- [Urdu Multilingual Diagnostic Assessment](docs/demos/urdu.mp4) (`docs/demos/urdu.mp4`): Illustrates native Urdu speech evaluation, displaying localized prompts, audio recording waveforms, and bilingual acoustic model scoring for non-English clinical screening.
+- [Personalized Exercise Generation & Practice](docs/demos/practice.mp4) (`docs/demos/practice.mp4`): Showcases dynamic therapy curriculum generation powered by the Acoustic Multitask Latent Model (AMLM), Acoustic Exercise Generator (AEG), and Gemini LLM synthesis, generating customized minimal pairs, carrier phrases, and drill exercises tailored to user error profiles.
+- [Clinical Speech Modification & Biofeedback](docs/demos/techniques.mp4) (`docs/demos/techniques.mp4`): Features evidence-based fluency shaping and stuttering modification techniques (easy onset, cancellation, pull-out, continuous phonation), Silero VAD pause/repair verification, syllable-rate analysis, and zero-latency Delayed Auditory Feedback (DAF).
+- [Longitudinal Progress Tracking & Dashboard](docs/demos/progress.mp4) (`docs/demos/progress.mp4`): Highlights patient analytics, historical error progression over time, streak tracking, and gamification rewards.
+
 ---
 
 ## System Architecture
